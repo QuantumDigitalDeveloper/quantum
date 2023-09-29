@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -36,7 +35,7 @@ export default function Home() {
                   </div>
                   <div className="banner__title">
                     <h1>
-                      Grouwth <span>your bussiness</span>{" "}
+                      Growth <span>your bussiness</span>{" "}
                     </h1>
                   </div>
                   <div className="text">
@@ -47,9 +46,12 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="btn-box">
-                    <a href="contact.html" className="theme-btn theme-btn-one">
+                    <Link
+                      href="/contact/contact"
+                      className="theme-btn theme-btn-one"
+                    >
                       <i className="icon-02" /> Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

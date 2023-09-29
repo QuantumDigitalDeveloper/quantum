@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/globals.css";
 import Layout from "../components/layout/layout";
 import Head from "next/head";
 import dynamic from "next/dynamic";

@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
-export default function header() {
+export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeSideBar = () => {
+    setIsMenuOpen(false);
+  };
   return (
     <>
       {/* main header */}
@@ -56,14 +65,14 @@ export default function header() {
             <div className="outer-box">
               <div className="logo-box">
                 <figure className="logo">
-                  <a href="index.html">
+                  <Link href="/#">
                     <img src="/assets/images/Quantum.png" alt="" />
-                  </a>
+                  </Link>
                 </figure>
               </div>
               <div className="menu-area clearfix">
                 {/*Mobile Navigation Toggler*/}
-                <div className="mobile-nav-toggler">
+                <div className="mobile-nav-toggler" onClick={toggleMenu}>
                   <i className="icon-bar" />
                   <i className="icon-bar" />
                   <i className="icon-bar" />
@@ -75,64 +84,26 @@ export default function header() {
                   >
                     <ul className="navigation clearfix home-menu">
                       <li>
-                        <Link href="/#">Home</Link>
-                      </li>
-                      <li>
                         <Link href="/about/about">About</Link>
                       </li>
-                      <li>
-                        <Link href="/servis/service">Service</Link>
-                      </li>
                       <li className="dropdown">
-                        <a href="#">Layanan </a>
+                        <Link href="/servis/service">Service </Link>
                         <ul>
-                          <li className="dropdown">
+                          <li>
                             <Link href="/servisDetail/design">Design </Link>
-                            <ul>
-                              <li>
-                                <Link href="/portfolio/design">1 </Link>
-                              </li>
-                              <li>
-                                <Link href="/portfolio/design">2</Link>
-                              </li>
-                            </ul>
                           </li>
-                          <li className="dropdown">
+                          <li>
                             <Link href="/servisDetail/webDevelopment">
-                              Web Development{" "}
+                              Web Development
                             </Link>
-                            <ul>
-                              <li>
-                                <Link href="/portfolio/webDev">1 </Link>
-                              </li>
-                              <li>
-                                <Link href="/portfolio/webDev">2</Link>
-                              </li>
-                            </ul>
                           </li>
-                          <li className="dropdown">
+                          <li>
                             <Link href="/servisDetail/digitalMarketing">
-                              Digital Marketing{" "}
+                              Digital Marketing
                             </Link>
-                            <ul>
-                              <li>
-                                <Link href="/portfolio/digitalMarket">1 </Link>
-                              </li>
-                              <li>
-                                <Link href="/portfolio/digitalMarket">2</Link>
-                              </li>
-                            </ul>
                           </li>
-                          <li className="dropdown">
-                            <Link href="seoMarketing">SEO Marketing </Link>
-                            <ul>
-                              <li>
-                                <Link href="/portfolio/digitalMarket">1 </Link>
-                              </li>
-                              <li>
-                                <Link href="/portfolio/digitalMarket">2</Link>
-                              </li>
-                            </ul>
+                          <li>
+                            <Link href="seoMarketing">SEO Marketing</Link>
                           </li>
                         </ul>
                       </li>
@@ -154,13 +125,11 @@ export default function header() {
                           </li>
                         </ul>
                       </li>
-                      <li className="dropdown">
-                        <a href="#">More + </a>
-                        <ul>
-                          <li>
-                            <Link href="/blog/blog">Blog</Link>
-                          </li>
-                        </ul>
+                      <li>
+                        <Link href="/blog/blog">Blog</Link>
+                      </li>
+                      <li>
+                        <Link href="/career/career">Career</Link>
                       </li>
                     </ul>
                   </div>
@@ -183,9 +152,9 @@ export default function header() {
             <div className="outer-box">
               <div className="logo-box">
                 <figure className="logo">
-                  <a href="index.html">
+                  <Link href="/#">
                     <img src="/assets/images/Quantum.png" alt="" />
-                  </a>
+                  </Link>
                 </figure>
               </div>
               <div className="menu-area clearfix">
@@ -196,64 +165,26 @@ export default function header() {
                   >
                     <ul className="navigation clearfix home-menu">
                       <li>
-                        <Link href="/#">Home</Link>
-                      </li>
-                      <li>
                         <Link href="/about/about">About</Link>
                       </li>
-                      <li>
-                        <Link href="/servis/service">Service</Link>
-                      </li>
                       <li className="dropdown">
-                        <a href="#">Layanan </a>
+                        <Link href="/servis/service">Service </Link>
                         <ul>
-                          <li className="dropdown">
+                          <li>
                             <Link href="/servisDetail/design">Design </Link>
-                            <ul>
-                              <li>
-                                <Link href="/portfolio/design">1 </Link>
-                              </li>
-                              <li>
-                                <Link href="/portfolio/design">2</Link>
-                              </li>
-                            </ul>
                           </li>
-                          <li className="dropdown">
+                          <li>
                             <Link href="/servisDetail/webDevelopment">
-                              Web Development{" "}
+                              Web Development
                             </Link>
-                            <ul>
-                              <li>
-                                <Link href="/portfolio/webDev">1 </Link>
-                              </li>
-                              <li>
-                                <Link href="/portfolio/webDev">2</Link>
-                              </li>
-                            </ul>
                           </li>
-                          <li className="dropdown">
+                          <li>
                             <Link href="/servisDetail/digitalMarketing">
-                              Digital Marketing{" "}
+                              Digital Marketing
                             </Link>
-                            <ul>
-                              <li>
-                                <Link href="/portfolio/digitalMarket">1 </Link>
-                              </li>
-                              <li>
-                                <Link href="/portfolio/digitalMarket">2</Link>
-                              </li>
-                            </ul>
                           </li>
-                          <li className="dropdown">
-                            <Link href="seoMarketing">SEO Marketing </Link>
-                            <ul>
-                              <li>
-                                <Link href="/portfolio/digitalMarket">1 </Link>
-                              </li>
-                              <li>
-                                <Link href="/portfolio/digitalMarket">2</Link>
-                              </li>
-                            </ul>
+                          <li>
+                            <Link href="seoMarketing">SEO Marketing</Link>
                           </li>
                         </ul>
                       </li>
@@ -275,13 +206,11 @@ export default function header() {
                           </li>
                         </ul>
                       </li>
-                      <li className="dropdown">
-                        <a href="#">More + </a>
-                        <ul>
-                          <li>
-                            <Link href="/blog/blog">Blog</Link>
-                          </li>
-                        </ul>
+                      <li>
+                        <Link href="/blog/blog">Blog</Link>
+                      </li>
+                      <li>
+                        <Link href="/career/career">Career</Link>
                       </li>
                     </ul>
                   </div>
@@ -300,6 +229,83 @@ export default function header() {
         </div>
       </header>
       {/* main-header end */}
+      {/* Mobile Menu */}
+      <div className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
+        {/* <div className="menu-backdrop"></div> */}
+        <div className="close-btn" onClick={toggleMenu}>
+          <i className="icon-fa-times" />
+        </div>
+        <nav className="menu-box" onClick={closeSideBar}>
+          <div className="nav-logo">
+            <Link href="/#">
+              <img src="/assets/images/Quantum.png" alt="" title="" />
+            </Link>
+          </div>
+          <div className="menu-outer">
+            <ul className="navigation home-menu">
+              <li>
+                <Link href="/about/about">About</Link>
+              </li>
+              <li className="dropdown">
+                <Link href="/servis/service">Service </Link>
+                <ul>
+                  <li>
+                    <Link href="/servisDetail/design">Design </Link>
+                  </li>
+                  <li>
+                    <Link href="/servisDetail/webDevelopment">
+                      Web Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/servisDetail/digitalMarketing">
+                      Digital Marketing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="seoMarketing">SEO Marketing</Link>
+                  </li>
+                </ul>
+              </li>
+              <li className="dropdown">
+                <Link href="/portfolio/portfolio">Portfolio </Link>
+                <ul>
+                  <li>
+                    <Link href="/portfolio/design">Design</Link>
+                  </li>
+                  <li>
+                    <Link href="/portfolio/webDev">Web Development </Link>
+                  </li>
+                  <li>
+                    <Link href="/portfolio/digitalMarket">
+                      Digital Marketing{" "}
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <Link href="/blog/blog">Blog</Link>
+              </li>
+              <li>
+                <Link href="/career/career">Career</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="contact-info">
+            <h4>Contact Info</h4>
+            <ul>
+              <li>Chicago 12, Melborne City, USA</li>
+              <li>
+                <a href="tel:+8801682648101">+88 01682648101</a>
+              </li>
+              <li>
+                <a href="mailto:info@example.com">info@example.com</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      {/* End Mobile Menu */}
     </>
   );
 }

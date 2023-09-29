@@ -1605,6 +1605,13 @@ section.banner__two:before {
 }
 
 /* price-section-end */
+@media (max-width: 768px) {
+  .port {
+    width: 33%;
+    margin: 0;
+    padding: 0;
+  }
+}
 
 /* portfolio-section */
 .portfolio-layer {
