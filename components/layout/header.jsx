@@ -103,7 +103,12 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <Link href="seoMarketing">SEO Marketing</Link>
+                            <Link href="/servisDetail/video">Video Editor</Link>
+                          </li>
+                          <li>
+                            <Link href="/servisDetail/vector">
+                              Vector Spesialis
+                            </Link>
                           </li>
                         </ul>
                       </li>
@@ -184,7 +189,12 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <Link href="seoMarketing">SEO Marketing</Link>
+                            <Link href="/servisDetail/video">Video Editor</Link>
+                          </li>
+                          <li>
+                            <Link href="/servisDetail/vector">
+                              Vector Spesialis
+                            </Link>
                           </li>
                         </ul>
                       </li>
@@ -263,7 +273,10 @@ export default function Header() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="seoMarketing">SEO Marketing</Link>
+                    <Link href="/servisDetail/video">Video Editor</Link>
+                  </li>
+                  <li>
+                    <Link href="/servisDetail/vector">Vector Spesialis</Link>
                   </li>
                 </ul>
               </li>

@@ -57,7 +57,7 @@ export default function footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+                {/* <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                   <div
                     className="footer-widget news-letter-widget ml_80 wow fadeInUp animated"
                     data-wow-delay="200ms"
@@ -97,7 +97,7 @@ export default function footer() {
                       </form>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                   <div
                     className="footer-widget office-widget wow fadeInUp animated"
@@ -118,7 +118,7 @@ export default function footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12 footer-column pr-0">
+                <div className="col-lg-6 col-md-6 col-sm-12 footer-column pr-0">
                   <div
                     className="footer-widget gallery-widget wow fadeInUp animated"
                     data-wow-delay="600ms"

@@ -29,33 +29,26 @@ export default function portfolio() {
       </section>
       {/* page-title end*/}
 
-      <div className="row justify-content-center">
-        <div className="menu-area clearfix">
-          <nav className="main-menu navbar-expand-md navbar-light">
-            <div
-              className="collapse navbar-collapse show clearfix"
-              id="navbarSupportedContent"
-            >
-              <ul className="navigation clearfix home-menu">
-                <li>
-                  <Link href="/portfolio/design">Design</Link>
-                </li>
-                <li>
-                  <Link href="/portfolio/webDev">Web Development</Link>
-                </li>
-                <li>
-                  <Link href="/portfolio/digitalMarket">Digital Marketing</Link>
-                </li>
-              </ul>
+      <section className="project__details p_relative d-none d-sm-block">
+        <div className="auto-container">
+          <div className="project__button">
+            <div className="button__one">
+              <a href="#">Web Development</a>
             </div>
-          </nav>
+            <div className="button__one">
+              <a href="#">Design</a>
+            </div>
+            <div className="button__one">
+              <a href="#">Digital Marketing</a>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
       {/* project-page */}
       <div className="project__page p_relative see__pad">
         <div className="row">
-          <div className="port col-lg-3 col-md-6 colsm-12">
+          <div className="col-lg-3 col-md-6 colsm-12">
             <div className="portfolio__block p_relative">
               <div className="portfolio__image">
                 <figure>
@@ -63,29 +56,29 @@ export default function portfolio() {
                 </figure>
               </div>
               <div className="lower__content p_absolute">
-                <div className="protfolio__text d-none d-sm-block">
+                <div className="protfolio__text">
                   <div className="text__block">
-                    <h4>Sustainability</h4>
+                    <h4>Banner</h4>
                     <p>Design</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2019</h5>
                   </div>
                 </div>
-                <div className="protfolio__button d-none d-sm-block">
-                  <a
-                    href="projects-details.html"
+                <div className="protfolio__button ">
+                  <Link
+                    href="/portfolio/design"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}
                     Read More
                     <i className="icon-02" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="port col-lg-3 col-md-6 colsm-12">
+          <div className="col-lg-3 col-md-6 colsm-12">
             <div className="portfolio__block p_relative">
               <div className="portfolio__image">
                 <figure>
@@ -93,29 +86,29 @@ export default function portfolio() {
                 </figure>
               </div>
               <div className="lower__content p_absolute">
-                <div className="protfolio__text d-none d-sm-block">
+                <div className="protfolio__text ">
                   <div className="text__block">
-                    <h4>Sustainability</h4>
+                    <h4>Logo</h4>
                     <p>Design</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2019</h5>
                   </div>
                 </div>
-                <div className="protfolio__button d-none d-sm-block">
-                  <a
-                    href="projects-details.html"
+                <div className="protfolio__button ">
+                  <Link
+                    href="/portfolio/design"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}
                     Read More
                     <i className="icon-02" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="port col-lg-3 col-md-6 colsm-12">
+          <div className="col-lg-3 col-md-6 colsm-12">
             <div className="portfolio__block p_relative">
               <div className="portfolio__image">
                 <figure>
@@ -123,29 +116,29 @@ export default function portfolio() {
                 </figure>
               </div>
               <div className="lower__content p_absolute">
-                <div className="protfolio__text d-none d-sm-block">
+                <div className="protfolio__text ">
                   <div className="text__block">
-                    <h4>Sustainability</h4>
-                    <p>Design</p>
+                    <h4>Landing Page</h4>
+                    <p>Web Dev</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2019</h5>
                   </div>
                 </div>
-                <div className="protfolio__button d-none d-sm-block">
-                  <a
-                    href="projects-details.html"
+                <div className="protfolio__button ">
+                  <Link
+                    href="/portfolio/design"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}
                     Read More
                     <i className="icon-02" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="port col-lg-3 col-md-6 colsm-12">
+          <div className="col-lg-3 col-md-6 colsm-12">
             <div className="portfolio__block p_relative">
               <div className="portfolio__image">
                 <figure>
@@ -153,144 +146,24 @@ export default function portfolio() {
                 </figure>
               </div>
               <div className="lower__content p_absolute">
-                <div className="protfolio__text d-none d-sm-block">
+                <div className="protfolio__text ">
                   <div className="text__block">
-                    <h4>Sustainability</h4>
+                    <h4>Feed</h4>
                     <p>Design</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2019</h5>
                   </div>
                 </div>
-                <div className="protfolio__button d-none d-sm-block">
-                  <a
-                    href="projects-details.html"
+                <div className="protfolio__button ">
+                  <Link
+                    href="/portfolio/design"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}
                     Read More
                     <i className="icon-02" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="port col-lg-3 col-md-6 colsm-12">
-            <div className="portfolio__block p_relative">
-              <div className="portfolio__image">
-                <figure>
-                  <img src="/assets/images/resource/1.png" alt="" />
-                </figure>
-              </div>
-              <div className="lower__content p_absolute">
-                <div className="protfolio__text d-none d-sm-block">
-                  <div className="text__block">
-                    <h4>Sustainability</h4>
-                    <p>Design</p>
-                  </div>
-                  <div className="text__block_two">
-                    <h5>2019</h5>
-                  </div>
-                </div>
-                <div className="protfolio__button d-none d-sm-block">
-                  <a
-                    href="projects-details.html"
-                    className="theme-btn theme-btn-one"
-                  >
-                    {" "}
-                    Read More
-                    <i className="icon-02" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="port col-lg-3 col-md-6 colsm-12">
-            <div className="portfolio__block p_relative">
-              <div className="portfolio__image">
-                <figure>
-                  <img src="/assets/images/resource/1.png" alt="" />
-                </figure>
-              </div>
-              <div className="lower__content p_absolute">
-                <div className="protfolio__text d-none d-sm-block">
-                  <div className="text__block">
-                    <h4>Sustainability</h4>
-                    <p>Design</p>
-                  </div>
-                  <div className="text__block_two">
-                    <h5>2019</h5>
-                  </div>
-                </div>
-                <div className="protfolio__button d-none d-sm-block">
-                  <a
-                    href="projects-details.html"
-                    className="theme-btn theme-btn-one"
-                  >
-                    {" "}
-                    Read More
-                    <i className="icon-02" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="port col-lg-3 col-md-6 colsm-12">
-            <div className="portfolio__block p_relative">
-              <div className="portfolio__image">
-                <figure>
-                  <img src="/assets/images/resource/1.png" alt="" />
-                </figure>
-              </div>
-              <div className="lower__content p_absolute">
-                <div className="protfolio__text d-none d-sm-block">
-                  <div className="text__block">
-                    <h4>Sustainability</h4>
-                    <p>Design</p>
-                  </div>
-                  <div className="text__block_two">
-                    <h5>2019</h5>
-                  </div>
-                </div>
-                <div className="protfolio__button d-none d-sm-block">
-                  <a
-                    href="projects-details.html"
-                    className="theme-btn theme-btn-one"
-                  >
-                    {" "}
-                    Read More
-                    <i className="icon-02" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="port col-lg-3 col-md-6 colsm-12">
-            <div className="portfolio__block p_relative">
-              <div className="portfolio__image">
-                <figure>
-                  <img src="/assets/images/resource/1.png" alt="" />
-                </figure>
-              </div>
-              <div className="lower__content p_absolute">
-                <div className="protfolio__text d-none d-sm-block">
-                  <div className="text__block">
-                    <h4>Sustainability</h4>
-                    <p>Design</p>
-                  </div>
-                  <div className="text__block_two">
-                    <h5>2019</h5>
-                  </div>
-                </div>
-                <div className="protfolio__button d-none d-sm-block">
-                  <a
-                    href="projects-details.html"
-                    className="theme-btn theme-btn-one"
-                  >
-                    {" "}
-                    Read More
-                    <i className="icon-02" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

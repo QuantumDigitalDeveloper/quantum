@@ -38,7 +38,7 @@ export default function career() {
           />
         </div>
         <div className="boild__text">
-          <h1>DataMatrix</h1>
+          <h1>Quantum</h1>
         </div>
         <div className="auto-container">
           <div className="row">
@@ -71,12 +71,11 @@ export default function career() {
             <div className="col-lg-5 col-md-12">
               <div className="about__text__block">
                 <div className="sub__title">
-                  <h4>About Company</h4>
+                  <h4>We Are Hiring </h4>
                 </div>
                 <div className="title two">
                   <h2>
-                    Make your Design, website, and SEO is easy with{" "}
-                    <span>Quantum</span>.
+                    Freelancer <span>Video Editor</span>.
                   </h2>
                 </div>
                 <div className="texts">
@@ -104,12 +103,11 @@ export default function career() {
           <div className="col-lg-6 col-md-12">
             <div className="about__text__block">
               <div className="sub__title">
-                <h4>About Company</h4>
+                <h4>We Are Hiring</h4>
               </div>
               <div className="title two">
                 <h2>
-                  Make your Design, website, and SEO is easy with{" "}
-                  <span>Quantum</span>.
+                  Freelancer <span>Vector Spesialis</span>.
                 </h2>
               </div>
               <div className="texts">

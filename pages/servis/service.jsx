@@ -194,9 +194,9 @@ export default function service() {
       {/* page-title end*/}
       {/* service-two-section */}
       <section className="service__two p_relative">
-        <div className="row">
+        <div className="row justify-content-center">
           <div
-            className="col-xl-3 col-lg-6 col-md-12 wow fadeInUp animated"
+            className="col-xl-4 col-lg-6 col-md-12 wow fadeInUp animated"
             data-wow-delay="00ms"
             data-wow-duration="1500ms"
           >
@@ -215,7 +215,7 @@ export default function service() {
               </div>
               <div className="service__text">
                 <h4>
-                  <Link href="/servisDetail/seoMarketing">SEO Marketing</Link>
+                  <Link href="/servisDetail/video">Video Editor</Link>
                 </h4>
                 <p>
                   Kami mengoptimalkan situs web Anda untuk peringkat teratas di
@@ -224,12 +224,12 @@ export default function service() {
                 </p>
               </div>
               <div className="service__button__two">
-                <Link href="/servisDetail/seoMarketing">Read More</Link>
+                <Link href="/servisDetail/video">Read More</Link>
               </div>
             </div>
           </div>
           <div
-            className="col-xl-3 col-lg-6 col-md-12 wow fadeInUp animated"
+            className="col-xl-4 col-lg-6 col-md-12 wow fadeInUp animated"
             data-wow-delay="200ms"
             data-wow-duration="1500ms"
           >
@@ -262,7 +262,7 @@ export default function service() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-lg-6 col-md-12 wow fadeInUp animated"
+            className="col-xl-4 col-lg-6 col-md-12 wow fadeInUp animated"
             data-wow-delay="400ms"
             data-wow-duration="1500ms"
           >
@@ -297,7 +297,7 @@ export default function service() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-lg-6 col-md-12  wow fadeInUp animated"
+            className="col-xl-4 col-lg-6 col-md-12  wow fadeInUp animated"
             data-wow-delay="600ms"
             data-wow-duration="1500ms"
           >
@@ -328,6 +328,39 @@ export default function service() {
               </div>
               <div className="service__button__two">
                 <Link href="/servisDetail/webDevelopment">Read More</Link>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-xl-4 col-lg-6 col-md-12 wow fadeInUp animated"
+            data-wow-delay="00ms"
+            data-wow-duration="1500ms"
+          >
+            <div className="service__block__two p_relative">
+              <div
+                className="service__image"
+                style={{
+                  backgroundImage: "url(/assets/images/shapes/shape-10.png)",
+                }}
+              ></div>
+              <div className="service__icon">
+                <div className="service__number">
+                  <h1>05</h1>
+                </div>
+                <i className="icon-04" />
+              </div>
+              <div className="service__text">
+                <h4>
+                  <Link href="/servisDetail/vector">Spesialis Vector</Link>
+                </h4>
+                <p>
+                  Kami mengoptimalkan situs web Anda untuk peringkat teratas di
+                  mesin pencari. Posisi terbaik di hasil pencarian akan membantu
+                  Anda mencapai lebih banyak pelanggan potensial.
+                </p>
+              </div>
+              <div className="service__button__two">
+                <Link href="/servisDetail/vector">Read More</Link>
               </div>
             </div>
           </div>

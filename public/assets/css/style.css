@@ -2779,14 +2779,14 @@ ul.service__details__1__cat {
 .project__details .project__button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 30px 50px;
   border-top: 1px solid rgba(234, 234, 234, 0.1);
   border-bottom: 1px solid rgba(234, 234, 234, 0.1);
 }
 .project__details .button__one a {
   font-family: Rubik;
-  font-size: 26px;
+  font-size: 23px;
   font-style: normal;
   font-weight: 400;
   line-height: 36px;

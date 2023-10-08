@@ -68,7 +68,7 @@ export default function Home() {
                       <img src="assets/images/banner/banner-01.png" alt="" />
                     </figure>
                   </div>
-                  <div className="icon__image__banner">
+                  {/* <div className="icon__image__banner">
                     <div className="circle-main">
                       <div className="circle">
                         <img src="assets/images/Quantumsedang.png" alt="" />
@@ -79,7 +79,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -169,7 +169,7 @@ export default function Home() {
                   </div>
                   <div className="service__text">
                     <h4>
-                      <Link href="/servisDetail/digitalMerketing">
+                      <Link href="/servisDetail/digitalMarketing">
                         Digital Marketing
                       </Link>
                     </h4>
@@ -180,7 +180,7 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="service__button">
-                    <Link href="/servisDetail/digitalMerketing">
+                    <Link href="/servisDetail/digitalMarketing">
                       <i className="icon-05" />
                     </Link>
                   </div>
@@ -203,7 +203,7 @@ export default function Home() {
           />
         </div>
         <div className="boild__text">
-          <h1>DataMatrix</h1>
+          <h1>Quantum</h1>
         </div>
         <div className="auto-container">
           <div className="row">
@@ -216,7 +216,7 @@ export default function Home() {
                 >
                   <img src="assets/images/resource/about-us.png" alt="" />
                 </figure>
-                <div
+                {/* <div
                   className="funfact__content about"
                   style={{
                     backgroundImage: "url(assets/images/shapes/shape-01.png)",
@@ -229,7 +229,7 @@ export default function Home() {
                     <span>K+</span>
                   </div>
                   <p>World wide Client</p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-1" />
@@ -446,7 +446,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="accomplised__section">
+        {/* <div className="accomplised__section">
           <div className="auto-container">
             <div className="accomplised__data p_relative">
               <div className="pattern-layer">
@@ -527,7 +527,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       {/* team-section-end */}
       {/* testimonial-section */}
