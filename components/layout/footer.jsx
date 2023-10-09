@@ -42,9 +42,9 @@ export default function footer() {
                     </figure>
                     <div className="text">
                       <p>
-                        Our technologies are designed to seamlessly integrate
-                        with your existing systems, minimizing disruption and
-                        maximizing productivity.
+                        Dengan kombinasi desain yang memukau, pengembangan web
+                        yang canggih, dan strategi pemasaran digital yang
+                        unggul, kami membantu bisnis Anda berkembang dan sukses.
                       </p>
                     </div>
                     <div className="btn-box">
@@ -110,11 +110,14 @@ export default function footer() {
                     <div className="widget-content">
                       <div className="text">
                         <p>
-                          Flat 20, Reynolds Neck, North Helenaville, FV77 8WS
+                          Jl. Kapuk Kebon Jahe Blok A No. 30 DKI Jakarta, 11720
                         </p>
                       </div>
-                      <a href="tell:3055873407">+2(305) 587-3407</a>
-                      <a href="mailto:sample@example.com">sample@example.com</a>
+                      <a href="tell:0855833691">08558833691</a>
+                      <br />
+                      <a href="mailto:quantumdigitaldeveloper@gmail.com">
+                        quantumdigitaldeveloper@gmail.com
+                      </a>
                     </div>
                   </div>
                 </div>

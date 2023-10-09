@@ -40,8 +40,8 @@ export default function digitalMarketing() {
                   </div>
                   <ul className="service__details__1__cat">
                     <li>
-                      <Link href="/servisDetail/digitalMarketing">
-                        Digital Marketing <i className="icon-02" />
+                      <Link href="/servisDetail/video">
+                        Video Editor <i className="icon-02" />
                       </Link>
                     </li>
                     <li>
@@ -50,8 +50,8 @@ export default function digitalMarketing() {
                       </Link>
                     </li>
                     <li className="active">
-                      <Link href="/servisDetail/seoMarketing">
-                        SEO Marketing <i className="icon-02" />
+                      <Link href="/servisDetail/vector">
+                        Vector Spesialis <i className="icon-02" />
                       </Link>
                     </li>
                     <li>
@@ -72,7 +72,7 @@ export default function digitalMarketing() {
                     <i className="icon-19" />
                   </div>
                   <p>Need help? Call us:</p>
-                  <h4>(+800) 1234 5678 90</h4>
+                  <h4>(+62) 855-8833-691</h4>
                 </div>
               </div>
             </div>
@@ -85,8 +85,8 @@ export default function digitalMarketing() {
                   />
                 </figure>
                 <h2>
-                  Enhancing Real-world Experiences with AR{" "}
-                  <span>Technology.</span>{" "}
+                  Maksimalkan visibilitas dan hasil bisnis Anda dengan layanan
+                  digital marketing bersama <span>Quantum.</span>{" "}
                 </h2>
                 <p>
                   The applications of AR are vast and diverse. From

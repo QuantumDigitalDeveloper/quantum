@@ -45,13 +45,13 @@ export default function design() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/servisDetail/design">
-                        Design <i className="icon-02" />
+                      <Link href="/servisDetail/video">
+                        Video Editor <i className="icon-02" />
                       </Link>
                     </li>
                     <li className="active">
-                      <Link href="/servisDetail/seoMarketing">
-                        SEO Marketing <i className="icon-02" />
+                      <Link href="/servisDetail/vector">
+                        Vector Spesialis <i className="icon-02" />
                       </Link>
                     </li>
                     <li>
@@ -72,7 +72,7 @@ export default function design() {
                     <i className="icon-19" />
                   </div>
                   <p>Need help? Call us:</p>
-                  <h4>(+800) 1234 5678 90</h4>
+                  <h4>(+62) 855-8833-691</h4>
                 </div>
               </div>
             </div>
@@ -85,8 +85,8 @@ export default function design() {
                   />
                 </figure>
                 <h2>
-                  Enhancing Real-world Experiences with AR{" "}
-                  <span>Technology.</span>{" "}
+                  Tingkatkan merek Anda dengan desain yang menginspirasi bersama{" "}
+                  <span>Quantum.</span>{" "}
                 </h2>
                 <p>
                   The applications of AR are vast and diverse. From

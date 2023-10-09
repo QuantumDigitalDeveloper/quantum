@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,36 +25,28 @@ export default function Header() {
               <div className="top__hrader__left">
                 <ul>
                   <li>
-                    <span>Address :</span> 3517 W. Gray St. Utica, Pennsylvania
-                    57867
+                    <span>Address :</span> Jl. Kapuk Kebon Jahe Blok A No. 30
+                    DKI Jakarta, 11720
                   </li>
                   <li>/</li>
                   <li>
                     <span>Email :</span>{" "}
-                    <a href="mailto:info@company.com">info@company.com</a>
+                    <a href="mailto:quantumdigitaldeveloper@gmail.com">
+                      quantumdigitaldeveloper@gmail.com
+                    </a>
                   </li>
                 </ul>
               </div>
               <div className="top__hrader__right">
                 <ul>
                   <li>
-                    <a href="#">
-                      <i className="icon-10" />
+                    <a href="https://instagram.com/quantumvisual?igshid=NzZhOTFlYzFmZQ==">
+                      <FontAwesomeIcon icon={faInstagram} />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="icon-14" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="icon-01" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="icon-11" />
+                    <a href="https://shp.ee/yjz62zf">
+                      <FontAwesomeIcon icon={faBagShopping} />
                     </a>
                   </li>
                 </ul>
@@ -307,12 +302,14 @@ export default function Header() {
           <div className="contact-info">
             <h4>Contact Info</h4>
             <ul>
-              <li>Chicago 12, Melborne City, USA</li>
+              <li>Jl. Kapuk Kebon Jahe Blok A No. 30 DKI Jakarta, 11720</li>
               <li>
-                <a href="tel:+8801682648101">+88 01682648101</a>
+                <a href="tel:08558833691">08558833691</a>
               </li>
               <li>
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="mailto:quantumdigitaldeveloper@gmail.com">
+                  quantumdigitaldeveloper@gmail.com
+                </a>
               </li>
             </ul>
           </div>
