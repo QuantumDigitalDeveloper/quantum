@@ -51,7 +51,7 @@ export default function career() {
                 >
                   <img src="/assets/images/resource/about-us.png" alt="" />
                 </figure>
-                <div
+                {/* <div
                   className="funfact__content about"
                   style={{
                     backgroundImage: "url(/assets/images/shapes/shape-01.png)",
@@ -64,7 +64,7 @@ export default function career() {
                     <span>K+</span>
                   </div>
                   <p>World wide Client</p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-1" />
@@ -80,16 +80,58 @@ export default function career() {
                 </div>
                 <div className="texts">
                   <p>
-                    Kami adalah tim ahli yang bersemangat dalam mengubah ide
-                    menjadi kenyataan. Dengan kombinasi desain yang memukau,
-                    pengembangan web yang canggih, dan strategi pemasaran
-                    digital yang unggul, kami membantu bisnis Anda berkembang
-                    dan sukses.
+                    <b>JOB DESCRIPTION</b>
+                  </p>
+                  <p>
+                    • Mengedit potongan video sesuai dengan requirement yang
+                    diberikan (termasuk memasukkan musik, dialog, graphics dan
+                    effects serta stop motion)
+                  </p>
+                  <p>
+                    • Memastikan urutan video secara logika dan memastikan hasil
+                    editan video dapat berjalan dengan lancar{" "}
+                  </p>
+                  <p>
+                    • Mendesain, mengkonsepkan dan mengeksekusi brief dari
+                    product team atau project manager ke dalam bentuk video{" "}
+                  </p>
+                  <p>
+                    • Membuat final version video kompatibel sesuai dengan
+                    platform yang dibutuhkan: youtube, IG, IG Stories dan ads
+                  </p>
+                  <p>
+                    • Mencari, memberikan ide kreatif dan masukkan dalam
+                    pengembangan video
+                  </p>
+                  <p>
+                    • Mempersiapkan dan membuat materi konten video untuk
+                    saluran media sosial (misalnya Youtube Shorts, Reels,
+                    TikTok)
+                  </p>
+                  <br />
+                  <p>
+                    <b>REQUIREMENT</b>
+                  </p>
+                  <p>
+                    • Diutamakan kemampuan dalam penggunaan Aplikasi berbasis
+                    vidio seperti After Effect, Adobe Premiere, Da Vinci
+                  </p>
+                  <p>
+                    • Proaktif dan berinisiatif tinggi dalam memberikan ide dan
+                    mengeksekusi pekerjaan yang diberikan
+                  </p>
+                  <p>• Haus akan improvement akan kualitas...</p>
+                  <br />
+                  <p>
+                    <b>Kirimkan CV lengkap dan Portofolio anda segera</b>
                   </p>
                 </div>
                 <div className="btn-box">
-                  <Link href="/about/about" className="theme-btn theme-btn-one">
-                    <i className="icon-02" /> About more
+                  <Link
+                    href="/contact/contact"
+                    className="theme-btn theme-btn-one"
+                  >
+                    <i className="icon-02" /> Contact Us
                   </Link>
                 </div>
               </div>
@@ -107,20 +149,41 @@ export default function career() {
               </div>
               <div className="title two">
                 <h2>
-                  Freelancer <span>Vector Spesialis</span>.
+                  Freelancer <span>Vector Art Spesialis</span>.
                 </h2>
               </div>
               <div className="texts">
                 <p>
-                  Kami adalah tim ahli yang bersemangat dalam mengubah ide
-                  menjadi kenyataan. Dengan kombinasi desain yang memukau,
-                  pengembangan web yang canggih, dan strategi pemasaran digital
-                  yang unggul, kami membantu bisnis Anda berkembang dan sukses.
+                  <b>REQUIREMENT</b>
                 </p>
+                <p>• Portofolio Berkualitas</p>
+                <p>
+                  • Keahlian dalam Software Desain: Mahir menggunakan perangkat
+                  lunak desain vektor seperti Adobe Illustrator, CorelDRAW, atau
+                  Inkscape.
+                </p>
+                <p>
+                  • Familiar dengan teknik-teknik desain vektor, termasuk
+                  pathfinding, gradient, dan penggunaan alat-alat lainnya.
+                </p>
+                <p>• Kreativitas dan Inovasi</p>
+                <p>• Ketepatan Waktu</p>
+                <p>• Pengetahuan tentang Hak Cipta dan Lisensi</p>
+                <p>• Pemahaman tentang Branding</p>
+                <p>• Kemampuan Desain Multiplatform</p>
+                <p>• Pemahaman tentang Trend Desain Terkini</p>
+                <p>
+                  • Proaktif dan berinisiatif tinggi dalam memberikan ide dan
+                  mengeksekusi pekerjaan yang diberikan
+                </p>
+                <p>• Haus akan improvement akan kualitas...</p>
               </div>
               <div className="btn-box">
-                <Link href="/about/about" className="theme-btn theme-btn-one">
-                  <i className="icon-02" /> About more
+                <Link
+                  href="/contact/contact"
+                  className="theme-btn theme-btn-one"
+                >
+                  <i className="icon-02" /> Contact Us
                 </Link>
               </div>
             </div>

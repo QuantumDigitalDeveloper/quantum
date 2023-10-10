@@ -108,7 +108,7 @@ export default function Header() {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <Link href="/portfolio/portfolio">Portfolio </Link>
+                        <Link href="/portfolio/portfolio">Portofolio </Link>
                         <ul>
                           <li>
                             <Link href="/portfolio/design">Design</Link>
@@ -194,7 +194,7 @@ export default function Header() {
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <Link href="/portfolio/portfolio">Portfolio </Link>
+                        <Link href="/portfolio/portfolio">Portofolio </Link>
                         <ul>
                           <li>
                             <Link href="/portfolio/design">Design</Link>
@@ -276,7 +276,7 @@ export default function Header() {
                 </ul>
               </li>
               <li className="dropdown">
-                <Link href="/portfolio/portfolio">Portfolio </Link>
+                <Link href="/portfolio/portfolio">Portofolio </Link>
                 <ul>
                   <li>
                     <Link href="/portfolio/design">Design</Link>

@@ -43,8 +43,7 @@ export default function contact() {
                       <i className="icon-19" />
                     </div>
                     <div className="contact__text">
-                      <a href="tell:3025550107">(302) 555-0107</a> <br />
-                      <a href="tell:3025550107">(207) 555-0119</a>
+                      <a href="tell:08558833691">(+62) 855-8833-691</a>
                     </div>
                   </div>
                   <div className="contact__block">
@@ -52,12 +51,8 @@ export default function contact() {
                       <i className="icon-20" />
                     </div>
                     <div className="contact__text">
-                      <a href="mailto:willie.jennings@example.com">
-                        willie.jennings@example.com
-                      </a>{" "}
-                      <br />
-                      <a href="mailto:tranthuy.nute@gmail.com">
-                        tranthuy.nute@gmail.com
+                      <a href="mailto:quantumdigitaldeveloper@gmail.com">
+                        quantumdigitaldeveloper@gmail.com
                       </a>
                     </div>
                   </div>
@@ -141,11 +136,11 @@ export default function contact() {
       </section>
       {/* contact-page end*/}
       {/* google-map */}
-      <div className="google__map">
+      {/* <div className="google__map">
         <figure>
           <img src="/assets/images/resource/map.jpg" alt="" />
         </figure>
-      </div>
+      </div> */}
       {/* google-map */}
     </>
   );
