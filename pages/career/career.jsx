@@ -42,7 +42,7 @@ export default function career() {
         </div>
         <div className="auto-container">
           <div className="row">
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-5 col-md-12">
               <div className="about__block p_relative">
                 <figure
                   className="wow zoomIn animated"
@@ -68,7 +68,7 @@ export default function career() {
               </div>
             </div>
             <div className="col-lg-1" />
-            <div className="col-lg-5 col-md-12">
+            <div className="col-lg-6 col-md-12">
               <div className="about__text__block">
                 <div className="sub__title">
                   <h4>We Are Hiring </h4>

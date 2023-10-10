@@ -61,7 +61,7 @@ export default function Header() {
               <div className="logo-box">
                 <figure className="logo">
                   <Link href="/#">
-                    <img src="/assets/images/Quantum.png" alt="" />
+                    <img src="/assets/images/new.png" alt="" />
                   </Link>
                 </figure>
               </div>
@@ -153,7 +153,7 @@ export default function Header() {
               <div className="logo-box">
                 <figure className="logo">
                   <Link href="/#">
-                    <img src="/assets/images/Quantum.png" alt="" />
+                    <img src="/assets/images/new.png" alt="" />
                   </Link>
                 </figure>
               </div>
@@ -243,7 +243,7 @@ export default function Header() {
         <nav className="menu-box" onClick={closeSideBar}>
           <div className="nav-logo">
             <Link href="/#">
-              <img src="/assets/images/Quantum.png" alt="" title="" />
+              <img src="/assets/images/new.png" alt="" title="" />
             </Link>
           </div>
           <div className="menu-outer">
