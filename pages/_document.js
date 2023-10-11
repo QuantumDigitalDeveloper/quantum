@@ -36,14 +36,15 @@ export default function Document() {
           {/* preloader */}
           <div className="loader-wrap">
             <div className="hendel__preloder">
-              <div className="preloader">
+              <img src="/assets/images/S.gif" alt="" />
+              {/* <div className="preloader">
                 <div className="preloader-ring">
                   QuantumQuantum QuantumQuantum
                 </div>
                 <div className="preloader-ring">
                   QuantumQuantum QuantumQuantum
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* preloader end */}

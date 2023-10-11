@@ -37,7 +37,7 @@ export default function footer() {
                   >
                     <figure className="footer-logo">
                       <a href="index.html">
-                        <img src="/assets/images/Quantum.png" alt="" />
+                        <img src="/assets/images/new.png" alt="" />
                       </a>
                     </figure>
                     <div className="text">

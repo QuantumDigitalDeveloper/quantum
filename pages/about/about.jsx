@@ -44,7 +44,7 @@ export default function about() {
         </div>
         <div className="auto-container">
           <div className="row">
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-5 col-md-12">
               <div className="about__block p_relative">
                 <figure
                   className="wow zoomIn animated"
@@ -53,7 +53,7 @@ export default function about() {
                 >
                   <img src="/assets/images/resource/about-us.png" alt="" />
                 </figure>
-                <div
+                {/* <div
                   className="funfact__content about"
                   style={{
                     backgroundImage: "url(/assets/images/shapes/shape-01.png)",
@@ -66,11 +66,11 @@ export default function about() {
                     <span>K+</span>
                   </div>
                   <p>World wide Client</p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-1" />
-            <div className="col-lg-5 col-md-12">
+            <div className="col-lg-6 col-md-12">
               <div className="about__text__block">
                 <div className="sub__title">
                   <h4>About Company</h4>
@@ -297,7 +297,7 @@ export default function about() {
         <div className="auto-container">
           <div className="pride__block">
             <figure>
-              <img src="/assets/images/resource/icon-04.png" alt="" />
+              <img src="/assets/images/Quantumsedang.png" alt="" />
             </figure>
             <h1>We pride ourselves on our excellent support and service</h1>
           </div>
