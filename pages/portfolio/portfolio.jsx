@@ -29,21 +29,18 @@ export default function portfolio() {
       </section>
       {/* page-title end*/}
 
-      <section className="project__details p_relative d-none d-sm-block">
-        <div className="auto-container">
-          <div className="project__button">
-            <div className="button__one">
-              <a href="#">Web Development</a>
-            </div>
-            <div className="button__one">
-              <a href="#">Design</a>
-            </div>
-            <div className="button__one">
-              <a href="#">Digital Marketing</a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div class="portfolio__menu">
+        <button class="active" data-filter="*">
+          SEE ALL
+        </button>
+        <button data-filter=".cat1" class="">
+          BUSINESS
+        </button>
+        <button data-filter=".cat2">DEVELOPMENT</button>
+        <button data-filter=".cat3">WEB DESIGN</button>
+        <button data-filter=".cat4">UI/UX DESIGN</button>
+        <button data-filter=".cat5">TECHNOLOGY</button>
+      </div>
 
       {/* project-page */}
       <div className="project__page p_relative see__pad">
