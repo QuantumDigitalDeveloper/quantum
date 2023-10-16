@@ -109,7 +109,8 @@ export default function webDevelopment() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Human Resources
+                        <i className="icon-04" /> HTML (Hypertext Markup
+                        Language)
                       </a>
                     </li>
                   </div>
@@ -117,7 +118,7 @@ export default function webDevelopment() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Web Development
+                        <i className="icon-04" /> CSS (Cascanding Style Sheets)
                       </a>
                     </li>
                   </div>
@@ -125,7 +126,7 @@ export default function webDevelopment() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Content Writing{" "}
+                        <i className="icon-04" /> JavaScript{" "}
                       </a>
                     </li>
                   </div>
@@ -133,7 +134,8 @@ export default function webDevelopment() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> IT Support
+                        <i className="icon-04" /> Server - Side Scripting and
+                        Database
                       </a>
                     </li>
                   </div>

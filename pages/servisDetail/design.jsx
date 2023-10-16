@@ -108,7 +108,7 @@ export default function design() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Human Resources
+                        <i className="icon-04" /> Unity
                       </a>
                     </li>
                   </div>
@@ -116,7 +116,7 @@ export default function design() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Web Development
+                        <i className="icon-04" /> Balance
                       </a>
                     </li>
                   </div>
@@ -124,7 +124,7 @@ export default function design() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Content Writing{" "}
+                        <i className="icon-04" /> Contrast{" "}
                       </a>
                     </li>
                   </div>
@@ -132,7 +132,7 @@ export default function design() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> IT Support
+                        <i className="icon-04" /> Repetition
                       </a>
                     </li>
                   </div>

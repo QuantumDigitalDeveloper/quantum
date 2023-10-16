@@ -79,7 +79,7 @@ export default function career() {
                   </h2>
                 </div>
                 <div className="texts">
-                  <p>
+                  {/* <p>
                     <b>JOB DESCRIPTION</b>
                   </p>
                   <p>
@@ -108,7 +108,7 @@ export default function career() {
                     saluran media sosial (misalnya Youtube Shorts, Reels,
                     TikTok)
                   </p>
-                  <br />
+                  <br /> */}
                   <p>
                     <b>REQUIREMENT</b>
                   </p>
@@ -156,7 +156,7 @@ export default function career() {
                 <p>
                   <b>REQUIREMENT</b>
                 </p>
-                <p>• Portofolio Berkualitas</p>
+                {/* <p>• Portofolio Berkualitas</p> */}
                 <p>
                   • Keahlian dalam Software Desain: Mahir menggunakan perangkat
                   lunak desain vektor seperti Adobe Illustrator, CorelDRAW, atau
@@ -168,15 +168,16 @@ export default function career() {
                 </p>
                 <p>• Kreativitas dan Inovasi</p>
                 <p>• Ketepatan Waktu</p>
-                <p>• Pengetahuan tentang Hak Cipta dan Lisensi</p>
-                <p>• Pemahaman tentang Branding</p>
-                <p>• Kemampuan Desain Multiplatform</p>
-                <p>• Pemahaman tentang Trend Desain Terkini</p>
-                <p>
-                  • Proaktif dan berinisiatif tinggi dalam memberikan ide dan
-                  mengeksekusi pekerjaan yang diberikan
-                </p>
+                {/* <p>• Pengetahuan tentang Hak Cipta dan Lisensi</p> */}
+                {/* <p>• Pemahaman tentang Branding</p>
+                <p>• Kemampuan Desain Multiplatform</p> */}
+                {/* <p>• Pemahaman tentang Trend Desain Terkini</p> */}
+                <p>• Berinisiatif tinggi dalam memberikan ide</p>
                 <p>• Haus akan improvement akan kualitas...</p>
+                <br />
+                <p>
+                  <b>Kirimkan CV lengkap dan Portofolio anda segera</b>
+                </p>
               </div>
               <div className="btn-box">
                 <Link

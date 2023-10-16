@@ -108,7 +108,8 @@ export default function digitalMarketing() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Human Resources
+                        <i className="icon-04" /> SEO (Search Engine
+                        Optimization)
                       </a>
                     </li>
                   </div>
@@ -116,7 +117,7 @@ export default function digitalMarketing() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Web Development
+                        <i className="icon-04" /> SEM (Search Engine Marketing)
                       </a>
                     </li>
                   </div>
@@ -124,7 +125,7 @@ export default function digitalMarketing() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Content Writing{" "}
+                        <i className="icon-04" /> Social Media Marketing{" "}
                       </a>
                     </li>
                   </div>
@@ -132,7 +133,7 @@ export default function digitalMarketing() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> IT Support
+                        <i className="icon-04" /> Content Marketing
                       </a>
                     </li>
                   </div>

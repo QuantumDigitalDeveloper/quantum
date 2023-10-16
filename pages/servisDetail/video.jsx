@@ -108,7 +108,7 @@ export default function seoMarketing() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Human Resources
+                        <i className="icon-04" /> Footage Selection
                       </a>
                     </li>
                   </div>
@@ -116,7 +116,7 @@ export default function seoMarketing() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Web Development
+                        <i className="icon-04" /> Cutting And Arranging
                       </a>
                     </li>
                   </div>
@@ -124,7 +124,7 @@ export default function seoMarketing() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> Content Writing{" "}
+                        <i className="icon-04" /> Sound And Music Editing{" "}
                       </a>
                     </li>
                   </div>
@@ -132,7 +132,7 @@ export default function seoMarketing() {
                     <li>
                       {" "}
                       <a href="#">
-                        <i className="icon-04" /> IT Support
+                        <i className="icon-04" /> Visual Effects And Graphics
                       </a>
                     </li>
                   </div>
