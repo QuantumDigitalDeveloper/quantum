@@ -107,33 +107,33 @@ export default function design() {
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/design/detail">
                         <i className="icon-04" /> Unity
-                      </a>
+                      </Link>
                     </li>
                   </div>
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/design/detail">
                         <i className="icon-04" /> Balance
-                      </a>
+                      </Link>
                     </li>
                   </div>
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/design/detail">
                         <i className="icon-04" /> Contrast{" "}
-                      </a>
+                      </Link>
                     </li>
                   </div>
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/design/detail">
                         <i className="icon-04" /> Repetition
-                      </a>
+                      </Link>
                     </li>
                   </div>
                 </div>

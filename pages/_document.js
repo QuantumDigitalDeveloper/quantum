@@ -26,12 +26,12 @@ export default function Document() {
       <body>
         <div className="boxed_wrapper">
           {/* mouse-pointer */}
-          <div className="mouse-pointer" id="mouse-pointer">
+          {/* <div className="mouse-pointer" id="mouse-pointer">
             <div className="icon">
               <i className="icon-06" />
               <i className="icon-05" />
             </div>
-          </div>
+          </div> */}
           {/* mouse-pointer end */}
           {/* preloader */}
           <div className="loader-wrap">

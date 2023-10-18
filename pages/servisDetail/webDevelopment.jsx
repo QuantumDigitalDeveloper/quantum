@@ -108,35 +108,35 @@ export default function webDevelopment() {
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/webDev/htmlDetail">
                         <i className="icon-04" /> HTML (Hypertext Markup
                         Language)
-                      </a>
+                      </Link>
                     </li>
                   </div>
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/webDev/cssDetail">
                         <i className="icon-04" /> CSS (Cascanding Style Sheets)
-                      </a>
+                      </Link>
                     </li>
                   </div>
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/webDev/jsDetail">
                         <i className="icon-04" /> JavaScript{" "}
-                      </a>
+                      </Link>
                     </li>
                   </div>
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/webDev/sscDetail">
                         <i className="icon-04" /> Server - Side Scripting and
                         Database
-                      </a>
+                      </Link>
                     </li>
                   </div>
                 </div>

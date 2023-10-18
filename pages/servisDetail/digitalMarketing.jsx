@@ -107,34 +107,34 @@ export default function digitalMarketing() {
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/digital/seoDetail">
                         <i className="icon-04" /> SEO (Search Engine
                         Optimization)
-                      </a>
+                      </Link>
                     </li>
                   </div>
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/digital/semDetail">
                         <i className="icon-04" /> SEM (Search Engine Marketing)
-                      </a>
+                      </Link>
                     </li>
                   </div>
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/digital/socialDetail">
                         <i className="icon-04" /> Social Media Marketing{" "}
-                      </a>
+                      </Link>
                     </li>
                   </div>
                   <div className="col-lg-6 col-md-12">
                     <li>
                       {" "}
-                      <a href="#">
+                      <Link href="/blog/digital/contentDetail">
                         <i className="icon-04" /> Content Marketing
-                      </a>
+                      </Link>
                     </li>
                   </div>
                 </div>

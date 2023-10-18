@@ -615,47 +615,47 @@
   }
 
   /* mouse cursor */
-  document
-    .getElementsByTagName("body")[0]
-    .addEventListener("mousemove", function (n) {
-      (e.style.left = n.clientX + "px"), (e.style.top = n.clientY + "px");
-    });
-  var e = document.getElementById("mouse-pointer");
+  // document
+  //   .getElementsByTagName("body")[0]
+  //   .addEventListener("mousemove", function (n) {
+  //     (e.style.left = n.clientX + "px"), (e.style.top = n.clientY + "px");
+  //   });
+  // var e = document.getElementById("mouse-pointer");
 
-  $(document).mousemove(function (e) {
-    $(".funfact-eight, .subscribe-one.home-16, .clients-one.home-7")
-      .on("mouseenter", function () {
-        $(".mouse-pointer").addClass("black");
-      })
-      .on("mouseleave", function () {
-        $(".mouse-pointer").removeClass("black");
-      });
+  // $(document).mousemove(function (e) {
+  //   $(".funfact-eight, .subscribe-one.home-16, .clients-one.home-7")
+  //     .on("mouseenter", function () {
+  //       $(".mouse-pointer").addClass("black");
+  //     })
+  //     .on("mouseleave", function () {
+  //       $(".mouse-pointer").removeClass("black");
+  //     });
 
-    $(".pointer-large, .owl-prev, .owl-next, a.theme-btn ")
-      .on("mouseenter", function () {
-        $(".mouse-pointer").addClass("large");
-      })
-      .on("mouseleave", function () {
-        $(".mouse-pointer").removeClass("large");
-      });
-    $(" a ")
-      .on("mouseenter", function () {
-        $(".mouse-pointer").addClass("transparent");
-      })
-      .on("mouseleave", function () {
-        $(".mouse-pointer").removeClass("transparent");
-      });
+  //   $(".pointer-large, .owl-prev, .owl-next, a.theme-btn ")
+  //     .on("mouseenter", function () {
+  //       $(".mouse-pointer").addClass("large");
+  //     })
+  //     .on("mouseleave", function () {
+  //       $(".mouse-pointer").removeClass("large");
+  //     });
+  //   $(" a ")
+  //     .on("mouseenter", function () {
+  //       $(".mouse-pointer").addClass("transparent");
+  //     })
+  //     .on("mouseleave", function () {
+  //       $(".mouse-pointer").removeClass("transparent");
+  //     });
 
-    $(
-      ".pointer-right, .banner-carousel, .two-item-carousel, .portfolio-carousel"
-    )
-      .on("mouseenter", function () {
-        $(".mouse-pointer").addClass("right");
-      })
-      .on("mouseleave", function () {
-        $(".mouse-pointer").removeClass("right");
-      });
-  });
+  //   $(
+  //     ".pointer-right, .banner-carousel, .two-item-carousel, .portfolio-carousel"
+  //   )
+  //     .on("mouseenter", function () {
+  //       $(".mouse-pointer").addClass("right");
+  //     })
+  //     .on("mouseleave", function () {
+  //       $(".mouse-pointer").removeClass("right");
+  //     });
+  // });
 
   function onHoverthreeDmovement() {
     var tiltBlock = $(".js-tilt");

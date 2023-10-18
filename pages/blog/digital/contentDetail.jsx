@@ -1,6 +1,7 @@
+import Link from "next/link";
 import React from "react";
 
-export default function blogDetail() {
+export default function contentDetail() {
   return (
     <>
       {/* page-title */}
@@ -22,7 +23,7 @@ export default function blogDetail() {
                 <span> -</span>Blogs Details{" "}
               </li>
             </ul>
-            <h1 className="title">Blogs Details</h1>
+            <h1 className="title">Content Marketing</h1>
           </div>
         </div>
       </section>
@@ -40,7 +41,7 @@ export default function blogDetail() {
                       <li>
                         {" "}
                         <i className="icon-15" />
-                        26 July 2023
+                        30 October 2023
                       </li>
                       <li className="two" />
                       <li>
@@ -50,58 +51,36 @@ export default function blogDetail() {
                   </div>
                 </div>
                 <div className="blog__inner__box">
-                  <h3 className="blog__title ">
-                    4 Cybersecurity Takeaways from China’s Largest Data Breach
-                  </h3>
+                  <h3 className="blog__title ">Content Marketing</h3>
                   <div className="blog__details__text ">
                     <p>
-                      The applications of AR are vast and diverse. From
-                      entertainment and gaming, where users can see virtual
-                      characters in their surroundings, to education, where
-                      complex subjects can be visualized and explained in an
-                      immersive way,. Sed lobortis suscipit nibh, vulputate
-                      euismod sapien sollicitudin eget. Donec vehicula facilisis
-                      libero sit amet accumsan. Sed sed ante commodo, maximus mi
-                      consectetur, suscipit mauris. Mauris vulputate viverra
-                      risus facilisis consequat. Curabitur et lacinia leo.
-                      Pellentesque fermentum ex quis maximus congue. Donec
-                      vestibulum laoreet fermentum. Sed tincidunt augue et
-                      mauris aliquam, faucibus tincidunt magna aliquet.
-                      Vestibulum semper dapibus interdum. Nunc diam odio,
-                      hendrerit quis dignissim vitae, bibendum vel dolor.
-                      Phasellus nisl nunc, sollicitudin vulputate congue sed,
-                      pulvinar at nunc. Maecenas ligula turpis, ultricies sit
-                      amet fermentum et, sagittis sit amet nunc.
+                      Pemasaran konten (Inggris: Content Marketing) adalah
+                      bentuk pemasaran yang berfokus pada membuat, menerbitkan
+                      dan mendistribusikan konten kepada audiens yang
+                      ditargetkan secara online. Sebagai salah satu bentuk
+                      pemasaran internet, tujuan dari konten marketing adalah
+                      untuk memicu aksi konsumen yang memberikan keuntungan
+                      diantaranya: menarik perhatian dan menghasilkan prospek,
+                      memperluas cakupan pelanggan, menghasilkan atau
+                      meningkatkan penjualan daring, meningkatkan kesadaran
+                      merek atau kredibilitas dan mengikutsertakan komunitas
+                      pengguna.
                     </p>
                     <p>
-                      Sed nec tincidunt mi. Pellentesque finibus dui vel dolor
-                      consectetur, ac luctus mi pulvinar. Donec odio nulla,
-                      molestie vel cursus in, malesuada ac est. Aenean ut justo
-                      vitae est tempus mollis. Fusce a odio nisi. Suspendisse ac
-                      lacinia velit.
+                      Pemasaran konten menarik konsumen dengan menghadirkan
+                      konten-konten perdeo yang bernilai dan bermanfaat. Ini
+                      akan menolong perusahaan untuk membangun loyalitas merek
+                      yang dapat menciptakan keinginan untuk membeli produk dari
+                      perusahaan tersebut di masa yang akan datang.
                     </p>
-                    <ul>
-                      <li>
-                        {" "}
-                        Rollout and expansion of 5G networks, enabling faster
-                        data transfer, lower latency, and improved connectivity
-                        for IoT devices.
-                      </li>
-                      <li>
-                        Enhanced capabilities for real-time communication,
-                        streaming, and remote operations.
-                      </li>
-                      <li>
-                        Growth in IoT devices and applications across various
-                        industries, from smart homes to industrial automation.
-                      </li>
-                      <li>
-                        {" "}
-                        Integration of IoT with AI, allowing devices to collect
-                        and analyze data for better decision-making and
-                        automation.
-                      </li>
-                    </ul>
+                    <p>
+                      Pada umumnya, pemasaran konten dimulai dengan
+                      mengidentifikasi kebutuhan konsumen. Informasi-informasi
+                      tersebut kemudian disajikan ke dalam berbagai format,
+                      meliputi berita, video, e-book, infografis, nawala, studi
+                      kasus, siniar, panduan manual, artikel pertanyaan dan
+                      jawaban, foto, blog dan lain sebagainya.
+                    </p>
                   </div>
                 </div>
                 <div className="blog__tags__box">
@@ -111,25 +90,25 @@ export default function blogDetail() {
                         <h3>Tags:</h3>
                         <ul className="tags-list-1">
                           <li>
-                            <a href="#">#ArtificialIntelligence,</a>
+                            <a href="#">#SEO,</a>
                           </li>
                           <li>
-                            <a href="#">#MachineLearning,</a>
+                            <a href="#">#SEM,</a>
                           </li>
                           <li>
-                            <a href="#">#DeepLearning,</a>
+                            <a href="#">#SocialMediaMarketing,</a>
                           </li>
                           <li>
-                            <a href="#">#NeuralNetworks</a>
+                            <a href="#">#ContentMarketing</a>
                           </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="blog__comments__area">
+                {/* <div className="blog__comments__area">
                   <h3 className="comments__title">2 Comments</h3>
-                  {/* box-area */}
+                  
                   <div className="comments__box">
                     <div className="image__box">
                       <img src="/assets/images/news/comments-1.png" alt="" />
@@ -151,7 +130,7 @@ export default function blogDetail() {
                       </div>
                     </div>
                   </div>
-                  {/* box-area */}
+                  
                   <div className="comments__box">
                     <div className="image__box">
                       <img src="/assets/images/news/comments-2.png" alt="" />
@@ -214,7 +193,7 @@ export default function blogDetail() {
                       </div>
                     </form>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-xl-4 col-lg-6 col-md-12">
@@ -250,12 +229,12 @@ export default function blogDetail() {
                           <div className="title__box">
                             <div className="date">
                               <i className="icon-15" />
-                              26 July 2023
+                              30 October 2023
                             </div>
                             <h4>
-                              <a href="#">
-                                4 Cybersecurity Takeaways from China’s
-                              </a>
+                              <Link href="/blog/digital/seoDetail">
+                                SEO (Search Engine Optimization)
+                              </Link>
                             </h4>
                           </div>
                         </div>
@@ -271,12 +250,12 @@ export default function blogDetail() {
                           <div className="title__box">
                             <div className="date">
                               <i className="icon-15" />
-                              26 July 2023
+                              30 October 2023
                             </div>
                             <h4>
-                              <a href="#">
-                                4 Cybersecurity Takeaways from China’s
-                              </a>
+                              <Link href="/blog/digital/semDetail">
+                                SEM (Search Engine Marketing)
+                              </Link>
                             </h4>
                           </div>
                         </div>
@@ -292,12 +271,12 @@ export default function blogDetail() {
                           <div className="title__box">
                             <div className="date">
                               <i className="icon-15" />
-                              26 July 2023
+                              30 October 2023
                             </div>
                             <h4>
-                              <a href="#">
-                                4 Cybersecurity Takeaways from China’s
-                              </a>
+                              <Link href="/blog/digital/socialDetail">
+                                Social Media Marketing
+                              </Link>
                             </h4>
                           </div>
                         </div>
@@ -312,32 +291,14 @@ export default function blogDetail() {
                   <div className="sidebar-categories">
                     <ul className="sidebar-categories-box">
                       <li>
-                        <a href="#">
-                          <i className="icon-17" /> Internet Of Things
-                        </a>
+                        <Link href="/servisDetail/webDevelopment">
+                          <i className="icon-17" /> Web Development
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
-                          <i className="icon-17" /> Artificial Intelligence
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="icon-17" />
-                          Machine Learning
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="icon-17" />
-                          Deep Learning
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="icon-17" />
-                          Neural Networks
-                        </a>
+                        <Link href="/servisDetail/design">
+                          <i className="icon-17" /> Design
+                        </Link>
                       </li>
                     </ul>
                   </div>
