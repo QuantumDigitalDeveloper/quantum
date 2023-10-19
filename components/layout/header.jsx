@@ -299,7 +299,7 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          <div className="contact-info">
+          {/* <div className="contact-info">
             <h4>Contact Info</h4>
             <ul>
               <li>Jl. Kapuk Kebon Jahe Blok A No. 30 DKI Jakarta, 11720</li>
@@ -312,7 +312,7 @@ export default function Header() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </nav>
       </div>
       {/* End Mobile Menu */}

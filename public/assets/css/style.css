@@ -1832,10 +1832,17 @@ h3.blog__title {
   align-items: center;
   gap: 25px;
 }
+@media (max-width: 768px) {
+  .tags-list-1 {
+    column-count: 2 !important;
+  }
+}
+
 .tags-list-1 {
-  display: flex;
+  display: inline-block;
   align-items: center;
   gap: 15px;
+  column-count: 3;
 }
 .tags-list-1 li a {
   color: rgba(255, 255, 255, 0.5);

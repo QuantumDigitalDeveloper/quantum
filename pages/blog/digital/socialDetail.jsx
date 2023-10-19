@@ -105,16 +105,61 @@ export default function socialDetail() {
                         <h3>Tags:</h3>
                         <ul className="tags-list-1">
                           <li>
-                            <a href="#">#SEO,</a>
+                            <a href="#">#smm</a>
                           </li>
                           <li>
-                            <a href="#">#SEM,</a>
+                            <a href="#">#socialmediamarketing</a>
                           </li>
                           <li>
-                            <a href="#">#SocialMediaMarketing,</a>
+                            <a href="#">#digitalmarketing</a>
                           </li>
                           <li>
-                            <a href="#">#ContentMarketing</a>
+                            <a href="#">#contentmarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#socialmediastrategy</a>
+                          </li>
+                          <li>
+                            <a href="#">#socialmediacontent</a>
+                          </li>
+                          <li>
+                            <a href="#">#socialmediatips</a>
+                          </li>
+                          <li>
+                            <a href="#">#socialmediaanalytics</a>
+                          </li>
+                          <li>
+                            <a href="#">#socialmediatools</a>
+                          </li>
+                          <li>
+                            <a href="#">#socialmediaengagement</a>
+                          </li>
+                          <li>
+                            <a href="#">#facebookmarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#instagrammarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#twittermarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#linkedinmarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#youtubemarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#tiktokmarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#socialmediaadvertising</a>
+                          </li>
+                          <li>
+                            <a href="#">#socialmediainfluencer</a>
+                          </li>
+                          <li>
+                            <a href="#">#socialmediagrowth</a>
                           </li>
                         </ul>
                       </div>

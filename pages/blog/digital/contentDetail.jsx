@@ -90,16 +90,61 @@ export default function contentDetail() {
                         <h3>Tags:</h3>
                         <ul className="tags-list-1">
                           <li>
-                            <a href="#">#SEO,</a>
+                            <a href="#">#contentmarketing</a>
                           </li>
                           <li>
-                            <a href="#">#SEM,</a>
+                            <a href="#">#digitalmarketing</a>
                           </li>
                           <li>
-                            <a href="#">#SocialMediaMarketing,</a>
+                            <a href="#">#seo</a>
                           </li>
                           <li>
-                            <a href="#">#ContentMarketing</a>
+                            <a href="#">#inboundmarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#contentstrategy</a>
+                          </li>
+                          <li>
+                            <a href="#">#contentcreation</a>
+                          </li>
+                          <li>
+                            <a href="#">#contentdistribution</a>
+                          </li>
+                          <li>
+                            <a href="#">#contentanalytics</a>
+                          </li>
+                          <li>
+                            <a href="#">#contenttools</a>
+                          </li>
+                          <li>
+                            <a href="#">#contenttips</a>
+                          </li>
+                          <li>
+                            <a href="#">#blog</a>
+                          </li>
+                          <li>
+                            <a href="#">#artikel</a>
+                          </li>
+                          <li>
+                            <a href="#">#video</a>
+                          </li>
+                          <li>
+                            <a href="#">#infografis</a>
+                          </li>
+                          <li>
+                            <a href="#">#podcast</a>
+                          </li>
+                          <li>
+                            <a href="#">#emailmarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#socialmediamarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#contentoptimization</a>
+                          </li>
+                          <li>
+                            <a href="#">#contentpersonalization</a>
                           </li>
                         </ul>
                       </div>

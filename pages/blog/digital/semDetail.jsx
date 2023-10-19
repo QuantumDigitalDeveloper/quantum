@@ -98,16 +98,62 @@ export default function semDetail() {
                         <h3>Tags:</h3>
                         <ul className="tags-list-1">
                           <li>
-                            <a href="#">#SEO,</a>
+                            <a href="#">#sem</a>
                           </li>
                           <li>
-                            <a href="#">#SEM,</a>
+                            <a href="#">#semtips</a>
+                          </li>
+
+                          <li>
+                            <a href="#">#digitalmarketing</a>
                           </li>
                           <li>
-                            <a href="#">#SocialMediaMarketing,</a>
+                            <a href="#">#paidsearch</a>
                           </li>
                           <li>
-                            <a href="#">#ContentMarketing</a>
+                            <a href="#">#ppc</a>
+                          </li>
+                          <li>
+                            <a href="#">#keywordresearch</a>
+                          </li>
+                          <li>
+                            <a href="#">#adcopy</a>
+                          </li>
+                          <li>
+                            <a href="#">#bidstrategy</a>
+                          </li>
+                          <li>
+                            <a href="#">#accountmanagement</a>
+                          </li>
+                          <li>
+                            <a href="#">#searchenginemarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#googleads</a>
+                          </li>
+                          <li>
+                            <a href="#">#bingads</a>
+                          </li>
+                          <li>
+                            <a href="#">#facebookads</a>
+                          </li>
+                          <li>
+                            <a href="#">#linkedinads</a>
+                          </li>
+                          <li>
+                            <a href="#">#youtubeads</a>
+                          </li>
+                          <li>
+                            <a href="#">#programmaticadvertising</a>
+                          </li>
+                          <li>
+                            <a href="#">#remarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#conversionrateoptimization</a>
+                          </li>
+                          <li>
+                            <a href="#">#semaudit</a>
                           </li>
                         </ul>
                       </div>

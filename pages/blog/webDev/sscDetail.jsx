@@ -111,16 +111,34 @@ export default function jsDetail() {
                         <h3>Tags:</h3>
                         <ul className="tags-list-1">
                           <li>
-                            <a href="#">#HTML,</a>
+                            <a href="#">#server</a>
                           </li>
                           <li>
-                            <a href="#">#CSS,</a>
+                            <a href="#">#phpframework</a>
                           </li>
                           <li>
-                            <a href="#">#JavaScript,</a>
+                            <a href="#">#asp.netmvc</a>
                           </li>
                           <li>
-                            <a href="#">#ServerSideScripting</a>
+                            <a href="#">#javaee</a>
+                          </li>
+                          <li>
+                            <a href="#">#node.jsexpress</a>
+                          </li>
+                          <li>
+                            <a href="#">#mysqlquery</a>
+                          </li>
+                          <li>
+                            <a href="#">#postgresqlquery</a>
+                          </li>
+                          <li>
+                            <a href="#">#mongodbquery</a>
+                          </li>
+                          <li>
+                            <a href="#">#databasesecurity</a>
+                          </li>
+                          <li>
+                            <a href="#">#databaseperformance</a>
                           </li>
                         </ul>
                       </div>

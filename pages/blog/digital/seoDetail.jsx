@@ -89,16 +89,62 @@ export default function seoDetail() {
                         <h3>Tags:</h3>
                         <ul className="tags-list-1">
                           <li>
-                            <a href="#">#SEO,</a>
+                            <a href="#">#seo</a>
                           </li>
                           <li>
-                            <a href="#">#SEM,</a>
+                            <a href="#">#seotools</a>
                           </li>
                           <li>
-                            <a href="#">#SocialMediaMarketing,</a>
+                            <a href="#">#digitalmarketing</a>
                           </li>
                           <li>
-                            <a href="#">#ContentMarketing</a>
+                            <a href="#">#contentmarketing</a>
+                          </li>
+                          <li>
+                            <a href="#">#onpageseo</a>
+                          </li>
+                          <li>
+                            <a href="#">#offpageseo</a>
+                          </li>
+                          <li>
+                            <a href="#">#technicalseo</a>
+                          </li>
+                          <li>
+                            <a href="#">#localseo</a>
+                          </li>
+                          <li>
+                            <a href="#">#seotips</a>
+                          </li>
+                          <li>
+                            <a href="#">#searchengineoptimization</a>
+                          </li>
+
+                          <li>
+                            <a href="#">#keywordresearch</a>
+                          </li>
+                          <li>
+                            <a href="#">#linkbuilding</a>
+                          </li>
+                          <li>
+                            <a href="#">#sitemap</a>
+                          </li>
+                          <li>
+                            <a href="#">#crawlability</a>
+                          </li>
+                          <li>
+                            <a href="#">#pagespeed</a>
+                          </li>
+                          <li>
+                            <a href="#">#mobileseo</a>
+                          </li>
+                          <li>
+                            <a href="#">#voicesearchvoicesearch</a>
+                          </li>
+                          <li>
+                            <a href="#">#semanticseo</a>
+                          </li>
+                          <li>
+                            <a href="#">#seoaudit</a>
                           </li>
                         </ul>
                       </div>

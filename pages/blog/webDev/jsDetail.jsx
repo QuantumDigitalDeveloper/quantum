@@ -101,16 +101,34 @@ export default function jsDetail() {
                         <h3>Tags:</h3>
                         <ul className="tags-list-1">
                           <li>
-                            <a href="#">#HTML,</a>
+                            <a href="#">#javascript</a>
                           </li>
                           <li>
-                            <a href="#">#CSS,</a>
+                            <a href="#">#javascriptevents</a>
                           </li>
                           <li>
-                            <a href="#">#JavaScript,</a>
+                            <a href="#">#javascriptajax</a>
                           </li>
                           <li>
-                            <a href="#">#ServerSideScripting</a>
+                            <a href="#">#javascriptdom</a>
+                          </li>
+                          <li>
+                            <a href="#">#javascriptapis</a>
+                          </li>
+                          <li>
+                            <a href="#">#javascriptframeworks</a>
+                          </li>
+                          <li>
+                            <a href="#">#javascriptlibraries</a>
+                          </li>
+                          <li>
+                            <a href="#">#javascriptgamedev</a>
+                          </li>
+                          <li>
+                            <a href="#">#javascriptmobile</a>
+                          </li>
+                          <li>
+                            <a href="#">#javascriptaccessibility</a>
                           </li>
                         </ul>
                       </div>

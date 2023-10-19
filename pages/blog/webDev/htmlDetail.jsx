@@ -87,16 +87,37 @@ export default function htmlDetail() {
                         <h3>Tags:</h3>
                         <ul className="tags-list-1">
                           <li>
-                            <a href="#">#HTML,</a>
+                            <a href="#">#html</a>
                           </li>
                           <li>
-                            <a href="#">#CSS,</a>
+                            <a href="#">#kodinghtml</a>
                           </li>
                           <li>
-                            <a href="#">#JavaScript,</a>
+                            <a href="#">#coding</a>
                           </li>
                           <li>
-                            <a href="#">#ServerSideScripting</a>
+                            <a href="#">#ngodinghtml</a>
+                          </li>
+                          <li>
+                            <a href="#">#website</a>
+                          </li>
+                          <li>
+                            <a href="#">#bahasapemrograman</a>
+                          </li>
+                          <li>
+                            <a href="#">#css</a>
+                          </li>
+                          <li>
+                            <a href="#">#webdevelopment</a>
+                          </li>
+                          <li>
+                            <a href="#">#belajarhtml</a>
+                          </li>
+                          <li>
+                            <a href="#">#tipshtml</a>
+                          </li>
+                          <li>
+                            <a href="#">#tutorialhtml</a>
                           </li>
                         </ul>
                       </div>

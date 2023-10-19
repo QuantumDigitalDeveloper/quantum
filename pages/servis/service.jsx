@@ -44,7 +44,7 @@ export default function service() {
                 </div>
                 <div className="service__text">
                   <h4>
-                    <Link href="/blog/blogDetail">Berkualitas</Link>
+                    <Link href="/about/about">Berkualitas</Link>
                   </h4>
                   <p>
                     Dapatkan berbagai opsi desain yang baik dan berkualitas
@@ -52,7 +52,7 @@ export default function service() {
                   </p>
                 </div>
                 <div className="service__button">
-                  <Link href="/blog/blogDetail">
+                  <Link href="/about/about">
                     <i className="icon-05" />
                   </Link>
                 </div>
@@ -70,7 +70,7 @@ export default function service() {
                 </div>
                 <div className="service__text">
                   <h4>
-                    <Link href="/blog/blogDetail">Profesional</Link>
+                    <Link href="/about/about">Profesional</Link>
                   </h4>
                   <p>
                     Project anda ditangani oleh Tim Desainer , Programmer dan
@@ -78,7 +78,7 @@ export default function service() {
                   </p>
                 </div>
                 <div className="service__button">
-                  <Link href="/blog/blogDetail">
+                  <Link href="/about/about">
                     <i className="icon-05" />
                   </Link>
                 </div>
@@ -96,7 +96,7 @@ export default function service() {
                 </div>
                 <div className="service__text">
                   <h4>
-                    <Link href="/blog/blogDetail">Kreatif</Link>
+                    <Link href="/about/about">Kreatif</Link>
                   </h4>
                   <p>
                     Kami selalu update dengan desain teknologi terkini untuk
@@ -104,7 +104,7 @@ export default function service() {
                   </p>
                 </div>
                 <div className="service__button">
-                  <Link href="/blog/blogDetail">
+                  <Link href="/about/about">
                     <i className="icon-05" />
                   </Link>
                 </div>
@@ -122,7 +122,7 @@ export default function service() {
                 </div>
                 <div className="service__text">
                   <h4>
-                    <Link href="/blog/blogDetail">Totalitas</Link>
+                    <Link href="/about/about">Totalitas</Link>
                   </h4>
                   <p>
                     Kami mengerjakan project anda dengan Hati dan Totalitas ide
@@ -130,7 +130,7 @@ export default function service() {
                   </p>
                 </div>
                 <div className="service__button">
-                  <Link href="/blog/blogDetail">
+                  <Link href="/about/about">
                     <i className="icon-05" />
                   </Link>
                 </div>
@@ -148,7 +148,7 @@ export default function service() {
                 </div>
                 <div className="service__text">
                   <h4>
-                    <Link href="/blog/blogDetail">On Time</Link>
+                    <Link href="/about/about">On Time</Link>
                   </h4>
                   <p>
                     Kami membatasi hanya 10 project perminggu sehingga dedline
@@ -156,7 +156,7 @@ export default function service() {
                   </p>
                 </div>
                 <div className="service__button">
-                  <Link href="/blog/blogDetail">
+                  <Link href="/about/about">
                     <i className="icon-05" />
                   </Link>
                 </div>
@@ -174,7 +174,7 @@ export default function service() {
                 </div>
                 <div className="service__text">
                   <h4>
-                    <Link href="/blog/blogDetail">Fast Response</Link>
+                    <Link href="/about/about">Fast Response</Link>
                   </h4>
                   <p>
                     Demi Kenyamanan anda , kami siap melayani anda 24/7 Jam
@@ -182,7 +182,7 @@ export default function service() {
                   </p>
                 </div>
                 <div className="service__button">
-                  <Link href="/blog/blogDetail">
+                  <Link href="/about/about">
                     <i className="icon-05" />
                   </Link>
                 </div>

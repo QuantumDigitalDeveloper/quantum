@@ -87,16 +87,34 @@ export default function cssDetail() {
                         <h3>Tags:</h3>
                         <ul className="tags-list-1">
                           <li>
-                            <a href="#">#HTML,</a>
+                            <a href="#">#css</a>
                           </li>
                           <li>
-                            <a href="#">#CSS,</a>
+                            <a href="#">#cssgrid</a>
                           </li>
                           <li>
-                            <a href="#">#JavaScript,</a>
+                            <a href="#">#cssflexbox</a>
                           </li>
                           <li>
-                            <a href="#">#ServerSideScripting</a>
+                            <a href="#">#cssanimations</a>
+                          </li>
+                          <li>
+                            <a href="#">#csstransitions</a>
+                          </li>
+                          <li>
+                            <a href="#">#css3</a>
+                          </li>
+                          <li>
+                            <a href="#">#cssresponsive</a>
+                          </li>
+                          <li>
+                            <a href="#">#cssmobile</a>
+                          </li>
+                          <li>
+                            <a href="#">#cssaccessibility</a>
+                          </li>
+                          <li>
+                            <a href="#">#cssusability</a>
                           </li>
                         </ul>
                       </div>

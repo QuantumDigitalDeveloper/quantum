@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function portfolio() {
+export default function design() {
   return (
     <>
       {/* page-title */}
@@ -23,7 +23,7 @@ export default function portfolio() {
                 <span> -</span>Projects{" "}
               </li>
             </ul>
-            <h1 className="title">Projects</h1>
+            <h1 className="title">Design</h1>
           </div>
         </div>
       </section>
@@ -33,10 +33,13 @@ export default function portfolio() {
           SEE ALL
         </button>
         <button data-filter=".cat1" class="">
-          DESIGN
+          TECHNOLOGY
         </button>
-        <button data-filter=".cat2">WEB DEVELOPMENT</button>
-        <button data-filter=".cat3">DIGITAL MARKETING</button>
+        <button data-filter=".cat2">FASHION</button>
+        <button data-filter=".cat3">F&B</button>
+        <button data-filter=".cat4">OTOMOTIF</button>
+        <button data-filter=".cat5">SPORT</button>
+        <button data-filter=".cat6">FURNITURE</button>
       </div>
       {/* project-page */}
       <div className="project__page p_relative see__pad">
@@ -51,8 +54,8 @@ export default function portfolio() {
               <div className="lower__content p_absolute">
                 <div className="protfolio__text ">
                   <div className="text__block">
-                    <h4>Logo</h4>
-                    <p>Design</p>
+                    <h4>Jaringan</h4>
+                    <p>Technology</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2019</h5>
@@ -60,7 +63,7 @@ export default function portfolio() {
                 </div>
                 <div className="protfolio__button ">
                   <Link
-                    href="/portfolio/filter/design"
+                    href="/portfolio/project/project"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}
@@ -81,8 +84,8 @@ export default function portfolio() {
               <div className="lower__content p_absolute">
                 <div className="protfolio__text">
                   <div className="text__block">
-                    <h4>Technology</h4>
-                    <p>Design</p>
+                    <h4>AI</h4>
+                    <p>Technology</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2023</h5>
@@ -90,7 +93,7 @@ export default function portfolio() {
                 </div>
                 <div className="protfolio__button ">
                   <Link
-                    href="/portfolio/filter/design"
+                    href="/portfolio/project/project"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}
@@ -111,8 +114,8 @@ export default function portfolio() {
               <div className="lower__content p_absolute">
                 <div className="protfolio__text ">
                   <div className="text__block">
-                    <h4>Fashion</h4>
-                    <p>Design</p>
+                    <h4>Baju</h4>
+                    <p>Fashion</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2019</h5>
@@ -120,7 +123,7 @@ export default function portfolio() {
                 </div>
                 <div className="protfolio__button ">
                   <Link
-                    href="/portfolio/filter/design"
+                    href="/portfolio/project/project"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}
@@ -141,8 +144,8 @@ export default function portfolio() {
               <div className="lower__content p_absolute">
                 <div className="protfolio__text ">
                   <div className="text__block">
-                    <h4>F&B</h4>
-                    <p>Design</p>
+                    <h4>Celana</h4>
+                    <p>Fashion</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2019</h5>
@@ -150,7 +153,7 @@ export default function portfolio() {
                 </div>
                 <div className="protfolio__button ">
                   <Link
-                    href="/portfolio/filter/design"
+                    href="/portfolio/project/project"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}
@@ -171,8 +174,8 @@ export default function portfolio() {
               <div className="lower__content p_absolute">
                 <div className="protfolio__text ">
                   <div className="text__block">
-                    <h4>Otomotif</h4>
-                    <p>Design</p>
+                    <h4>Makanan</h4>
+                    <p>F&B</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2019</h5>
@@ -180,7 +183,7 @@ export default function portfolio() {
                 </div>
                 <div className="protfolio__button ">
                   <Link
-                    href="/portfolio/filter/design"
+                    href="/portfolio/project/project"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}
@@ -201,8 +204,8 @@ export default function portfolio() {
               <div className="lower__content p_absolute">
                 <div className="protfolio__text ">
                   <div className="text__block">
-                    <h4>Sport</h4>
-                    <p>Design</p>
+                    <h4>Minuman</h4>
+                    <p>F&B</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2019</h5>
@@ -210,7 +213,7 @@ export default function portfolio() {
                 </div>
                 <div className="protfolio__button ">
                   <Link
-                    href="/portfolio/filter/design"
+                    href="/portfolio/project/project"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}
@@ -231,8 +234,8 @@ export default function portfolio() {
               <div className="lower__content p_absolute">
                 <div className="protfolio__text ">
                   <div className="text__block">
-                    <h4>Furniture</h4>
-                    <p>Design</p>
+                    <h4>Mobil</h4>
+                    <p>Otomotif</p>
                   </div>
                   <div className="text__block_two">
                     <h5>2019</h5>
@@ -240,7 +243,97 @@ export default function portfolio() {
                 </div>
                 <div className="protfolio__button ">
                   <Link
-                    href="/portfolio/filter/design"
+                    href="/portfolio/project/project"
+                    className="theme-btn theme-btn-one"
+                  >
+                    {" "}
+                    Read More
+                    <i className="icon-02" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 colsm-12">
+            <div className="portfolio__block p_relative">
+              <div className="portfolio__image">
+                <figure>
+                  <img src="/assets/images/resource/1.png" alt="" />
+                </figure>
+              </div>
+              <div className="lower__content p_absolute">
+                <div className="protfolio__text ">
+                  <div className="text__block">
+                    <h4>Motor</h4>
+                    <p>Otomotif</p>
+                  </div>
+                  <div className="text__block_two">
+                    <h5>2019</h5>
+                  </div>
+                </div>
+                <div className="protfolio__button ">
+                  <Link
+                    href="/portfolio/project/project"
+                    className="theme-btn theme-btn-one"
+                  >
+                    {" "}
+                    Read More
+                    <i className="icon-02" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 colsm-12">
+            <div className="portfolio__block p_relative">
+              <div className="portfolio__image">
+                <figure>
+                  <img src="/assets/images/resource/1.png" alt="" />
+                </figure>
+              </div>
+              <div className="lower__content p_absolute">
+                <div className="protfolio__text ">
+                  <div className="text__block">
+                    <h4>Football</h4>
+                    <p>Sport</p>
+                  </div>
+                  <div className="text__block_two">
+                    <h5>2019</h5>
+                  </div>
+                </div>
+                <div className="protfolio__button ">
+                  <Link
+                    href="/portfolio/project/project"
+                    className="theme-btn theme-btn-one"
+                  >
+                    {" "}
+                    Read More
+                    <i className="icon-02" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 colsm-12">
+            <div className="portfolio__block p_relative">
+              <div className="portfolio__image">
+                <figure>
+                  <img src="/assets/images/resource/1.png" alt="" />
+                </figure>
+              </div>
+              <div className="lower__content p_absolute">
+                <div className="protfolio__text ">
+                  <div className="text__block">
+                    <h4>Basketball</h4>
+                    <p>Sport</p>
+                  </div>
+                  <div className="text__block_two">
+                    <h5>2019</h5>
+                  </div>
+                </div>
+                <div className="protfolio__button ">
+                  <Link
+                    href="/portfolio/project/project"
                     className="theme-btn theme-btn-one"
                   >
                     {" "}

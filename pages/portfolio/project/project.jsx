@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function design() {
+export default function project() {
   return (
     <>
       {/* page-title */}
@@ -28,22 +28,6 @@ export default function design() {
         </div>
       </section>
       {/* page-title end*/}
-
-      <section className="project__details p_relative d-none d-sm-block">
-        <div className="auto-container">
-          <div className="project__button">
-            <div className="button__one">
-              <a href="#">Web Development</a>
-            </div>
-            <div className="button__one">
-              <a href="#">Design</a>
-            </div>
-            <div className="button__one">
-              <a href="#">Digital Marketing</a>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* project-page */}
       <div className="project__page p_relative see__pad">

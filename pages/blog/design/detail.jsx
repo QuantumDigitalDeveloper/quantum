@@ -264,16 +264,46 @@ export default function detail() {
                         <h3>Tags:</h3>
                         <ul className="tags-list-1">
                           <li>
-                            <a href="#">#Design,</a>
+                            <a href="#">#desain</a>
                           </li>
                           <li>
-                            <a href="#">#Vector,</a>
+                            <a href="#">#desaingrafis</a>
                           </li>
                           <li>
-                            <a href="#">#Unity,</a>
+                            <a href="#">#desainwebsite</a>
                           </li>
                           <li>
-                            <a href="#">#Balance</a>
+                            <a href="#">#desainproduk</a>
+                          </li>
+                          <li>
+                            <a href="#">#desaininterior</a>
+                          </li>
+                          <li>
+                            <a href="#">#desainfashion</a>
+                          </li>
+                          <li>
+                            <a href="#">#desainvideo</a>
+                          </li>
+                          <li>
+                            <a href="#">#desainfoto</a>
+                          </li>
+                          <li>
+                            <a href="#">#desaintips</a>
+                          </li>
+                          <li>
+                            <a href="#">#desaininspirasi</a>
+                          </li>
+                          <li>
+                            <a href="#">#jasadesain</a>
+                          </li>
+                          <li>
+                            <a href="#">#jasadesign</a>
+                          </li>
+                          <li>
+                            <a href="#">#desiggrafis</a>
+                          </li>
+                          <li>
+                            <a href="#">#graphicdesigner</a>
                           </li>
                         </ul>
                       </div>
