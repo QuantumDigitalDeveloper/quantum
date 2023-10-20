@@ -1611,6 +1611,16 @@ section.banner__two:before {
     margin: 0;
     padding: 0;
   }
+
+  .logo-box {
+    width: 100px;
+    height: 100px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* portfolio-section */
