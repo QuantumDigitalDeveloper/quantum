@@ -2,8 +2,32 @@ import React from "react";
 import Layout from "../components/layout/layout";
 import Head from "next/head";
 import dynamic from "next/dynamic";
+import Header from "../components/layout/header";
+import Footer from "../components/layout/footer";
 
-const _app = ({ Component, pageProps }) => {
+export async function getStaticProps() {
+    try {
+        const res = await fetch("http://127.0.0.1:8000/api/porto");
+        const { data: porto } = await res.json();
+
+        // console.log("Data fetched successfully:", porto);
+
+        return {
+            props: {
+                porto,
+            },
+        };
+    } catch (error) {
+        console.error("Error fetching data:", error);
+        return {
+            props: {
+                porto: null,
+            },
+        };
+    }
+}
+
+const _app = ({ Component, pageProps, porto }) => {
   return (
     <>
       <Head>
@@ -15,9 +39,9 @@ const _app = ({ Component, pageProps }) => {
         />
         <title>Quantum</title>
       </Head>
-      <Layout>
+        <Header data={porto} />
         <Component {...pageProps} />
-      </Layout>
+        <Footer />
     </>
   );
 };

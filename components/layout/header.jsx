@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
 
-export default function Header() {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -14,9 +14,7 @@ export default function Header() {
   const closeSideBar = () => {
     setIsMenuOpen(false);
   };
-  return (
-    <>
-      {/* main header */}
+  return (       // main header
       <header className="main-header header__style__one ">
         {/* header-top-one */}
         <div className="header-top-one">
@@ -110,16 +108,17 @@ export default function Header() {
                       <li className="dropdown">
                         <Link href="/portfolio/portfolio">Portofolio </Link>
                         <ul>
+
                           <li>
-                            <Link href="/portfolio/design">Design</Link>
+                            <Link href="/portfolio/filter/[porto_id]" as="/portfolio/filter/1">Design</Link>
                           </li>
                           <li>
-                            <Link href="/portfolio/webDev">
+                            <Link href="/portfolio/filter/[porto_id]" as="/portfolio/filter/2">
                               Web Development{" "}
                             </Link>
                           </li>
                           <li>
-                            <Link href="/portfolio/digitalMarket">
+                            <Link href="/portfolio/filter/[porto_id]" as="/portfolio/filter/3">
                               Digital Marketing{" "}
                             </Link>
                           </li>
@@ -197,15 +196,15 @@ export default function Header() {
                         <Link href="/portfolio/portfolio">Portofolio </Link>
                         <ul>
                           <li>
-                            <Link href="/portfolio/design">Design</Link>
+                            <Link href="/portfolio/filter/[porto_id]" as="/portfolio/filter/1">Design</Link>
                           </li>
                           <li>
-                            <Link href="/portfolio/webDev">
+                            <Link href="/portfolio/filter/[porto_id]" as="/portfolio/filter/2">
                               Web Development{" "}
                             </Link>
                           </li>
                           <li>
-                            <Link href="/portfolio/digitalMarket">
+                            <Link href="/portfolio/filter/[porto_id]" as="/portfolio/filter/3">
                               Digital Marketing{" "}
                             </Link>
                           </li>
@@ -232,10 +231,8 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </header>
-      {/* main-header end */}
-      {/* Mobile Menu */}
-      <div className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
+
+      <div className={`mobile-menu ${isMenuOpen ? "open" : ""}`} >
         {/* <div className="menu-backdrop"></div> */}
         <div className="close-btn" onClick={toggleMenu}>
           <i className="icon-fa-times" />
@@ -279,13 +276,15 @@ export default function Header() {
                 <Link href="/portfolio/portfolio">Portofolio </Link>
                 <ul>
                   <li>
-                    <Link href="/portfolio/design">Design</Link>
+                    <Link href="/portfolio/filter/[porto_id]" as="/portfolio/filter/1">Design</Link>
                   </li>
                   <li>
-                    <Link href="/portfolio/webDev">Web Development </Link>
+                    <Link href="/portfolio/filter/[porto_id]" as="/portfolio/filter/2">
+                      Web Development{" "}
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/portfolio/digitalMarket">
+                    <Link href="/portfolio/filter/[porto_id]" as="/portfolio/filter/3">
                       Digital Marketing{" "}
                     </Link>
                   </li>
@@ -299,23 +298,13 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          {/* <div className="contact-info">
-            <h4>Contact Info</h4>
-            <ul>
-              <li>Jl. Kapuk Kebon Jahe Blok A No. 30 DKI Jakarta, 11720</li>
-              <li>
-                <a href="tel:08558833691">08558833691</a>
-              </li>
-              <li>
-                <a href="mailto:quantumdigitaldeveloper@gmail.com">
-                  quantumdigitaldeveloper@gmail.com
-                </a>
-              </li>
-            </ul>
-          </div> */}
+
         </nav>
       </div>
-      {/* End Mobile Menu */}
-    </>
+
+      </header>
   );
+
+
 }
+export default Header;

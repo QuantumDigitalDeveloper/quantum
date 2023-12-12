@@ -2,12 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import Header from "../components/layout/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+
+export default  function Home() {
   return (
     <>
+      {/*<Header data={porto}/>*/}
       {/* banner-one */}
       <section className="banner__one ">
         <div className="pattern-layer">

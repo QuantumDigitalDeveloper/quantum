@@ -3,43 +3,54 @@ import Link from "next/link";
 import {useRouter} from "next/router";
 
 
-
-export async function getStaticProps() {
+export async function getStaticProps({params}) {
   try {
-    const [res, res2] = await Promise.all([
-      fetch("http://127.0.0.1:8000/api/gallery").then((res) => res.json()),
-        fetch("http://127.0.0.1:8000/api/porto").then((res) => res.json()),
-    ]);
+    const id = params.porto_id;
+    const response = await fetch("http://127.0.0.1:8000/api/categories?porto_id=" + id);
+    const response2 = await fetch("http://127.0.0.1:8000/api/gallery?porto_id=" + id);
+    const { data: category } = await response.json();
+    const { data: gallery } = await response2.json();
 
-    const { data: gallery } = res;
-    const { data: porto } = res2;
+    // console.log("Data fetched successfully:", category);
 
     return {
-        props: {
-            gallery,
-            porto,
-        },
-        };
-    } catch (error) {
-        console.error("Error fetching data:", error);
-        return {
-            props: {
-                category: null,
-                porto: null,
-            },
-        };
-    }
-  }
+      props: {
+        category,
+        gallery,
+      },
 
-
-
-export default function portfolio({ gallery, porto }) {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    const router = useRouter();
-
-    const handleClick = (id) => {
-        router.push('/portfolio/filter/[porto_id]', `/portfolio/filter/${id}`);
     };
+
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return {
+      props: {
+        category: null,
+      },
+    };
+  }
+}
+
+export async function getStaticPaths() {
+     const response = await fetch("http://127.0.0.1:8000/api/categories");
+        const category = await response.json();
+        const paths = category.data.map((item) => ({
+            params: { porto_id: item.id.toString() },
+        }));
+        return { paths, fallback: true };
+}
+
+
+const filter = ({ category, gallery }) => {
+  const router = useRouter();
+
+  const handleClick = (id, id2) => {
+    router.push('/portfolio/[id]/[category_id]', `/portfolio/${id}/${id2}`);
+  };
+
+  if (router.isFallback) {
+    return <div>Loading...</div>
+  }
 
   return (
     <>
@@ -62,26 +73,25 @@ export default function portfolio({ gallery, porto }) {
                 <span> -</span>Projects{" "}
               </li>
             </ul>
-            <h1 className="title">Projects</h1>
+            <h1 className="title">{category.length > 0 && category[0].porto && category[0].porto.name}</h1>
           </div>
         </div>
       </section>
       {/* page-title end*/}
       <div class="portfolio__menu">
-        <button class="active" data-filter="*">
+        <button  class="active" data-filter="*">
           SEE ALL
         </button>
-          {porto.map((item) => (
-              // eslint-disable-next-line react/jsx-key
-              <button  key={item.id} onClick={() => handleClick(item.id)} data-filter=".cat1" class="">
-                {item.name}
-              </button>
-          ))}
+        {category.map((item) => (
+            <button  key={item.id} onClick={() => handleClick(item.porto_id, item.id)} data-filter=".cat1" className="">
+              {item.name}
+            </button>
+        ))}
       </div>
       {/* project-page */}
       <div className="project__page p_relative see__pad">
         <div className="row">
-          {gallery.map((item) => (
+          {gallery.length > 0 && gallery.map((item) => (
               // eslint-disable-next-line react/jsx-key
               <div className="col-lg-3 col-md-6 colsm-12">
                 <div className="portfolio__block p_relative">
@@ -113,7 +123,7 @@ export default function portfolio({ gallery, porto }) {
                   </div>
                 </div>
               </div>
-            ))}
+          ))}
         </div>
       </div>
       {/* pricing-page end*/}
@@ -130,3 +140,5 @@ export default function portfolio({ gallery, porto }) {
     </>
   );
 }
+
+export default filter;
