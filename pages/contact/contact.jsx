@@ -1,6 +1,32 @@
-import React from "react";
+import React, { useRef } from "react";
+import { useRouter } from "next/router";
 
-export default function contact() {
+// export default function contact() {
+const Contact = () => {
+  const router = useRouter();
+  const formRef = useRef(null);
+
+  const handleSubmit = async () => {
+    // Ensure formRef.current is an HTMLFormElement
+    if (formRef.current instanceof HTMLFormElement) {
+      // Extract form data
+      const formData = new FormData(formRef.current);
+      const name = formData.get("name");
+      const email = formData.get("email");
+      const subject = formData.get("subject");
+      const phone = formData.get("phone");
+      const message = formData.get("message");
+
+      // Construct your WhatsApp link with the form data
+      const whatsappLink = `https://wa.me/628558833691?text=Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0APhone: ${phone}%0AMessage: ${message}`;
+
+      // Redirect to WhatsApp
+      window.location.href = whatsappLink;
+    } else {
+      console.error("formRef.current is not an HTMLFormElement");
+    }
+  };
+
   return (
     <>
       {/* page-title */}
@@ -73,8 +99,9 @@ export default function contact() {
                 </div>
                 <div className="form-inner">
                   <form
-                    method="post"
-                    action="http://test.valorwide.com/datamatrix/contact.php"
+                    ref={formRef}
+                    // method="post"
+                    // action="http://test.valorwide.com/datamatrix/contact.php"
                     className="default-form"
                   >
                     <div className="row clearfix">
@@ -120,7 +147,8 @@ export default function contact() {
                       <div className="col-xl-12 form-group message-btn btn-box">
                         <button
                           className="theme-btn theme-btn-one"
-                          type="submit"
+                          type="button"
+                          onClick={handleSubmit}
                           name="submit-form"
                         >
                           Send your Message
@@ -144,4 +172,6 @@ export default function contact() {
       {/* google-map */}
     </>
   );
-}
+};
+// }
+export default Contact;

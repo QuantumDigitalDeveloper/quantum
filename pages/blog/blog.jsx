@@ -97,7 +97,7 @@ export default function blog() {
                         <li>
                           {" "}
                           <i className="icon-15" />
-                          30 October 2023
+                          24 Agustus 2023
                         </li>
                         <li className="two" />
                         <li>
@@ -143,7 +143,7 @@ export default function blog() {
                         <li>
                           {" "}
                           <i className="icon-15" />
-                          30 October 2023
+                          12 Maret 2023
                         </li>
                         <li className="two" />
                         <li>
@@ -189,7 +189,7 @@ export default function blog() {
                         <li>
                           {" "}
                           <i className="icon-15" />
-                          30 October 2023
+                          18 Februari 2023
                         </li>
                         <li className="two" />
                         <li>
@@ -232,8 +232,7 @@ export default function blog() {
                       <ul>
                         <li>
                           {" "}
-                          <i className="icon-15" />
-                          30 October 2023
+                          <i className="icon-15" />2 Januari 2023
                         </li>
                         <li className="two" />
                         <li>
@@ -279,7 +278,7 @@ export default function blog() {
                         <li>
                           {" "}
                           <i className="icon-15" />
-                          30 October 2023
+                          26 November 2022
                         </li>
                         <li className="two" />
                         <li>
@@ -325,7 +324,7 @@ export default function blog() {
                         <li>
                           {" "}
                           <i className="icon-15" />
-                          30 October 2023
+                          19 September 2022
                         </li>
                         <li className="two" />
                         <li>
@@ -370,8 +369,7 @@ export default function blog() {
                       <ul>
                         <li>
                           {" "}
-                          <i className="icon-15" />
-                          30 October 2023
+                          <i className="icon-15" />8 Juli 2022
                         </li>
                         <li className="two" />
                         <li>
@@ -417,7 +415,7 @@ export default function blog() {
                         <li>
                           {" "}
                           <i className="icon-15" />
-                          30 October 2023
+                          20 Mei 2022
                         </li>
                         <li className="two" />
                         <li>

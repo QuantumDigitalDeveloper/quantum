@@ -209,10 +209,10 @@ export default function about() {
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Kristin Watson</h3>
+                  <h3>Afif F. Rohman</h3>
                 </div>
                 <div className="team__media">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a href="#">FB.</a>
                     </li>
@@ -222,7 +222,7 @@ export default function about() {
                     <li>
                       <a href="#">LI</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -238,10 +238,10 @@ export default function about() {
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Devon Lane</h3>
+                  <h3>Nur Ikhwan</h3>
                 </div>
                 <div className="team__media">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a href="#">FB.</a>
                     </li>
@@ -251,7 +251,7 @@ export default function about() {
                     <li>
                       <a href="#">LI</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -267,10 +267,10 @@ export default function about() {
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Kristin Watson</h3>
+                  <h3>Bagus Ikhsani</h3>
                 </div>
                 <div className="team__media">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a href="#">FB.</a>
                     </li>
@@ -280,7 +280,7 @@ export default function about() {
                     <li>
                       <a href="#">LI</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -305,7 +305,7 @@ export default function about() {
       </div>
       {/* pride-section-end */}
       {/* pricing-section */}
-      <section className="pricing__section see__pad p_relative">
+      {/* <section className="pricing__section see__pad p_relative">
         <div className="pattern-layer">
           <div
             className="pattern-4 p_absolute"
@@ -411,7 +411,7 @@ export default function about() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* pricing-section-end */}
     </>
   );

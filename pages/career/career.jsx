@@ -49,7 +49,7 @@ export default function career() {
                   data-wow-delay="100ms"
                   data-wow-duration="1500ms"
                 >
-                  <img src="/assets/images/resource/about-us.png" alt="" />
+                  <img src="/assets/images/resource/video.jpg" alt="" />
                 </figure>
                 {/* <div
                   className="funfact__content about"
@@ -189,8 +189,32 @@ export default function career() {
               </div>
             </div>
           </div>
-          <div className="col-lg-2" />
-          <div className="col-lg-4 col-md-12 ">
+          <div className="col-lg-5 col-md-12">
+            <div className="about__block p_relative">
+              <figure
+                className="wow zoomIn animated"
+                data-wow-delay="100ms"
+                data-wow-duration="1500ms"
+              >
+                <img src="/assets/images/resource/vector.jpg" alt="" />
+              </figure>
+              {/* <div
+                  className="funfact__content about"
+                  style={{
+                    backgroundImage: "url(/assets/images/shapes/shape-01.png)",
+                  }}
+                >
+                  <div className="count-outer count-box">
+                    <h1 className="count-text" data-speed={1500} data-stop={2}>
+                      0
+                    </h1>
+                    <span>K+</span>
+                  </div>
+                  <p>World wide Client</p>
+                </div> */}
+            </div>
+          </div>
+          {/* <div className="col-lg-4 col-md-12 ">
             <div className="banner__right p_relative">
               <div className="image__one">
                 <figure
@@ -199,11 +223,11 @@ export default function career() {
                   data-wow-duration="1500ms"
                   style={{ visibility: "visible" }}
                 >
-                  <img src="/assets/images/banner/banner-01.png" alt="" />
+                  <img src="/assets/images/resource/vector.jpg" alt="" />
                 </figure>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

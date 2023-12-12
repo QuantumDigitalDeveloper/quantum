@@ -6,8 +6,7 @@ import Header from "../components/layout/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
-export default  function Home() {
+export default function Home() {
   return (
     <>
       {/*<Header data={porto}/>*/}
@@ -372,10 +371,10 @@ export default  function Home() {
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Kristin Watson</h3>
+                  <h3>Afif F. Rohman</h3>
                 </div>
                 <div className="team__media">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a href="#">FB.</a>
                     </li>
@@ -385,7 +384,7 @@ export default  function Home() {
                     <li>
                       <a href="#">LI</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -401,10 +400,10 @@ export default  function Home() {
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Devon Lane</h3>
+                  <h3>Nur Ikhwan</h3>
                 </div>
                 <div className="team__media">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a href="#">FB.</a>
                     </li>
@@ -414,7 +413,7 @@ export default  function Home() {
                     <li>
                       <a href="#">LI</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -430,10 +429,10 @@ export default  function Home() {
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Kristin Watson</h3>
+                  <h3>Bagus Ikhsani</h3>
                 </div>
                 <div className="team__media">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a href="#">FB.</a>
                     </li>
@@ -443,7 +442,7 @@ export default  function Home() {
                     <li>
                       <a href="#">LI</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>

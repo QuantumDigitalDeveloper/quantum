@@ -29,7 +29,7 @@ export default function footer() {
           <div className="footer-widget-section">
             <div className="auto-container">
               <div className="row clearfix">
-                <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+                <div className="col-lg-4 col-md-6 col-sm-12 footer-column">
                   <div
                     className="footer-widget footer-logo-widget wow fadeInUp animated"
                     data-wow-delay="00ms"
@@ -113,7 +113,7 @@ export default function footer() {
                           Jl. Kapuk Kebon Jahe Blok A No. 30 DKI Jakarta, 11720
                         </p>
                       </div>
-                      <a href="tell:0855833691">08558833691</a>
+                      <a href="tell:08558833691">08558833691</a>
                       <br />
                       <a href="mailto:quantumdigitaldeveloper@gmail.com">
                         quantumdigitaldeveloper@gmail.com
@@ -121,7 +121,7 @@ export default function footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 col-md-6 col-sm-12 footer-column pr-0">
+                <div className="col-lg-4 col-md-6 col-sm-12 footer-column pr-0">
                   <div
                     className="footer-widget gallery-widget wow fadeInUp animated"
                     data-wow-delay="600ms"
@@ -190,6 +190,38 @@ export default function footer() {
                               >
                                 <img
                                   src="/assets/images/resource/gallery-04.png"
+                                  alt=""
+                                />
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="inner__box">
+                            <div className="image__box">
+                              <a
+                                className="lightbox-image"
+                                data-fancybox="gallery"
+                                href="/assets/images/resource/gallery-05.png"
+                              >
+                                <img
+                                  src="/assets/images/resource/gallery-05.png"
+                                  alt=""
+                                />
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="inner__box">
+                            <div className="image__box">
+                              <a
+                                className="lightbox-image"
+                                data-fancybox="gallery"
+                                href="/assets/images/resource/gallery-05.png"
+                              >
+                                <img
+                                  src="/assets/images/resource/gallery-05.png"
                                   alt=""
                                 />
                               </a>
