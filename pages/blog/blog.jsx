@@ -54,9 +54,9 @@ export default function blog() {
                           30 October 2023
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -100,9 +100,9 @@ export default function blog() {
                           24 Agustus 2023
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -146,9 +146,9 @@ export default function blog() {
                           12 Maret 2023
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -192,9 +192,9 @@ export default function blog() {
                           18 Februari 2023
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -235,9 +235,9 @@ export default function blog() {
                           <i className="icon-15" />2 Januari 2023
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -281,9 +281,9 @@ export default function blog() {
                           26 November 2022
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -327,9 +327,9 @@ export default function blog() {
                           19 September 2022
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -372,9 +372,9 @@ export default function blog() {
                           <i className="icon-15" />8 Juli 2022
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -418,9 +418,9 @@ export default function blog() {
                           20 Mei 2022
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>

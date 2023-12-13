@@ -49,7 +49,7 @@ export default function career() {
                   data-wow-delay="100ms"
                   data-wow-duration="1500ms"
                 >
-                  <img src="/assets/images/resource/video.jpg" alt="" />
+                  <img src="/assets/images/resource/Vids.png" alt="" />
                 </figure>
                 {/* <div
                   className="funfact__content about"
@@ -196,7 +196,7 @@ export default function career() {
                 data-wow-delay="100ms"
                 data-wow-duration="1500ms"
               >
-                <img src="/assets/images/resource/vector.jpg" alt="" />
+                <img src="/assets/images/resource/Vector.png" alt="" />
               </figure>
               {/* <div
                   className="funfact__content about"
