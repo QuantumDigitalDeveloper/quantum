@@ -196,7 +196,7 @@ export default function about() {
               <h2>We Have Expert Member</h2>
             </div>
           </div>
-          <div className="row justify-content-between">
+          <div className="row justify-content-between ">
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div
                 className="team__block wow fadeInUp animated"
@@ -205,24 +205,18 @@ export default function about() {
               >
                 <div className="team__img">
                   <figure>
-                    <img src="/assets/images/resource/bagus.jpeg" alt="" />
+                    <img src="../../assets/images/resource/afif1.png" alt="" />
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Afif F. Rohman</h3>
+                  <h3>AFIF F. ROHMAN</h3>
                 </div>
                 <div className="team__media">
-                  {/* <ul>
+                  <ul>
                     <li>
-                      <a href="#">FB.</a>
+                      <a href="#">FrontEnd Developer</a>
                     </li>
-                    <li>
-                      <a href="#">TW.</a>
-                    </li>
-                    <li>
-                      <a href="#">LI</a>
-                    </li>
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
             </div>
@@ -234,24 +228,18 @@ export default function about() {
               >
                 <div className="team__img">
                   <figure>
-                    <img src="/assets/images/resource/bagus.jpeg" alt="" />
+                    <img src="../../assets/images/resource/dopen1.png" alt="" />
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Nur Ikhwan</h3>
+                  <h3>NUR IKHWAN</h3>
                 </div>
                 <div className="team__media">
-                  {/* <ul>
+                  <ul>
                     <li>
-                      <a href="#">FB.</a>
+                      <a href="#">Team Leader</a>
                     </li>
-                    <li>
-                      <a href="#">TW.</a>
-                    </li>
-                    <li>
-                      <a href="#">LI</a>
-                    </li>
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
             </div>
@@ -263,24 +251,18 @@ export default function about() {
               >
                 <div className="team__img">
                   <figure>
-                    <img src="/assets/images/resource/bagus.jpeg" alt="" />
+                    <img src="../../assets/images/resource/bagus2.png" alt="" />
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Bagus Ikhsani</h3>
+                  <h3>BAGUS IKHSANI</h3>
                 </div>
                 <div className="team__media">
-                  {/* <ul>
+                  <ul>
                     <li>
-                      <a href="#">FB.</a>
+                      <a href="#">BackEnd Developer</a>
                     </li>
-                    <li>
-                      <a href="#">TW.</a>
-                    </li>
-                    <li>
-                      <a href="#">LI</a>
-                    </li>
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
             </div>
@@ -305,7 +287,7 @@ export default function about() {
       </div>
       {/* pride-section-end */}
       {/* pricing-section */}
-      {/* <section className="pricing__section see__pad p_relative">
+      <section className="pricing__section see__pad p_relative">
         <div className="pattern-layer">
           <div
             className="pattern-4 p_absolute"
@@ -334,7 +316,7 @@ export default function about() {
                 <div className="price__data">
                   <h5>Basic</h5>
                   <h4>
-                    <span>$</span>200 / <span>m</span>
+                    <span>Rp </span>0<span>,-</span>
                   </h4>
                 </div>
                 <div className="price__block">
@@ -362,7 +344,7 @@ export default function about() {
                 <div className="price__data">
                   <h5>Personal</h5>
                   <h4>
-                    <span>$</span>300 / <span>m</span>
+                    <span>Rp </span>0<span>,-</span>
                   </h4>
                 </div>
                 <div className="price__block">
@@ -390,7 +372,7 @@ export default function about() {
                 <div className="price__data">
                   <h5>Business</h5>
                   <h4>
-                    <span>$</span>500 / <span>m</span>
+                    <span>Rp </span>0<span>,-</span>
                   </h4>
                 </div>
                 <div className="price__block">
@@ -411,7 +393,7 @@ export default function about() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* pricing-section-end */}
     </>
   );

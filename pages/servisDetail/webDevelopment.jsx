@@ -156,6 +156,115 @@ export default function webDevelopment() {
         </div>
       </div>
       {/* page-title end*/}
+      {/* pricing-section */}
+      <section className="pricing__section see__pad p_relative">
+        <div className="pattern-layer">
+          <div
+            className="pattern-4 p_absolute"
+            data-parallax='{"x": 100}'
+            style={{
+              backgroundImage: "url(/assets/images/shapes/shape-04.png)",
+            }}
+          />
+        </div>
+        <div className="auto-container">
+          <div className="title__data">
+            <div className="sub__title">
+              <h4>Pricing</h4>
+            </div>
+            <div className="title">
+              <h2>Product Price</h2>
+            </div>
+          </div>
+          <div className="row">
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated"
+              data-wow-delay="00ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="price__content p_relative">
+                <div className="price__data">
+                  <h5>Basic</h5>
+                  <h4>
+                    <span>Rp </span>0<span>,-</span>
+                  </h4>
+                </div>
+                <div className="price__block">
+                  <div className="price__list">
+                    <ul>
+                      <li>20GB Space</li>
+                      <li>10GB Bandwidth</li>
+                      <li>2 Databases </li>
+                      <li>1 Accounts</li>
+                      <li>24th Support</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="price__icon">
+                  <i className="icon-16" />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated"
+              data-wow-delay="200ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="price__content p_relative">
+                <div className="price__data">
+                  <h5>Personal</h5>
+                  <h4>
+                    <span>Rp </span>0<span>,-</span>
+                  </h4>
+                </div>
+                <div className="price__block">
+                  <div className="price__list">
+                    <ul>
+                      <li>20GB Space</li>
+                      <li>10GB Bandwidth</li>
+                      <li>2 Databases </li>
+                      <li>1 Accounts</li>
+                      <li>24th Support</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="price__icon">
+                  <i className="icon-16" />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated"
+              data-wow-delay="400ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="price__content p_relative">
+                <div className="price__data">
+                  <h5>Business</h5>
+                  <h4>
+                    <span>Rp </span>0<span>,-</span>
+                  </h4>
+                </div>
+                <div className="price__block">
+                  <div className="price__list">
+                    <ul>
+                      <li>20GB Space</li>
+                      <li>10GB Bandwidth</li>
+                      <li>2 Databases </li>
+                      <li>1 Accounts</li>
+                      <li>24th Support</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="price__icon">
+                  <i className="icon-16" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* pricing-section-end */}
       {/* service-contact */}
       <Contact />
       {/* service-contact-end */}
