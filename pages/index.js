@@ -367,24 +367,18 @@ export default function Home() {
               >
                 <div className="team__img">
                   <figure>
-                    <img src="assets/images/resource/bagus.jpeg" alt="" />
+                    <img src="assets/images/resource/afif1.png" alt="" />
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Afif F. Rohman</h3>
+                  <h3>AFIF F. ROHMAN</h3>
                 </div>
                 <div className="team__media">
-                  {/* <ul>
+                  <ul>
                     <li>
-                      <a href="#">FB.</a>
+                      <a href="#">FrontEnd Developer</a>
                     </li>
-                    <li>
-                      <a href="#">TW.</a>
-                    </li>
-                    <li>
-                      <a href="#">LI</a>
-                    </li>
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
             </div>
@@ -396,24 +390,18 @@ export default function Home() {
               >
                 <div className="team__img">
                   <figure>
-                    <img src="assets/images/resource/bagus.jpeg" alt="" />
+                    <img src="assets/images/resource/dopen1.png" alt="" />
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Nur Ikhwan</h3>
+                  <h3>NUR IKHWAN</h3>
                 </div>
                 <div className="team__media">
-                  {/* <ul>
+                  <ul>
                     <li>
-                      <a href="#">FB.</a>
+                      <a href="#">Team Leader</a>
                     </li>
-                    <li>
-                      <a href="#">TW.</a>
-                    </li>
-                    <li>
-                      <a href="#">LI</a>
-                    </li>
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
             </div>
@@ -425,24 +413,18 @@ export default function Home() {
               >
                 <div className="team__img">
                   <figure>
-                    <img src="assets/images/resource/bagus.jpeg" alt="" />
+                    <img src="assets/images/resource/bagus1.png" alt="" />
                   </figure>
                 </div>
                 <div className="team__name">
-                  <h3>Bagus Ikhsani</h3>
+                  <h3>BAGUS IKHSANI</h3>
                 </div>
                 <div className="team__media">
-                  {/* <ul>
+                  <ul>
                     <li>
-                      <a href="#">FB.</a>
+                      <a href="#">BackEnd Developer</a>
                     </li>
-                    <li>
-                      <a href="#">TW.</a>
-                    </li>
-                    <li>
-                      <a href="#">LI</a>
-                    </li>
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
             </div>
@@ -802,8 +784,8 @@ export default function Home() {
                 <div className="inner-box p_relative">
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
-                      <Link href="/blog/blogDetail">
-                        <img src="assets/images/news/news-1.jpg" alt="" />
+                      <Link href="/blog/design/detail">
+                        <img src="/assets/images/news/news-1.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -811,24 +793,26 @@ export default function Home() {
                         <li>
                           {" "}
                           <i className="icon-15" />
-                          26 July 2023
+                          30 October 2023
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
                   <div className="lower___content p_relative">
                     <h4>
-                      <Link href="/blog/blogDetail">
-                        4 Cybersecurity Takeaways from China’s Largest Data
-                        Breach
+                      <Link href="/blog/design/detail">
+                        11 Prinsip Desain seorang Designer
                       </Link>
                     </h4>
                     <div className="btn__box__two">
-                      <Link href="/blog/blogDetail" className="theme__btn__two">
+                      <Link
+                        href="/blog/design/detail"
+                        className="theme__btn__two"
+                      >
                         <i className="icon-02" />
                       </Link>
                     </div>
@@ -839,15 +823,15 @@ export default function Home() {
             <div className="col-lg-4 col-md-6 col-sm-12 news__block">
               <div
                 className="news___block wow slideInUp animated animated"
-                data-wow-delay="200ms"
+                data-wow-delay="00ms"
                 data-wow-duration="1500ms"
                 style={{ visibility: "visible" }}
               >
                 <div className="inner-box p_relative">
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
-                      <Link href="/blog/blogDetail">
-                        <img src="assets/images/news/news-2.jpg" alt="" />
+                      <Link href="/blog/webDev/htmlDetail">
+                        <img src="/assets/images/news/news-2.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -855,24 +839,26 @@ export default function Home() {
                         <li>
                           {" "}
                           <i className="icon-15" />
-                          26 July 2023
+                          24 Agustus 2023
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
                   <div className="lower___content p_relative">
                     <h4>
-                      <Link href="/blog/blogDetail">
-                        4 Cybersecurity Takeaways from China’s Largest Data
-                        Breach
+                      <Link href="/blog/webDev/htmlDetail">
+                        HTML (Hypertext Markup Language)
                       </Link>
                     </h4>
                     <div className="btn__box__two">
-                      <Link href="/blog/blogDetail" className="theme__btn__two">
+                      <Link
+                        href="/blog/webDev/htmlDetail"
+                        className="theme__btn__two"
+                      >
                         <i className="icon-02" />
                       </Link>
                     </div>
@@ -883,15 +869,15 @@ export default function Home() {
             <div className="col-lg-4 col-md-6 col-sm-12 news__block">
               <div
                 className="news___block wow slideInUp animated animated"
-                data-wow-delay="400ms"
+                data-wow-delay="00ms"
                 data-wow-duration="1500ms"
                 style={{ visibility: "visible" }}
               >
                 <div className="inner-box p_relative">
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
-                      <Link href="/blog/blogDetail">
-                        <img src="assets/images/news/news-3.jpg" alt="" />
+                      <Link href="/blog/digital/contentDetail">
+                        <img src="/assets/images/news/news-3.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -899,24 +885,26 @@ export default function Home() {
                         <li>
                           {" "}
                           <i className="icon-15" />
-                          26 July 2023
+                          20 Mei 2022
                         </li>
                         <li className="two" />
-                        <li>
+                        {/* <li>
                           <i className="icon-09" /> Admin
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
                   <div className="lower___content p_relative">
                     <h4>
-                      <Link href="/blog/blogDetail">
-                        4 Cybersecurity Takeaways from China’s Largest Data
-                        Breach
+                      <Link href="/blog/digital/contentDetail">
+                        Content Marketing
                       </Link>
                     </h4>
                     <div className="btn__box__two">
-                      <Link href="/blog/blogDetail" className="theme__btn__two">
+                      <Link
+                        href="/blog/digital/contentDetail"
+                        className="theme__btn__two"
+                      >
                         <i className="icon-02" />
                       </Link>
                     </div>

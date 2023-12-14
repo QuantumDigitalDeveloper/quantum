@@ -77,8 +77,8 @@ const Contact = () => {
                       <i className="icon-20" />
                     </div>
                     <div className="contact__text">
-                      <a href="mailto:quantumdigitaldeveloper@gmail.com">
-                        quantumdigitaldeveloper@gmail.com
+                      <a href="mailto:customer.service@quantech.id">
+                        customer.service@quantech.id
                       </a>
                     </div>
                   </div>

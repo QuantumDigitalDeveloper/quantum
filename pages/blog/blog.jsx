@@ -89,7 +89,7 @@ export default function blog() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/webDev/htmlDetail">
-                        <img src="/assets/images/news/news-1.jpg" alt="" />
+                        <img src="/assets/images/news/news-2.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -135,7 +135,7 @@ export default function blog() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/webDev/cssDetail">
-                        <img src="/assets/images/news/news-1.jpg" alt="" />
+                        <img src="/assets/images/news/news-3.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -181,7 +181,7 @@ export default function blog() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/webDev/jsDetail">
-                        <img src="/assets/images/news/news-1.jpg" alt="" />
+                        <img src="/assets/images/news/news-4.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -225,7 +225,7 @@ export default function blog() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/webDev/sscDetail">
-                        <img src="/assets/images/news/news-1.jpg" alt="" />
+                        <img src="/assets/images/news/news-5.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -270,7 +270,7 @@ export default function blog() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/digital/seoDetail">
-                        <img src="/assets/images/news/news-1.jpg" alt="" />
+                        <img src="/assets/images/news/news-6.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -362,7 +362,7 @@ export default function blog() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/digital/socialDetail">
-                        <img src="/assets/images/news/news-1.jpg" alt="" />
+                        <img src="/assets/images/news/news-2.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -407,7 +407,7 @@ export default function blog() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/digital/contentDetail">
-                        <img src="/assets/images/news/news-1.jpg" alt="" />
+                        <img src="/assets/images/news/news-3.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="post__date">

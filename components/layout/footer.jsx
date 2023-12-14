@@ -115,8 +115,8 @@ export default function footer() {
                       </div>
                       <a href="tell:08558833691">08558833691</a>
                       <br />
-                      <a href="mailto:quantumdigitaldeveloper@gmail.com">
-                        quantumdigitaldeveloper@gmail.com
+                      <a href="mailto:customer.service@quantech.id">
+                        customer.service@quantech.id
                       </a>
                     </div>
                   </div>
