@@ -41,7 +41,7 @@ export async function getStaticPaths() {
 }
 
 
-const filter = ({ category, gallery }) => {
+const Filter = ({ category, gallery }) => {
   const router = useRouter();
 
   const handleClick = (id, id2) => {
@@ -141,4 +141,4 @@ const filter = ({ category, gallery }) => {
   );
 }
 
-export default filter;
+export default Filter;
