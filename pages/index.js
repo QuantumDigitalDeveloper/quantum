@@ -413,7 +413,7 @@ export default function Home() {
               >
                 <div className="team__img">
                   <figure>
-                    <img src="assets/images/resource/bagus1.png" alt="" />
+                    <img src="assets/images/resource/bagus2.png" alt="" />
                   </figure>
                 </div>
                 <div className="team__name">
