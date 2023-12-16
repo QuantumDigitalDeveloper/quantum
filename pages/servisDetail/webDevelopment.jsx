@@ -185,18 +185,19 @@ export default function webDevelopment() {
               <div className="price__content p_relative">
                 <div className="price__data">
                   <h5>Basic</h5>
-                  <h4>
-                    <span>Rp </span>0<span>,-</span>
-                  </h4>
+                  <h4>Rp 1.700.000</h4>
                 </div>
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>20GB Space</li>
-                      <li>10GB Bandwidth</li>
-                      <li>2 Databases </li>
-                      <li>1 Accounts</li>
-                      <li>24th Support</li>
+                      <li>Domain (.xyz / .my.id / .shop)</li>
+                      <li>SSL (HTTPS)</li>
+                      <li>Penyimpanan 700MB</li>
+                      <li>Unlimited Bandwith</li>
+                      <li>Maks Page 5</li>
+                      <li>Free Design 1 Banner</li>
+                      <li>Belum Termasuk PPN</li>
+                      <li>DP 50%</li>
                     </ul>
                   </div>
                 </div>
@@ -212,19 +213,22 @@ export default function webDevelopment() {
             >
               <div className="price__content p_relative">
                 <div className="price__data">
-                  <h5>Personal</h5>
-                  <h4>
-                    <span>Rp </span>0<span>,-</span>
-                  </h4>
+                  <h5>Plus</h5>
+                  <h4>Rp 2.100.000</h4>
                 </div>
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>20GB Space</li>
-                      <li>10GB Bandwidth</li>
-                      <li>2 Databases </li>
-                      <li>1 Accounts</li>
-                      <li>24th Support</li>
+                      <li>Domain (.com / .id)</li>
+                      <li>SSL (HTTPS)</li>
+                      <li>Penyimpanan 1GB</li>
+                      <li>Unlimited Bandwith</li>
+                      <li>Maks Page 10</li>
+                      <li>Free Design 3 Banner</li>
+                      <li>Maks Revisi 2x</li>
+                      <li>Hapus Tag Powered by Quantum</li>
+                      <li>Belum Termasuk PPN</li>
+                      <li>DP 50%</li>
                     </ul>
                   </div>
                 </div>
@@ -240,19 +244,23 @@ export default function webDevelopment() {
             >
               <div className="price__content p_relative">
                 <div className="price__data">
-                  <h5>Business</h5>
-                  <h4>
-                    <span>Rp </span>0<span>,-</span>
-                  </h4>
+                  <h5>Profesional</h5>
+                  <h4>Rp 5.000.000</h4>
                 </div>
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>20GB Space</li>
-                      <li>10GB Bandwidth</li>
-                      <li>2 Databases </li>
-                      <li>1 Accounts</li>
-                      <li>24th Support</li>
+                      <li>Domain (.com / .id / .co.id / .net)</li>
+                      <li>SSL (HTTPS)</li>
+                      <li>Penyimpanan Unlimited</li>
+                      <li>Unlimited Bandwith</li>
+                      <li>Unlimited Page</li>
+                      <li>Free Design 5 Banner</li>
+                      <li>Maks Revisi 4x</li>
+                      <li>Fitur Payment Gateway</li>
+                      <li>Hapus Tag Powered by Quantum</li>
+                      <li>Belum Termasuk PPN</li>
+                      <li>DP 50%</li>
                     </ul>
                   </div>
                 </div>

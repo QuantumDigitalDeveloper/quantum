@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Contact from "../contact/contactService";
 
-export default function design() {
+export default function logo() {
   return (
     <>
       {/* page-title */}
@@ -21,7 +21,7 @@ export default function design() {
               </li>
               <li>
                 {" "}
-                <span> -</span>Social Media Design{" "}
+                <span> -</span>Logo{" "}
               </li>
             </ul>
             <h1 className="title">Services Details</h1>
@@ -41,8 +41,8 @@ export default function design() {
                   </div>
                   <ul className="service__details__1__cat">
                     <li>
-                      <Link href="/servisDetail/digitalMarketing">
-                        Digital Marketing <i className="icon-02" />
+                      <Link href="/servisDetail/design">
+                        Social Media Design <i className="icon-02" />
                       </Link>
                     </li>
                     <li>
@@ -86,7 +86,7 @@ export default function design() {
                   />
                 </figure>
                 <h2>
-                  Tingkatkan merek Anda dengan desain yang menginspirasi bersama{" "}
+                  Tingkatkan merek Anda dengan logo yang menginspirasi bersama{" "}
                   <span>Quantum.</span>{" "}
                 </h2>
                 <p>
