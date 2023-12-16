@@ -6,8 +6,8 @@ import {useRouter} from "next/router";
 export async function getStaticProps({params}) {
   try {
     const id = params.porto_id;
-    const response = await fetch("http://127.0.0.1:8000/api/categories?porto_id=" + id);
-    const response2 = await fetch("http://127.0.0.1:8000/api/gallery?porto_id=" + id);
+    const response = await fetch("https://api.quantech.id/api/categories?porto_id=" + id);
+    const response2 = await fetch("https://api.quantech.id/api/gallery?porto_id=" + id);
     const { data: category } = await response.json();
     const { data: gallery } = await response2.json();
 
@@ -32,7 +32,7 @@ export async function getStaticProps({params}) {
 }
 
 export async function getStaticPaths() {
-     const response = await fetch("http://127.0.0.1:8000/api/categories");
+     const response = await fetch("https://api.quantech.id/api/categories");
         const category = await response.json();
         const paths = category.data.map((item) => ({
             params: { porto_id: item.id.toString() },
@@ -44,9 +44,27 @@ export async function getStaticPaths() {
 const Filter = ({ category, gallery }) => {
   const router = useRouter();
 
+    const getRandomGalleryUrl = (categoryId) => {
+        const categoryGallery = gallery.filter((item) => item.category_id === categoryId);
+        if (categoryGallery.length > 0) {
+            const randomIndex = Math.floor(Math.random() * categoryGallery.length);
+            const {url, category} = categoryGallery[randomIndex];
+            return {category_id: categoryId, url, name: category.name, porto_id: category.porto_id};
+        }
+        return null;
+    };
+
+    // Mendapatkan satu URL acak per category_id dari galeri
+    const uniqueGalleryUrls = Array.from(new Set(gallery.map((item) => item.category_id)))
+        .map((categoryId) => getRandomGalleryUrl(categoryId));
+
   const handleClick = (id, id2) => {
     router.push('/portfolio/[id]/[category_id]', `/portfolio/${id}/${id2}`);
   };
+
+  const handleAll = (id) => {
+      router.push('/portfolio/filter/[porto_id]', `/portfolio/filter/${id}`);
+  }
 
   if (router.isFallback) {
     return <div>Loading...</div>
@@ -79,9 +97,11 @@ const Filter = ({ category, gallery }) => {
       </section>
       {/* page-title end*/}
       <div class="portfolio__menu">
-        <button  class="active" data-filter="*">
-          SEE ALL
+
+        <button  onClick={() => handleAll(category[0].porto_id)} class="active" data-filter="*">
+            SEE ALL
         </button>
+
         {category.map((item) => (
             <button  key={item.id} onClick={() => handleClick(item.porto_id, item.id)} data-filter=".cat1" className="">
               {item.name}
@@ -91,7 +111,7 @@ const Filter = ({ category, gallery }) => {
       {/* project-page */}
       <div className="project__page p_relative see__pad">
         <div className="row">
-          {gallery.length > 0 && gallery.map((item) => (
+            {uniqueGalleryUrls.map((item) => (
               // eslint-disable-next-line react/jsx-key
               <div className="col-lg-3 col-md-6 colsm-12">
                 <div className="portfolio__block p_relative">
@@ -103,7 +123,7 @@ const Filter = ({ category, gallery }) => {
                   <div className="lower__content p_absolute">
                     <div className="protfolio__text ">
                       <div className="text__block">
-                        <h4>{item.category.name}</h4>
+                          <h4>{item.name}</h4>
                         <p>Design</p>
                       </div>
                       <div className="text__block_two">
@@ -112,7 +132,8 @@ const Filter = ({ category, gallery }) => {
                     </div>
                     <div className="protfolio__button ">
                       <Link
-                          href="/portfolio/filter/design"
+                          href={`/portfolio/[id]/[category_id]`}
+                          as={`/portfolio/${item.porto_id}/${item.category_id}`}
                           className="theme-btn theme-btn-one"
                       >
                         {" "}
