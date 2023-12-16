@@ -113,7 +113,7 @@ export default function footer() {
                           Jl. Kapuk Kebon Jahe Blok A No. 30 DKI Jakarta, 11720
                         </p>
                       </div>
-                      <a href="tell:08558833691">08558833691</a>
+                      <a href="tel:08558833691">(+62) 855-8833-691 </a>
                       <br />
                       <a href="mailto:customer.service@quantech.id">
                         customer.service@quantech.id

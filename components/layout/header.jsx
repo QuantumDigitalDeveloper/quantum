@@ -30,8 +30,8 @@ const Header = () => {
                 <li>/</li>
                 <li>
                   <span>Email :</span>{" "}
-                  <a href="mailto:quantumdigitaldeveloper@gmail.com">
-                    quantumdigitaldeveloper@gmail.com
+                  <a href="mailto:customer.service@quantech.id">
+                    customer.service@quantech.id
                   </a>
                 </li>
               </ul>
@@ -84,7 +84,12 @@ const Header = () => {
                       <Link href="/servis/service">Service </Link>
                       <ul>
                         <li>
-                          <Link href="/servisDetail/design">Design </Link>
+                          <Link href="/servisDetail/logo">Logo </Link>
+                        </li>
+                        <li>
+                          <Link href="/servisDetail/design">
+                            Social Media Design{" "}
+                          </Link>
                         </li>
                         <li>
                           <Link href="/servisDetail/webDevelopment">
@@ -112,9 +117,17 @@ const Header = () => {
                         <li>
                           <Link
                             href="/portfolio/filter/[porto_id]"
+                            as="/portfolio/filter/3"
+                          >
+                            Logo
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/portfolio/filter/[porto_id]"
                             as="/portfolio/filter/1"
                           >
-                            Design
+                            Social Media Design
                           </Link>
                         </li>
                         <li>
@@ -175,7 +188,12 @@ const Header = () => {
                       <Link href="/servis/service">Service </Link>
                       <ul>
                         <li>
-                          <Link href="/servisDetail/design">Design </Link>
+                          <Link href="/servisDetail/logo">Logo </Link>
+                        </li>
+                        <li>
+                          <Link href="/servisDetail/design">
+                            Social Media Design{" "}
+                          </Link>
                         </li>
                         <li>
                           <Link href="/servisDetail/webDevelopment">
@@ -203,9 +221,17 @@ const Header = () => {
                         <li>
                           <Link
                             href="/portfolio/filter/[porto_id]"
+                            as="/portfolio/filter/3"
+                          >
+                            Logo
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/portfolio/filter/[porto_id]"
                             as="/portfolio/filter/1"
                           >
-                            Design
+                            Social Media Design
                           </Link>
                         </li>
                         <li>
@@ -262,7 +288,12 @@ const Header = () => {
                 <Link href="/servis/service">Service </Link>
                 <ul>
                   <li>
-                    <Link href="/servisDetail/design">Design </Link>
+                    <Link href="/servisDetail/logo">Logo </Link>
+                  </li>
+                  <li>
+                    <Link href="/servisDetail/design">
+                      Social Media Design{" "}
+                    </Link>
                   </li>
                   <li>
                     <Link href="/servisDetail/webDevelopment">
@@ -288,9 +319,17 @@ const Header = () => {
                   <li>
                     <Link
                       href="/portfolio/filter/[porto_id]"
+                      as="/portfolio/filter/3"
+                    >
+                      Logo
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/portfolio/filter/[porto_id]"
                       as="/portfolio/filter/1"
                     >
-                      Design
+                      Social Media Design
                     </Link>
                   </li>
                   <li>
