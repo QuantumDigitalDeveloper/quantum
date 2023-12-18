@@ -191,7 +191,11 @@ export default function logo() {
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>1 Opsi</li>
+                      <li>Logo 1 Pilihan</li>
+                      <li>Revisi 2x Minor</li>
+                      <li>2 - 4 Hari</li>
+                      <li>File Master CDR / AI / EPS / PSD</li>
+                      <li>Export JPG / PNG / PDF</li>
                     </ul>
                   </div>
                 </div>
@@ -213,7 +217,13 @@ export default function logo() {
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>2 Opsi</li>
+                      <li>Logo 2 Pilihan</li>
+                      <li>Revisi 3x Minor</li>
+                      <li>1 - 3 Hari</li>
+                      <li>File Master CDR / AI / EPS/ PSD</li>
+                      <li>Color Guide</li>
+                      <li>Kartu Nama</li>
+                      <li>Export JPG / PNG / PDF</li>
                     </ul>
                   </div>
                 </div>
@@ -235,7 +245,16 @@ export default function logo() {
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>3 Opsi</li>
+                      <li>Logo 4 Pilihan</li>
+                      <li>Revisi 5x</li>
+                      <li>1 - 7 Hari</li>
+                      <li>File Master CDR / AI / EPS / PSD</li>
+                      <li>Color Guide</li>
+                      <li>Branding Guideline</li>
+                      <li>Filosofi Logo</li>
+                      <li>Kartu Nama</li>
+                      <li>Amplop & Kop</li>
+                      <li>Export JPG / PNG / PDF</li>
                     </ul>
                   </div>
                 </div>

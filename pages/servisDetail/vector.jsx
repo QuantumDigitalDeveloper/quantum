@@ -163,8 +163,38 @@ export default function seoMarketing() {
         </div>
       </div>
       {/* page-title end*/}
+      {/* pride-section */}
+      <div className="pride__section p_relative see__pad">
+        <div
+          className="pride__layer"
+          style={{ backgroundImage: "url(/assets/images/resource/bg-04.jpg)" }}
+        />
+        <div className="auto-container">
+          <div className="pride__block">
+            <figure style={{ padding: "20px 0" }}>
+              <img src="/assets/images/Quantumsedang.png" alt="" />
+            </figure>
+            <h2>Daftar Harga Design Vector</h2>
+            <h2 style={{ color: "#f6ec4f" }}>Mulai dari Rp 350.000</h2>
+          </div>
+          <div
+            className="col-xl-12 form-group message-btn btn-box justify-content-center"
+            style={{ padding: "20px 0" }}
+          >
+            <a
+              href="https://wa.me/628558833691"
+              className="theme-btn theme-btn-one"
+              type="button"
+              name="submit-form"
+            >
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* pride-section-end */}
       {/* pricing-section */}
-      <section className="pricing__section see__pad p_relative">
+      {/* <section className="pricing__section see__pad p_relative">
         <div className="pattern-layer">
           <div
             className="pattern-4 p_absolute"
@@ -196,7 +226,9 @@ export default function seoMarketing() {
                 </div>
                 <div className="price__block">
                   <div className="price__list">
-                    <ul>{/* <li>1 Opsi</li> */}</ul>
+                    <ul>
+                      <li>1 Opsi</li>
+                    </ul>
                   </div>
                 </div>
                 <div className="price__icon">
@@ -206,7 +238,7 @@ export default function seoMarketing() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* pricing-section-end */}
       {/* service-contact */}
       <Contact />
