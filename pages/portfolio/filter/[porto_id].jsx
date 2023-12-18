@@ -63,17 +63,18 @@ const Filter = ({category, gallery, page, limit}) => {
     const router = useRouter();
     const [currentPage, setCurrentPage] = useState(page);
     const [currentGallery, setGallery] = useState(gallery);
+    const [currentCategory, setCategory] = useState(category[0]);
 
 
-    const totalPages = Math.ceil(gallery.total / limit);
+    const totalPages = Math.ceil(currentGallery.total / limit);
     const handlePagination = async (newPage) => {
         try {
-            const id = router.query.porto_id;
+            const id = router.query.id;
             const id2 = router.query.category_id;
             const response = await fetch(
-                `https://api.quantech.id/api/gallery?category_id=${id}&page=${newPage}&limit=12`
+                `https://api.quantech.id/api/gallery?category_id=${id2}&page=${newPage}&limit=12`
             );
-            const {data: newGallery} = await response.json();
+            const { data: newGallery } = await response.json();
 
             // Update the gallery state using setGallery
             setGallery(newGallery);
@@ -90,8 +91,42 @@ const Filter = ({category, gallery, page, limit}) => {
             console.error("Error fetching paginated data:", error);
         }
     };
-    const handleClick = (id, id2) => {
-        router.push('/portfolio/[id]/[category_id]', `/portfolio/${id}/${id2}`);
+
+    const handleRoutes = async (newPage, newPortoId, newCategoryId) => {
+        try {
+            // Check if category_id or porto_id changed
+            const categoryChanged = currentCategory.id !== newCategoryId;
+            const portoChanged = currentCategory.porto_id !== newPortoId;
+
+            // If category_id or porto_id changed, reset page to 1
+            const resetPage = categoryChanged || portoChanged;
+
+            const response = await fetch(
+                `https://api.quantech.id/api/gallery?category_id=${newCategoryId}&porto_id=${newPortoId}&page=${resetPage ? 1 : newPage}&limit=${limit}`
+            );
+            const { data: newGallery } = await response.json();
+
+            // Update the category and gallery state
+            setCategory(newCategoryId);
+            setGallery(newGallery);
+            setCurrentPage(resetPage ? 1 : newPage);
+
+            // Update the URL without the page parameter if it's not needed
+            const urlWithoutPage = resetPage ? '' : `?page=${newPage}`;
+            await router.push(`/portfolio/${newPortoId}/${newCategoryId}${urlWithoutPage}`, undefined, {
+                shallow: true,
+            });
+
+            // You can also dispatch an action to update Redux store if needed
+            // Example: dispatch({ type: 'UPDATE_CATEGORY_AND_GALLERY', payload: { newPortoId, newCategoryId, newGallery, pagination } });
+        } catch (error) {
+            console.error("Error fetching paginated data:", error);
+        }
+
+    };
+
+    const handleClick = (portoId, categoryId) => {
+        handleRoutes(1, portoId, categoryId);
     };
 
     const handleAll = (id) => {
@@ -135,8 +170,12 @@ const Filter = ({category, gallery, page, limit}) => {
                 </button>
 
                 {category.map((item) => (
-                    <button key={item.id} onClick={() => handleClick(item.porto_id, item.id)} data-filter=".cat1"
-                            className="">
+                    <button
+                        key={item.id}
+                        onClick={() => handleClick(item.porto_id, item.id)}
+                        data-filter=".cat1"
+                        className={currentCategory.id === item.id ? "active" : ""}
+                    >
                         {item.name}
                     </button>
                 ))}
