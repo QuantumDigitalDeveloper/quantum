@@ -1,5 +1,8 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
+import image from "next/image";
+import Image from "next/image";
+import React from "react";
 
 export default function Document() {
   return (
@@ -36,7 +39,7 @@ export default function Document() {
           {/* preloader */}
           <div className="loader-wrap">
             <div className="hendel__preloder">
-              <img src="/assets/images/S.gif" alt="" />
+              <Image alt="turtles" src="/assets/images/S.gif" width={800} height={800}  loading="lazy" />
               {/* <div className="preloader">
                 <div className="preloader-ring">
                   QuantumQuantum QuantumQuantum
