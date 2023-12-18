@@ -128,7 +128,7 @@ export default function career() {
                 </div>
                 <div className="btn-box">
                   <Link
-                    href="/contact/contact"
+                    href="mailto:hr.recruitment@quantech.id"
                     className="theme-btn theme-btn-one"
                   >
                     <i className="icon-02" /> Contact Us
@@ -181,7 +181,7 @@ export default function career() {
               </div>
               <div className="btn-box">
                 <Link
-                  href="/contact/contact"
+                  href="mailto:hr.recruitment@quantech.id"
                   className="theme-btn theme-btn-one"
                 >
                   <i className="icon-02" /> Contact Us

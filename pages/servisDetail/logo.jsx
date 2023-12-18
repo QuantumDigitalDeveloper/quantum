@@ -90,19 +90,18 @@ export default function logo() {
                   <span>Quantum.</span>{" "}
                 </h2>
                 <p>
-                  The applications of AR are vast and diverse. From
-                  entertainment and gaming, where users can see virtual
-                  characters in their surroundings, to education, where complex
-                  subjects can be visualized and explained in an immersive way,.
-                  We understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency. Our
-                  dedicated team of technology professionals comprises
-                  experienced engineers, developers, and researchers who are
-                  passionate about pushing the boundaries of technology. We
-                  understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency.
+                  Logo merupakan elemen kunci dalam strategi branding suatu
+                  perusahaan. Dengan desain logo yang tepat, perusahaan dapat
+                  membangun citra yang kuat dan membedakan diri dari pesaing,
+                  menciptakan ikatan emosional dengan pelanggan, dan
+                  meningkatkan kepercayaanperti warna, bentuk, dan tipografi
+                  yang dapat menciptakan kesan yang mendalam pada audiens.
+                  Sebuah logo yang berhasil tidak hanya memikat mata, tetapi
+                  juga dapat menyampaikan pesan dan cerita perusahaan dengan
+                  jelas. Dengan desain logo yang tepat, perusahaan dapat
+                  membangun citra yang kuat dan membedakan diri dari pesaing,
+                  menciptakan ikatan emosional dengan pelanggan, dan
+                  meningkatkan kepercayaan merek.
                 </p>
                 <div className="row">
                   <div className="col-lg-6 col-md-12">
@@ -139,13 +138,18 @@ export default function logo() {
                   </div>
                 </div>
                 <p>
-                  The applications of AR are vast and diverse. From
-                  entertainment and gaming, where users can see virtual
-                  characters in their surroundings, to education, where complex
-                  subjects can be visualized and explained in an immersive way,.
-                  We understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency.
+                  Selain itu, konsistensi penggunaan logo juga menjadi faktor
+                  kunci dalam membangun brand yang kokoh. Oleh karena itu,
+                  sebuah logo yang efektif bukan hanya sekadar tanda pengenal
+                  visual, tetapi juga merupakan investasi jangka panjang yang
+                  dapat membantu meningkatkan nilai merek dan menciptakan
+                  hubungan yang kokoh dengan pelanggango yang mudah diingat dan
+                  mudah dikenali dapat membantu perusahaan menonjol di tengah
+                  kebisingan informasi. Oleh karena itu, sebuah logo yang
+                  efektif bukan hanya sekadar tanda pengenal visual, tetapi juga
+                  merupakan investasi jangka panjang yang dapat membantu
+                  meningkatkan nilai merek dan menciptakan hubungan yang kokoh
+                  dengan pelanggan.
                 </p>
               </div>
             </div>
@@ -182,18 +186,12 @@ export default function logo() {
               <div className="price__content p_relative">
                 <div className="price__data">
                   <h5>Basic</h5>
-                  <h4>
-                    <span>Rp </span>0<span>,-</span>
-                  </h4>
+                  <h4>Rp 1.500.000</h4>
                 </div>
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>20GB Space</li>
-                      <li>10GB Bandwidth</li>
-                      <li>2 Databases </li>
-                      <li>1 Accounts</li>
-                      <li>24th Support</li>
+                      <li>1 Opsi</li>
                     </ul>
                   </div>
                 </div>
@@ -209,19 +207,13 @@ export default function logo() {
             >
               <div className="price__content p_relative">
                 <div className="price__data">
-                  <h5>Personal</h5>
-                  <h4>
-                    <span>Rp </span>0<span>,-</span>
-                  </h4>
+                  <h5>Plus</h5>
+                  <h4>Rp 2.800.000</h4>
                 </div>
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>20GB Space</li>
-                      <li>10GB Bandwidth</li>
-                      <li>2 Databases </li>
-                      <li>1 Accounts</li>
-                      <li>24th Support</li>
+                      <li>2 Opsi</li>
                     </ul>
                   </div>
                 </div>
@@ -237,19 +229,13 @@ export default function logo() {
             >
               <div className="price__content p_relative">
                 <div className="price__data">
-                  <h5>Business</h5>
-                  <h4>
-                    <span>Rp </span>0<span>,-</span>
-                  </h4>
+                  <h5>Premium</h5>
+                  <h4>Rp 4.500.000</h4>
                 </div>
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>20GB Space</li>
-                      <li>10GB Bandwidth</li>
-                      <li>2 Databases </li>
-                      <li>1 Accounts</li>
-                      <li>24th Support</li>
+                      <li>3 Opsi</li>
                     </ul>
                   </div>
                 </div>

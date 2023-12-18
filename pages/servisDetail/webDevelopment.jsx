@@ -91,19 +91,20 @@ export default function webDevelopment() {
                   <span>Quantum.</span>{" "}
                 </h2>
                 <p>
-                  The applications of AR are vast and diverse. From
-                  entertainment and gaming, where users can see virtual
-                  characters in their surroundings, to education, where complex
-                  subjects can be visualized and explained in an immersive way,.
-                  We understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency. Our
-                  dedicated team of technology professionals comprises
-                  experienced engineers, developers, and researchers who are
-                  passionate about pushing the boundaries of technology. We
-                  understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency.
+                  Pengembangan situs web adalah kunci sukses dalam merintis
+                  keberadaan digital suatu bisnis atau proyek online. Dalam
+                  dunia yang terus berkembang, keberadaan situs web yang baik
+                  dan benar menjadi krusial untuk mencapai tujuan bisnis. Proses
+                  pengembangan situs web yang efektif melibatkan pemahaman
+                  mendalam terhadap kebutuhan pengguna, fokus pada antarmuka
+                  pengguna yang responsif, dan penerapan standar-standar terkini
+                  dalam pengkodean. Ketika pengembangan situs dilakukan dengan
+                  baik, hal ini tidak hanya memastikan tampilan visual yang
+                  menarik tetapi juga memastikan fungsionalitas yang optimal,
+                  kecepatan akses yang baik, dan keterjangkauan pengguna dari
+                  berbagai perangkat. Sebagai inti dari keberhasilan digital,
+                  pengembangan situs web yang baik menciptakan panggung yang
+                  solid untuk pertumbuhan dan keberlanjutan bisnis.
                 </p>
                 <div className="row">
                   <div className="col-lg-6 col-md-12">
@@ -142,13 +143,20 @@ export default function webDevelopment() {
                   </div>
                 </div>
                 <p>
-                  The applications of AR are vast and diverse. From
-                  entertainment and gaming, where users can see virtual
-                  characters in their surroundings, to education, where complex
-                  subjects can be visualized and explained in an immersive way,.
-                  We understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency.
+                  Pentingnya pembaruan terus-menerus dalam teknologi web tidak
+                  dapat diabaikan. Pengembang situs web yang berkualitas tinggi
+                  harus terus memantau tren dan perkembangan baru dalam
+                  industri. Dengan memahami konsep-konsep seperti pengoptimalan
+                  mesin pencari (SEO), keamanan web, dan integrasi responsif,
+                  pengembang dapat memastikan bahwa situs web yang mereka
+                  hasilkan tidak hanya memenuhi kebutuhan saat ini tetapi juga
+                  siap untuk menghadapi perubahan masa depan. Selain itu, fokus
+                  pada pengalaman pengguna yang intuitif dan ramah pengguna
+                  membantu membangun hubungan positif antara pengguna dan situs,
+                  meningkatkan retensi, dan meningkatkan reputasi merek secara
+                  keseluruhan. Dengan begitu, pengembangan situs web yang baik
+                  dan benar memegang peran sentral dalam membentuk keberhasilan
+                  online suatu entitas.
                 </p>
               </div>
             </div>

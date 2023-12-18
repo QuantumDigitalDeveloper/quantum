@@ -86,23 +86,22 @@ export default function design() {
                   />
                 </figure>
                 <h2>
-                  Tingkatkan merek Anda dengan desain yang menginspirasi bersama{" "}
-                  <span>Quantum.</span>{" "}
+                  Membangun Citra Profesional melalui Design Media Sosial yang{" "}
+                  <span>Efektif.</span>{" "}
                 </h2>
                 <p>
-                  The applications of AR are vast and diverse. From
-                  entertainment and gaming, where users can see virtual
-                  characters in their surroundings, to education, where complex
-                  subjects can be visualized and explained in an immersive way,.
-                  We understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency. Our
-                  dedicated team of technology professionals comprises
-                  experienced engineers, developers, and researchers who are
-                  passionate about pushing the boundaries of technology. We
-                  understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency.
+                  Penggunaan grafis, foto, dan video yang menarik dapat
+                  memberikan nilai tambah pada konten, menciptakan dampak yang
+                  lebih besar, dan membantu konten tersebar lebihuh dedikasifis,
+                  foto, dan video yang menarik dapat memberikan nilai tambah
+                  pada konten, menciptakan dampak yang lebih besar, dan membantu
+                  konten tersebar lebihuh dedikasienarik dapat memberikan nilai
+                  tambah pada konten, menciptakan dampak yang lebih besar, dan
+                  membantu konten tersebar lebihuh dedikasiosial dapat menyentuh
+                  hati mereka secara efektif. Penggunaan grafis, foto, dan video
+                  yang menarik dapat memberikan nilai tambah pada konten,
+                  menciptakan dampak yang lebih besar, dan membantu konten
+                  tersebar lebihuh dedikasi dan profesionalisme.
                 </p>
                 <div className="row">
                   <div className="col-lg-6 col-md-12">
@@ -139,13 +138,18 @@ export default function design() {
                   </div>
                 </div>
                 <p>
-                  The applications of AR are vast and diverse. From
-                  entertainment and gaming, where users can see virtual
-                  characters in their surroundings, to education, where complex
-                  subjects can be visualized and explained in an immersive way,.
-                  We understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency.
+                  Selain itu, desain media sosial yang profesional juga mencakup
+                  strategi konten yang matang. Penggunmemperhatikan aspek-aspek
+                  ini, desain media sosial tidak hanya menjadi alat visual,
+                  tetapi juga sarana komunikasi yang kuat untuk membentuk citra
+                  yang benar-benar profesional dan meyakinkanaspek ini, desain
+                  media sosial tidak hanya menjadi alat visual, tetapi juga
+                  sarana komunikasi yang kuat untuk membentuk citra yang
+                  benar-benar profesional dan meyakinkan sarana komunikasi yang
+                  kuat untuk membentuk citra yang benar-benar profesional dan
+                  meyakinkanaspek ini, desain media sosial tidak hanya menjadi
+                  alat visual, tetapi juga sarana komunikasi yang kuat untuk
+                  membentuk citra yang benar-benar profesional dan meyakinkan.
                 </p>
               </div>
             </div>
@@ -182,18 +186,17 @@ export default function design() {
               <div className="price__content p_relative">
                 <div className="price__data">
                   <h5>Basic</h5>
-                  <h4>
-                    <span>Rp </span>0<span>,-</span>
-                  </h4>
+                  <h4>Rp 850.000</h4>
                 </div>
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>20GB Space</li>
-                      <li>10GB Bandwidth</li>
-                      <li>2 Databases </li>
-                      <li>1 Accounts</li>
-                      <li>24th Support</li>
+                      <li>Jumlah Design 12</li>
+                      <li>Material dari Client</li>
+                      <li>9 Design Feed/Post</li>
+                      <li>3 IG Stories</li>
+                      <li>Revisi Design 1x Minor</li>
+                      <li>File diterima PNG/JPG</li>
                     </ul>
                   </div>
                 </div>
@@ -209,19 +212,19 @@ export default function design() {
             >
               <div className="price__content p_relative">
                 <div className="price__data">
-                  <h5>Personal</h5>
-                  <h4>
-                    <span>Rp </span>0<span>,-</span>
-                  </h4>
+                  <h5>Plus</h5>
+                  <h4>Rp 1.700.000</h4>
                 </div>
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>20GB Space</li>
-                      <li>10GB Bandwidth</li>
-                      <li>2 Databases </li>
-                      <li>1 Accounts</li>
-                      <li>24th Support</li>
+                      <li>Jumlah Design 23</li>
+                      <li>Designer Middle</li>
+                      <li>Material dari Client</li>
+                      <li>15 Design Feed/Post</li>
+                      <li>8 IG Stories</li>
+                      <li>Revisi Design 3x Minor</li>
+                      <li>File diterima PNG/JPG</li>
                     </ul>
                   </div>
                 </div>
@@ -237,19 +240,20 @@ export default function design() {
             >
               <div className="price__content p_relative">
                 <div className="price__data">
-                  <h5>Business</h5>
-                  <h4>
-                    <span>Rp </span>0<span>,-</span>
-                  </h4>
+                  <h5>Premium</h5>
+                  <h4>Rp 2.600.000</h4>
                 </div>
                 <div className="price__block">
                   <div className="price__list">
                     <ul>
-                      <li>20GB Space</li>
-                      <li>10GB Bandwidth</li>
-                      <li>2 Databases </li>
-                      <li>1 Accounts</li>
-                      <li>24th Support</li>
+                      <li>Jumlah Design 30</li>
+                      <li>Designer Middle</li>
+                      <li>Material dari Client</li>
+                      <li>15 Design Feed/Post</li>
+                      <li>5/5 Post Caraousel</li>
+                      <li>5 IG Stories</li>
+                      <li>Revisi Design 5x Minor</li>
+                      <li>File diterima PNG/JPG</li>
                     </ul>
                   </div>
                 </div>

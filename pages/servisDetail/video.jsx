@@ -90,19 +90,19 @@ export default function seoMarketing() {
                   profesional bersama <span>Quantum.</span>{" "}
                 </h2>
                 <p>
-                  The applications of AR are vast and diverse. From
-                  entertainment and gaming, where users can see virtual
-                  characters in their surroundings, to education, where complex
-                  subjects can be visualized and explained in an immersive way,.
-                  We understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency. Our
-                  dedicated team of technology professionals comprises
-                  experienced engineers, developers, and researchers who are
-                  passionate about pushing the boundaries of technology. We
-                  understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency.
+                  Dalam dunia konten digital yang terus berkembang, video
+                  editing telah menjadi seni yang sangat diperlukan untuk
+                  menarik perhatian dan memikat audiens. Seorang video editor
+                  yang mahir tidak hanya menggabungkan potongan gambar dan klip,
+                  tetapi juga mampu menciptakan narasi yang kuat melalui
+                  penggunaan efek visual dan suara. Dengan memahami ritme, alur
+                  cerita, dan preferensi audiens, seorang video editor dapat
+                  menciptakan karya yang tidak hanya menarik tapi juga memiliki
+                  daya tarik komersial. Pemilihan musik yang pas, penggunaan
+                  transisi yang mulus, dan penyuntingan yang presisi adalah
+                  elemen-elemen yang mendefinisikan sebuah video yang mampu
+                  menjual ide atau produk dengan keindahan visual yang luar
+                  biasa.
                 </p>
                 <div className="row">
                   <div className="col-lg-6 col-md-12">
@@ -139,13 +139,19 @@ export default function seoMarketing() {
                   </div>
                 </div>
                 <p>
-                  The applications of AR are vast and diverse. From
-                  entertainment and gaming, where users can see virtual
-                  characters in their surroundings, to education, where complex
-                  subjects can be visualized and explained in an immersive way,.
-                  We understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency.
+                  Kunci utama dalam menciptakan video yang menjual adalah
+                  kreativitas dan inovasi. Seorang video editor yang ingin
+                  menonjol harus berani mencoba teknik-teknik baru dan
+                  eksperimental dalam penyuntingan mereka. Selain itu, paham
+                  akan tren visual dan gaya penyuntingan yang sedang berkembang
+                  dapat membantu menciptakan video yang relevan dan mengikuti
+                  perkembangan pasar. Keahlian dalam penggunaan software editing
+                  terkini juga sangat penting untuk memberikan sentuhan
+                  profesional pada setiap proyek. Dengan menggabungkan keahlian
+                  teknis dan imajinasi kreatif, seorang video editor dapat
+                  menciptakan karya yang tidak hanya memikat hati audiens tetapi
+                  juga memenuhi tujuan pemasaran dengan membawa pesan atau
+                  produk ke tingkat yang lebih tinggi.
                 </p>
               </div>
             </div>
@@ -153,6 +159,51 @@ export default function seoMarketing() {
         </div>
       </div>
       {/* page-title end*/}
+      {/* pricing-section */}
+      <section className="pricing__section see__pad p_relative">
+        <div className="pattern-layer">
+          <div
+            className="pattern-4 p_absolute"
+            data-parallax='{"x": 100}'
+            style={{
+              backgroundImage: "url(/assets/images/shapes/shape-04.png)",
+            }}
+          />
+        </div>
+        <div className="auto-container">
+          <div className="title__data">
+            <div className="sub__title">
+              <h4>Pricing</h4>
+            </div>
+            <div className="title">
+              <h2>Product Price</h2>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated"
+              data-wow-delay="00ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="price__content p_relative">
+                <div className="price__data">
+                  <h5>Basic</h5>
+                  <h4>Rp 500.000</h4>
+                </div>
+                <div className="price__block">
+                  <div className="price__list">
+                    <ul>{/* <li>1 Opsi</li> */}</ul>
+                  </div>
+                </div>
+                <div className="price__icon">
+                  <i className="icon-16" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* pricing-section-end */}
       {/* service-contact */}
       <Contact />
       {/* service-contact-end */}

@@ -91,19 +91,20 @@ export default function seoMarketing() {
                   <span>Quantum.</span>{" "}
                 </h2>
                 <p>
-                  The applications of AR are vast and diverse. From
-                  entertainment and gaming, where users can see virtual
-                  characters in their surroundings, to education, where complex
-                  subjects can be visualized and explained in an immersive way,.
-                  We understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency. Our
-                  dedicated team of technology professionals comprises
-                  experienced engineers, developers, and researchers who are
-                  passionate about pushing the boundaries of technology. We
-                  understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency.
+                  Seorang spesialis vector memegang peran penting dalam dunia
+                  desain, membawa elemen-elemen visual menjadi hidup dengan
+                  kejelasan dan presisi. Dalam dunia yang dipenuhi dengan
+                  keberagaman desain grafis, vektor menjadi fondasi yang
+                  memungkinkan pembuatan gambar dan ilustrasi yang dapat
+                  disesuaikan tanpa kehilangan kualitas. Spesialis vector tidak
+                  hanya memahami teknik penggunaan perangkat lunak desain vektor
+                  seperti Adobe Illustrator, CorelDRAW, atau Inkscape, tetapi
+                  juga memiliki mata yang tajam untuk proporsi, warna, dan
+                  detail. Kemampuan untuk mengubah konsep abstrak menjadi bentuk
+                  visual yang tajam dan fleksibel adalah keahlian kunci yang
+                  dimiliki oleh seorang spesialis vector, yang mendefinisikan
+                  keunggulan desain yang terlihat di berbagai media, dari logo
+                  hingga ilustrasi kompleks.
                 </p>
                 <div className="row">
                   <div className="col-lg-6 col-md-12">
@@ -141,13 +142,20 @@ export default function seoMarketing() {
                   </div>
                 </div>
                 <p>
-                  The applications of AR are vast and diverse. From
-                  entertainment and gaming, where users can see virtual
-                  characters in their surroundings, to education, where complex
-                  subjects can be visualized and explained in an immersive way,.
-                  We understand that every business has unique needs. Our
-                  technology solutions are tailored to match your specific
-                  requirements, ensuring optimal performance and efficiency.
+                  Keberhasilan seorang spesialis vector terletak pada
+                  kemampuannya untuk menciptakan keseimbangan antara estetika
+                  dan fungsionalitas. Dengan menggunakan vektor, mereka dapat
+                  menghasilkan gambar yang dapat disesuaikan tanpa kehilangan
+                  kualitas, memungkinkan adaptasi untuk berbagai ukuran dan
+                  platform. Kemampuan untuk mengoptimalkan grafis agar dapat
+                  digunakan pada berbagai media, dari cetak hingga web,
+                  menjadikan seorang spesialis vector sebagai elemen tak
+                  tergantikan dalam industri desain. Dari perusahaan hingga
+                  seniman independen, kehadiran spesialis vector tidak hanya
+                  menjamin visual yang menawan tetapi juga memberikan solusi
+                  desain yang efisien dan serbaguna, memainkan peran utama dalam
+                  menciptakan kesan yang tak terlupakan di mata dan pikiran
+                  audiens.
                 </p>
               </div>
             </div>
@@ -155,6 +163,51 @@ export default function seoMarketing() {
         </div>
       </div>
       {/* page-title end*/}
+      {/* pricing-section */}
+      <section className="pricing__section see__pad p_relative">
+        <div className="pattern-layer">
+          <div
+            className="pattern-4 p_absolute"
+            data-parallax='{"x": 100}'
+            style={{
+              backgroundImage: "url(/assets/images/shapes/shape-04.png)",
+            }}
+          />
+        </div>
+        <div className="auto-container">
+          <div className="title__data">
+            <div className="sub__title">
+              <h4>Pricing</h4>
+            </div>
+            <div className="title">
+              <h2>Product Price</h2>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated"
+              data-wow-delay="00ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="price__content p_relative">
+                <div className="price__data">
+                  <h5>Basic</h5>
+                  <h4>Rp 350.000</h4>
+                </div>
+                <div className="price__block">
+                  <div className="price__list">
+                    <ul>{/* <li>1 Opsi</li> */}</ul>
+                  </div>
+                </div>
+                <div className="price__icon">
+                  <i className="icon-16" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* pricing-section-end */}
       {/* service-contact */}
       <Contact />
       {/* service-contact-end */}
