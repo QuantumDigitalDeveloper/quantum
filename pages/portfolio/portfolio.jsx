@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-
+import dynamic   from "next/dynamic";
+import Image from "next/image";
 export async function getStaticProps() {
   try {
     const [res, res2] = await Promise.all([
@@ -110,7 +111,7 @@ export default function portfolio({ gallery, porto }) {
               <div className="portfolio__block p_relative">
                 <div className="portfolio__image">
                   <figure>
-                    <img src={item.url} alt="" />
+                    <Image alt="turtles" src={item.url} width={300} height={300}  loading="lazy" />
                   </figure>
                 </div>
                 <div className="lower__content p_absolute">
