@@ -196,6 +196,11 @@ export default function logo() {
                       <li>2 - 4 Hari</li>
                       <li>File Master CDR / AI / EPS / PSD</li>
                       <li>Export JPG / PNG / PDF</li>
+                      <li>.</li>
+                      <li>.</li>
+                      <li>.</li>
+                      <li>.</li>
+                      <li>.</li>
                     </ul>
                   </div>
                 </div>
@@ -224,6 +229,9 @@ export default function logo() {
                       <li>Color Guide</li>
                       <li>Kartu Nama</li>
                       <li>Export JPG / PNG / PDF</li>
+                      <li>.</li>
+                      <li>.</li>
+                      <li>.</li>
                     </ul>
                   </div>
                 </div>
@@ -247,7 +255,7 @@ export default function logo() {
                     <ul>
                       <li>Logo 4 Pilihan</li>
                       <li>Revisi 5x</li>
-                      <li>1 - 7 Hari</li>
+                      <li>1 - 14 Hari</li>
                       <li>File Master CDR / AI / EPS / PSD</li>
                       <li>Color Guide</li>
                       <li>Branding Guideline</li>

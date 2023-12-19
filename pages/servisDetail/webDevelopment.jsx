@@ -206,6 +206,9 @@ export default function webDevelopment() {
                       <li>Free Design 1 Banner</li>
                       <li>Belum Termasuk PPN</li>
                       <li>DP 50%</li>
+                      <li>.</li>
+                      <li>.</li>
+                      <li>.</li>
                     </ul>
                   </div>
                 </div>
@@ -237,6 +240,7 @@ export default function webDevelopment() {
                       <li>Hapus Tag Powered by Quantum</li>
                       <li>Belum Termasuk PPN</li>
                       <li>DP 50%</li>
+                      <li>.</li>
                     </ul>
                   </div>
                 </div>

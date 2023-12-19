@@ -376,6 +376,11 @@ export default function Home() {
                 <div className="team__media">
                   <ul>
                     <li>
+                      <a href="#">Web Developer</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
                       <a href="#">FrontEnd Developer</a>
                     </li>
                   </ul>
@@ -399,7 +404,12 @@ export default function Home() {
                 <div className="team__media">
                   <ul>
                     <li>
-                      <a href="#">Team Leader</a>
+                      <a href="#">Graphic Designer</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">UI/UX Specialist</a>
                     </li>
                   </ul>
                 </div>
@@ -420,6 +430,11 @@ export default function Home() {
                   <h3>BAGUS IKHSANI</h3>
                 </div>
                 <div className="team__media">
+                  <ul>
+                    <li>
+                      <a href="#">Web Developer</a>
+                    </li>
+                  </ul>
                   <ul>
                     <li>
                       <a href="#">BackEnd Developer</a>

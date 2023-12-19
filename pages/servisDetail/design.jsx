@@ -197,6 +197,8 @@ export default function design() {
                       <li>3 IG Stories</li>
                       <li>Revisi Design 1x Minor</li>
                       <li>File diterima PNG/JPG</li>
+                      <li>.</li>
+                      <li>.</li>
                     </ul>
                   </div>
                 </div>
@@ -225,6 +227,7 @@ export default function design() {
                       <li>8 IG Stories</li>
                       <li>Revisi Design 3x Minor</li>
                       <li>File diterima PNG/JPG</li>
+                      <li>.</li>
                     </ul>
                   </div>
                 </div>
