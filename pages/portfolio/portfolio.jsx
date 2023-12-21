@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import dynamic   from "next/dynamic";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 export async function getStaticProps() {
   try {
@@ -87,9 +87,6 @@ export default function portfolio({ gallery, porto }) {
       </section>
       {/* page-title end*/}
       <div class="portfolio__menu">
-        <button class="active" data-filter="*">
-          SEE ALL
-        </button>
         {porto.map((item) => (
           // eslint-disable-next-line react/jsx-key
           <button
@@ -111,7 +108,13 @@ export default function portfolio({ gallery, porto }) {
               <div className="portfolio__block p_relative">
                 <div className="portfolio__image">
                   <figure>
-                    <Image alt="turtles" src={item.url} width={300} height={300}  loading="lazy" />
+                    <Image
+                      alt="turtles"
+                      src={item.url}
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
                   </figure>
                 </div>
                 <div className="lower__content p_absolute">

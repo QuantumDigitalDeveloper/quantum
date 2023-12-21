@@ -29,9 +29,6 @@ export default function design() {
       </section>
       {/* page-title end*/}
       <div class="portfolio__menu">
-        <button class="active" data-filter="*">
-          SEE ALL
-        </button>
         <button data-filter=".cat1" class="">
           TECHNOLOGY
         </button>
