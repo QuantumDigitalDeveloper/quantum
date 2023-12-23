@@ -40,7 +40,7 @@ export default function Document() {
             <div className="hendel__preloder">
               <Image
                 alt="turtles"
-                src="/assets/images/S.gif"
+                src="/assets/images/1.gif"
                 width={800}
                 height={800}
                 loading="lazy"
