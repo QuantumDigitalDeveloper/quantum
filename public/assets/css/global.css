@@ -703,6 +703,29 @@ img {
 
 /** scroll-to-top **/
 
+.scroll-to-top2 {
+  position: fixed;
+  z-index: 999;
+  width: 70px;
+  height: 70px;
+}
+
+/* Untuk layar selain hp (misalnya tablet dan desktop) */
+@media (min-width: 768px) {
+  .scroll-to-top2 {
+    left: 70px;
+    bottom: 50px;
+  }
+}
+
+/* Untuk layar hp */
+@media (max-width: 767px) {
+  .scroll-to-top2 {
+    right: 10px; /* Atur jarak dari kanan */
+    bottom: 20px; /* Atur jarak dari bawah */
+  }
+}
+
 .scroll-to-top {
   position: fixed;
   right: 0px;
