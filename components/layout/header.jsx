@@ -39,7 +39,7 @@ const Header = () => {
             <div className="top__hrader__right">
               <ul>
                 <li>
-                  <a href="https://www.instagram.com/quantechnology?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
+                  <a href="https://www.instagram.com/quantech.id?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==">
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>
                 </li>
