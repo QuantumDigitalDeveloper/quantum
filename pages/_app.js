@@ -4,9 +4,6 @@ import Head from "next/head";
 import dynamic from "next/dynamic";
 import Header from "../components/layout/header";
 import Footer from "../components/layout/footer";
-
-
-
 const _app = ({ Component, pageProps, porto }) => {
   return (
     <>

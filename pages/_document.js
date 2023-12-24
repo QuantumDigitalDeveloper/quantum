@@ -74,9 +74,9 @@ export default function Document() {
             <a
               href="https://wa.me/628558833691"
               target="_blank"
-              class="scroll-to-top2"
+              className="scroll-to-top2"
             >
-              <img src="assets/images/wa.png" alt="" />
+              <Image src="/assets/images/wa.png" alt="" width={100} height={100} />
             </a>
           </div>
         </div>
