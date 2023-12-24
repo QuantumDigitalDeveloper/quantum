@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function blog() {
   return (
@@ -43,7 +44,7 @@ export default function blog() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/design/detail">
-                        <img src="/assets/images/news/news-1.jpg" alt="" />
+                        <Image src="/assets/images/news/news-1.jpg" alt="" width={300} height={300} />
                       </Link>
                     </figure>
                     <div className="post__date">
