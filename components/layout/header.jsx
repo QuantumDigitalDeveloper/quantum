@@ -78,7 +78,7 @@ const Header = () => {
                 >
                   <ul className="navigation clearfix home-menu">
                     <li>
-                      <Link href="/about/about">About</Link>
+                      <Link href="/about">About</Link>
                     </li>
                     <li className="dropdown">
                       <Link href="/servis/service">Service </Link>
@@ -112,7 +112,7 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <Link href="/portfolio/portfolio">Portofolio </Link>
+                      <Link href="/portfolio">Portofolio </Link>
                       <ul>
                         <li>
                           <Link
@@ -149,7 +149,7 @@ const Header = () => {
                       <Link href="/blog/blog">Blog</Link>
                     </li>
                     <li>
-                      <Link href="/career/career">Career</Link>
+                      <Link href="/career">Career</Link>
                     </li>
                   </ul>
                 </div>
@@ -182,7 +182,7 @@ const Header = () => {
                 >
                   <ul className="navigation clearfix home-menu">
                     <li>
-                      <Link href="/about/about">About</Link>
+                      <Link href="/about">About</Link>
                     </li>
                     <li className="dropdown">
                       <Link href="/servis/service">Service </Link>
@@ -216,7 +216,7 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <Link href="/portfolio/portfolio">Portofolio </Link>
+                      <Link href="/portfolio">Portofolio </Link>
                       <ul>
                         <li>
                           <Link
@@ -253,7 +253,7 @@ const Header = () => {
                       <Link href="/blog/blog">Blog</Link>
                     </li>
                     <li>
-                      <Link href="/career/career">Career</Link>
+                      <Link href="/career">Career</Link>
                     </li>
                   </ul>
                 </div>
@@ -282,7 +282,7 @@ const Header = () => {
           <div className="menu-outer">
             <ul className="navigation home-menu">
               <li>
-                <Link href="/about/about">About</Link>
+                <Link href="/about">About</Link>
               </li>
               <li className="dropdown">
                 <Link href="/servis/service">Service </Link>
@@ -314,7 +314,7 @@ const Header = () => {
                 </ul>
               </li>
               <li className="dropdown">
-                <Link href="/portfolio/portfolio">Portofolio </Link>
+                <Link href="/portfolio">Portofolio </Link>
                 <ul>
                   <li>
                     <Link
@@ -351,7 +351,7 @@ const Header = () => {
                 <Link href="/blog/blog">Blog</Link>
               </li>
               <li>
-                <Link href="/career/career">Career</Link>
+                <Link href="/career">Career</Link>
               </li>
             </ul>
           </div>

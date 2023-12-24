@@ -49,7 +49,7 @@ export default function footer() {
                     </div>
                     <div className="btn-box">
                       <Link
-                        href="/about/about"
+                        href="/about"
                         className="theme-btn theme-btn-one"
                       >
                         <i className="icon-02" /> About Us

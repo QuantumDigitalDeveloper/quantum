@@ -256,7 +256,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="btn-box">
-                  <Link href="/about/about" className="theme-btn theme-btn-one">
+                  <Link href="/about" className="theme-btn theme-btn-one">
                     <i className="icon-02" /> About more
                   </Link>
                 </div>
@@ -274,7 +274,7 @@ export default function Home() {
               <div className="col-lg-6 col-md-12">
                 <div className="choose__block">
                   <figure>
-                    <img src="assets/images/resource/choose-01.png" alt="" />
+                    <Image src="assets/images/resource/choose-01.png" alt="" width={600} height={600}/>
                   </figure>
                 </div>
               </div>
@@ -290,7 +290,7 @@ export default function Home() {
                   </div>
                   <div className="team__data">
                     <div className="team__data__left">
-                      <img src="assets/images/resource/choose-02.svg" alt="" />
+                      <Image src="assets/images/resource/choose-02.svg" alt="" width={35} height={50} />
                     </div>
                     <div className="team__data__right">
                       <h3>
@@ -305,7 +305,7 @@ export default function Home() {
                   </div>
                   <div className="team__data">
                     <div className="team__data__left">
-                      <img src="assets/images/resource/choose-02.svg" alt="" />
+                      <Image src="assets/images/resource/choose-02.svg" alt="" width={35} height={50} />
                     </div>
                     <div className="team__data__right">
                       <h3>
@@ -320,7 +320,7 @@ export default function Home() {
                   </div>
                   <div className="team__data three">
                     <div className="team__data__left">
-                      <img src="assets/images/resource/choose-02.svg" alt="" />
+                      <Image src="assets/images/resource/choose-02.svg" alt="" width={35} height={50}/>
                     </div>
                     <div className="team__data__right">
                       <h3>Kami adalah Mitra dalam Kesuksesan Bisnis Anda</h3>
@@ -367,7 +367,7 @@ export default function Home() {
               >
                 <div className="team__img">
                   <figure>
-                    <img src="assets/images/resource/afif1.png" alt="" />
+                    <Image src="assets/images/resource/afif1.png" alt="" width={300} height={300}/>
                   </figure>
                 </div>
                 <div className="team__name">
@@ -395,7 +395,7 @@ export default function Home() {
               >
                 <div className="team__img">
                   <figure>
-                    <img src="assets/images/resource/dopen1.png" alt="" />
+                    <Image src="assets/images/resource/dopen1.png" alt="" width={300} height={300} />
                   </figure>
                 </div>
                 <div className="team__name">
@@ -423,7 +423,7 @@ export default function Home() {
               >
                 <div className="team__img">
                   <figure>
-                    <img src="assets/images/resource/bagus2.png" alt="" />
+                    <Image src="assets/images/resource/bagus2.png" alt="" width={300} height={300} />
                   </figure>
                 </div>
                 <div className="team__name">
@@ -800,7 +800,7 @@ export default function Home() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/design/detail">
-                        <img src="/assets/images/news/news-1.jpg" alt="" />
+                        <Image src="/assets/images/news/news-1.jpg" alt="" width={300} height={300} />
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -846,7 +846,7 @@ export default function Home() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/webDev/htmlDetail">
-                        <img src="/assets/images/news/news-2.jpg" alt="" />
+                        <Image src="/assets/images/news/news-2.jpg" alt=""  width={300} height={300}/>
                       </Link>
                     </figure>
                     <div className="post__date">
@@ -892,7 +892,7 @@ export default function Home() {
                   <div className="image-box p_relative d_block">
                     <figure className="image p_relative d_block">
                       <Link href="/blog/digital/contentDetail">
-                        <img src="/assets/images/news/news-3.jpg" alt="" />
+                        <Image src="/assets/images/news/news-3.jpg" alt="" width={300} height={300} />
                       </Link>
                     </figure>
                     <div className="post__date">

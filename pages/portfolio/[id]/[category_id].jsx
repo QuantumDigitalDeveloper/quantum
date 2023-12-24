@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
@@ -57,6 +57,7 @@ export async function getStaticPaths() {
 }
 
 const Filter = ({ category, gallery, page, limit }) => {
+  const {query, isReady} = useRouter();
   const router = useRouter();
   const [currentPage, setCurrentPage] = useState(page);
   const [currentGallery, setGallery] = useState(gallery);
@@ -169,7 +170,7 @@ const Filter = ({ category, gallery, page, limit }) => {
         </div>
       </section>
       {/* page-title end*/}
-      <div class="portfolio__menu">
+      <div className="portfolio__menu">
         {/* <button onClick={() => handleAll(category[0].porto_id)} className="active" data-filter="*">
                     SEE ALL
                 </button> */}
@@ -205,7 +206,7 @@ const Filter = ({ category, gallery, page, limit }) => {
                 <a
                   className="lightbox-image"
                   data-fancybox="gallery"
-                  href="/assets/images/resource/1.png"
+                  href={item.url}
                 >
                   <div className="lower__content p_absolute">
                     {/* <div className="protfolio__text ">
