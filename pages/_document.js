@@ -71,12 +71,13 @@ export default function Document() {
           </div>
           {/* Scroll to top end */}
           <div className="scroll-to-top2">
-            <a
-              href="https://wa.me/628558833691"
-              target="_blank"
-              className="scroll-to-top2"
-            >
-              <Image src="/assets/images/wa.png" alt="" width={100} height={100} />
+            <a href="https://wa.me/628558833691" target="_blank">
+              <Image
+                src="/assets/images/wa.png"
+                alt=""
+                width={100}
+                height={100}
+              />
             </a>
           </div>
         </div>

@@ -705,7 +705,7 @@ img {
 
 .scroll-to-top2 {
   position: fixed;
-  z-index: 999;
+  z-index: 9990;
   width: 70px;
   height: 70px;
 }
