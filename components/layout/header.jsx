@@ -10,7 +10,9 @@ const Header = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
+  const handleAll = (id) => {
+    router.push("/portfolio/filter/[porto_id]", `/portfolio/filter/${id}`);
+  };
   const closeSideBar = () => {
     setIsMenuOpen(false);
   };

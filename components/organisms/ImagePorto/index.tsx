@@ -28,7 +28,7 @@ export default function ImagePorto() {
     <section className="project__page p_relative see__pad">
     <div className="row">
       {imageList.map((item : imageDuplicate) => (
-        <ImageItem key={item.id} title={item.category.name} category="Social Media Design" thumbnail={item.url} portoId={item.category.porto_id} categoryId={item.category.id}/>
+        <ImageItem key={item.id} title={item.category.name} category={item.category.porto.name} thumbnail={item.url} portoId={item.category.porto_id} categoryId={item.category.id}/>
       ))}
     </div>
   </section>

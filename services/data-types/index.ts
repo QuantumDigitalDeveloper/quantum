@@ -5,6 +5,14 @@ export interface imagePorto {
     porto_id: number;
     slug    : string;
     url    : string;
+    porto : porto;
+}
+
+export interface porto {
+ id : number
+    name : string
+    created_at : string
+    updated_at : string
 }
 
 export interface imageDuplicate {

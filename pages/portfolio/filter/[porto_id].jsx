@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { data } from "autoprefixer";
 import Image from "next/image";
+import axios from 'axios';
 
 export async function getStaticProps({ params }) {
   try {
     const id = params.porto_id;
+
     const page = 1; // Set the initial page
     const limit = 12; // Set the number of items per page
     const response = await fetch(
@@ -43,7 +45,7 @@ export async function getStaticPaths() {
     const category = await response.json();
 
     const paths = category.data.map((item) => ({
-      params: { porto_id: item.id.toString() },
+      params: { porto_id: item.porto_id.toString() },
     }));
 
     return { paths, fallback: false };
@@ -63,30 +65,30 @@ const Filter = ({ category, gallery, page, limit }) => {
   const [currentCategory, setCategory] = useState(category[0]);
 
   const totalPages = Math.ceil(currentGallery.total / limit);
-  const handlePagination = async (newPage) => {
-    try {
-      const id = router.query.id;
-      const id2 = router.query.category_id;
-      const response = await fetch(
-        `https://api.quantech.id/api/gallery?category_id=${id2}&page=${newPage}&limit=12`
-      );
-      const { data: newGallery } = await response.json();
+    const handlePagination = async (newPage) => {
+      try {
 
-      // Update the gallery state using setGallery
-      setGallery(newGallery);
-      setCurrentPage(newPage);
+        const id2 = router.query.porto_id;
+        const response = await fetch(
+          `https://api.quantech.id/api/gallery?porto_id=${id2}&page=${newPage}&limit=12`
+        );
+        const { data: newGallery } = await response.json();
 
-      // Update the URL if needed
-      await router.push(`/portfolio/${id}/${id2}?page=${newPage}`, undefined, {
-        shallow: true,
-      });
+        // Update the gallery state using setGallery
+        setGallery(newGallery);
+        setCurrentPage(newPage);
 
-      // You can also dispatch an action to update Redux store if needed
-      // Example: dispatch({ type: 'UPDATE_GALLERY', payload: { newGallery, pagination } });
-    } catch (error) {
-      console.error("Error fetching paginated data:", error);
-    }
-  };
+        // Update the URL if needed
+        await router.push(`/portfolio/filter/${id2}?page=${newPage}`, undefined, {
+          shallow: true,
+        });
+
+        // You can also dispatch an action to update Redux store if needed
+        // Example: dispatch({ type: 'UPDATE_GALLERY', payload: { newGallery, pagination } });
+      } catch (error) {
+        console.error("Error fetching paginated data:", error);
+      }
+    };
 
   const handleRoutes = async (newPage, newPortoId, newCategoryId) => {
     try {
@@ -98,9 +100,9 @@ const Filter = ({ category, gallery, page, limit }) => {
       const resetPage = categoryChanged || portoChanged;
 
       const response = await fetch(
-        `https://api.quantech.id/api/gallery?category_id=${newCategoryId}&porto_id=${newPortoId}&page=${
-          resetPage ? 1 : newPage
-        }&limit=${limit}`
+          `https://api.quantech.id/api/gallery?category_id=${newCategoryId}&porto_id=${newPortoId}&page=${
+              resetPage ? 1 : newPage
+          }&limit=${limit}`
       );
       const { data: newGallery } = await response.json();
 
@@ -109,14 +111,15 @@ const Filter = ({ category, gallery, page, limit }) => {
       setGallery(newGallery);
       setCurrentPage(resetPage ? 1 : newPage);
 
-      // Update the URL without the page parameter if it's not needed
-      const urlWithoutPage = resetPage ? "" : `?page=${newPage}`;
+      // Update the URL if needed
       await router.push(
-        `/portfolio/${newPortoId}/${newCategoryId}${urlWithoutPage}`,
-        undefined,
-        {
-          shallow: true,
-        }
+          `/portfolio/${newPortoId}/${newCategoryId}${
+              resetPage ? "" : `?page=${newPage}`
+          }`,
+          undefined,
+          {
+            shallow: true,
+          }
       );
 
       // You can also dispatch an action to update Redux store if needed
@@ -137,6 +140,48 @@ const Filter = ({ category, gallery, page, limit }) => {
   if (router.isFallback) {
     return <div>Loading...</div>;
   }
+
+
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    let isMounted = true;
+
+    // Check if pagination is needed based on your condition (e.g., presence of query parameter)
+    const isPaginationNeeded = router.query.page !== undefined;
+
+    if (!isPaginationNeeded) {
+      const fetchData = async () => {
+        try {
+          const id2 = router.query.porto_id;
+          const response = await fetch(
+              `https://api.quantech.id/api/gallery?porto_id=${id2}&limit=12`
+          );
+
+          if (!isMounted) {
+            return; // Bail out if component is unmounted
+          }
+
+          const { data: newGallery } = await response.json();
+
+          // Update the gallery state using setGallery
+          setGallery(newGallery);
+          setCurrentPage(1); // Resetting to the first page since there is no pagination
+
+          // You can also dispatch an action to update Redux store if needed
+          // Example: dispatch({ type: 'UPDATE_GALLERY', payload: { newGallery, pagination } });
+        } catch (error) {
+          console.error("Error fetching data:", error);
+        }
+      };
+
+      fetchData();
+
+      return () => {
+        isMounted = false; // Set the mounted state to false when the component is unmounted
+      };
+    }
+  }, [router.query.page, router.query.porto_id]);
+
 
   return (
     <>
@@ -168,7 +213,7 @@ const Filter = ({ category, gallery, page, limit }) => {
         </div>
       </section>
       {/* page-title end*/}
-      <div class="portfolio__menu">
+      <div className="portfolio__menu">
         {/* <button onClick={() => handleAll(category[0].porto_id)} class="active" data-filter="*">
                     SEE ALL
                 </button> */}
@@ -198,7 +243,7 @@ const Filter = ({ category, gallery, page, limit }) => {
                       src={item.url}
                       width={300}
                       height={300}
-                      loading="lazy"
+                      // loading="lazy"
                     />
                   </figure>
                 </div>
