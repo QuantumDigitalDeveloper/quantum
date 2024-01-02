@@ -7,6 +7,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+
         {/* Fav Icon */}
         <link
           rel="icon"
@@ -26,26 +27,26 @@ export default function Document() {
         <link href="/assets/css/responsive.css" rel="stylesheet" />
       </Head>
       <body>
-        <div className="boxed_wrapper">
-          {/* mouse-pointer */}
-          {/* <div className="mouse-pointer" id="mouse-pointer">
+      <div className="boxed_wrapper">
+        {/* mouse-pointer */}
+        {/* <div className="mouse-pointer" id="mouse-pointer">
             <div className="icon">
               <i className="icon-06" />
               <i className="icon-05" />
             </div>
           </div> */}
-          {/* mouse-pointer end */}
-          {/* preloader */}
-          <div className="loader-wrap">
-            <div className="hendel__preloder">
-              <Image
+        {/* mouse-pointer end */}
+        {/* preloader */}
+        <div className="loader-wrap">
+          <div className="hendel__preloder">
+            <Image
                 alt="turtles"
                 src="/assets/images/1.gif"
-                width={800}
-                height={800}
+                width={1080}
+                height={1920}
                 loading="lazy"
-              />
-              {/* <div className="preloader">
+            />
+            {/* <div className="preloader">
                 <div className="preloader-ring">
                   QuantumQuantum QuantumQuantum
                 </div>
@@ -53,36 +54,36 @@ export default function Document() {
                   QuantumQuantum QuantumQuantum
                 </div>
               </div> */}
-            </div>
           </div>
-          {/* preloader end */}
-          <Main />
-          <NextScript />
-          {/*Scroll to top*/}
-          <div className="scroll-to-top">
-            <div>
-              <div className="scroll-top-inner">
-                <div className="scroll-bar">
-                  <div className="bar-inner" />
-                </div>
-                <div className="scroll-bar-text g_color">Go To Top</div>
+        </div>
+        {/* preloader end */}
+        <Main/>
+        <NextScript/>
+        {/*Scroll to top*/}
+        <div className="scroll-to-top">
+          <div>
+            <div className="scroll-top-inner">
+              <div className="scroll-bar">
+                <div className="bar-inner"/>
               </div>
             </div>
           </div>
-          {/* Scroll to top end */}
-          <div className="scroll-to-top2">
-            <a href="https://wa.me/628558833691" target="_blank">
-              <Image
+        </div>
+        <div className="scroll-bar-text g_color">Go To Top</div>
+        {/* Scroll to top end */}
+        <div className="scroll-to-top2">
+          <a href="https://wa.me/628558833691" target="_blank">
+            <Image
                 src="/assets/images/wa.png"
                 alt=""
                 width={100}
                 height={100}
-              />
-            </a>
-          </div>
+            />
+          </a>
         </div>
-        {/* <!-- jequery plugins --> */}
-        <Script
+      </div>
+      {/* <!-- jequery plugins --> */}
+      <Script
           src="/assets/js/jquery.js"
           strategy="beforeInteractive"
         ></Script>

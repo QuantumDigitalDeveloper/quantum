@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -62,7 +63,7 @@ const Header = () => {
             <div className="logo-box">
               <figure className="logo">
                 <Link href="/#">
-                  <img src="/assets/images/new.png" alt="" />
+                  <Image src="/assets/images/new.png" alt="" width={255} height={50} />
                 </Link>
               </figure>
             </div>
@@ -172,7 +173,7 @@ const Header = () => {
             <div className="logo-box">
               <figure className="logo">
                 <Link href="/#">
-                  <img src="/assets/images/new.png" alt="" />
+                  <Image src="/assets/images/new.png" alt="" width={255} height={50} />
                 </Link>
               </figure>
             </div>
@@ -278,7 +279,7 @@ const Header = () => {
         <nav className="menu-box" onClick={closeSideBar}>
           <div className="nav-logo">
             <Link href="/#">
-              <img src="/assets/images/new.png" alt="" title="" />
+              <Image src="/assets/images/new.png" alt="" width={255} height={50} />
             </Link>
           </div>
           <div className="menu-outer">

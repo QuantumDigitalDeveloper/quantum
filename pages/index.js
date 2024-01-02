@@ -67,7 +67,7 @@ export default function Home() {
                       data-wow-duration="1500ms"
                       style={{ visibility: "visible" }}
                     >
-                      <img src="assets/images/banner/banner-01.png" alt="" />
+                      <Image src="/assets/images/banner/banner-01.png" alt="" width={573} height={639} />
                     </figure>
                   </div>
                   {/* <div className="icon__image__banner">

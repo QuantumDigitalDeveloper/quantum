@@ -9,6 +9,23 @@ const _app = ({ Component, pageProps, porto }) => {
     <>
       <Head>
         <meta charSet="utf-8" />
+        <meta name="author" content="Quantech" />
+        <meta
+          name="description"
+          content="Quantech.id adalah perusahaan yang begerak di bidang digital kami dapat membantu berbagai jenis kebutuhan desain seperti desain grafis, website, logo dan lain lain."
+        />
+        <meta
+          name="keywords"
+          content="Quantum, Digital Agency, Social Media Design, Social Media Desain, Digital Marketing, Web Development, Web Design, Mobile App Development, Mobile App Design, UI/UX Design, Branding, Brand Identity, Social Media Management, Social Media Marketing, SEO, SEM, Jakarta, Indonesia"
+        />
+        <meta name="og:title" content="Quantech" />
+        <meta
+          name="og:description"
+          content="Quantech.id adalah perusahaan yang begerak di bidang digital kami dapat membantu berbagai jenis kebutuhan desain seperti desain grafis, website, logo dan lain lain."
+        />
+        <meta name="og:url" content="https://quantech.id" />
+
+        <meta name="og:image" content="/images/quantum.png" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           name="viewport"
