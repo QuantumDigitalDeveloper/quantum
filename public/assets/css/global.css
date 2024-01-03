@@ -2380,6 +2380,7 @@ body.out .mouse-pointer {
   transform: scale(1.1);
 }
 .main__footer .image__box a:before {
+  border-radius: 100%;
   content: "";
   background: -webkit-linear-gradient(0deg, #c335da, #fc2643 100%);
   position: absolute;
@@ -2387,6 +2388,10 @@ body.out .mouse-pointer {
   height: 100%;
   transform: scale(0);
   transition: all 500ms ease;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
 }
 .footer-top {
   position: relative;

@@ -55,7 +55,7 @@ export default function design() {
                     <p>Technology</p>
                   </div>
                   <div className="text__block_two">
-                    <h5>2019</h5>
+                    <h5>2023</h5>
                   </div>
                 </div>
                 <div className="protfolio__button ">
@@ -115,7 +115,7 @@ export default function design() {
                     <p>Fashion</p>
                   </div>
                   <div className="text__block_two">
-                    <h5>2019</h5>
+                    <h5>2023</h5>
                   </div>
                 </div>
                 <div className="protfolio__button ">
@@ -145,7 +145,7 @@ export default function design() {
                     <p>Fashion</p>
                   </div>
                   <div className="text__block_two">
-                    <h5>2019</h5>
+                    <h5>2023</h5>
                   </div>
                 </div>
                 <div className="protfolio__button ">
@@ -175,7 +175,7 @@ export default function design() {
                     <p>F&B</p>
                   </div>
                   <div className="text__block_two">
-                    <h5>2019</h5>
+                    <h5>2023</h5>
                   </div>
                 </div>
                 <div className="protfolio__button ">
@@ -205,7 +205,7 @@ export default function design() {
                     <p>F&B</p>
                   </div>
                   <div className="text__block_two">
-                    <h5>2019</h5>
+                    <h5>2023</h5>
                   </div>
                 </div>
                 <div className="protfolio__button ">
@@ -235,7 +235,7 @@ export default function design() {
                     <p>Otomotif</p>
                   </div>
                   <div className="text__block_two">
-                    <h5>2019</h5>
+                    <h5>2023</h5>
                   </div>
                 </div>
                 <div className="protfolio__button ">
@@ -265,7 +265,7 @@ export default function design() {
                     <p>Otomotif</p>
                   </div>
                   <div className="text__block_two">
-                    <h5>2019</h5>
+                    <h5>2023</h5>
                   </div>
                 </div>
                 <div className="protfolio__button ">
@@ -295,7 +295,7 @@ export default function design() {
                     <p>Sport</p>
                   </div>
                   <div className="text__block_two">
-                    <h5>2019</h5>
+                    <h5>2023</h5>
                   </div>
                 </div>
                 <div className="protfolio__button ">
@@ -325,7 +325,7 @@ export default function design() {
                     <p>Sport</p>
                   </div>
                   <div className="text__block_two">
-                    <h5>2019</h5>
+                    <h5>2023</h5>
                   </div>
                 </div>
                 <div className="protfolio__button ">

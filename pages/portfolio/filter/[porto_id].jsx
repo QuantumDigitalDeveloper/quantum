@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { data } from "autoprefixer";
 import Image from "next/image";
-import axios from 'axios';
+import axios from "axios";
 
 export async function getStaticProps({ params }) {
   try {
@@ -65,30 +65,29 @@ const Filter = ({ category, gallery, page, limit }) => {
   const [currentCategory, setCategory] = useState(category[0]);
 
   const totalPages = Math.ceil(currentGallery.total / limit);
-    const handlePagination = async (newPage) => {
-      try {
+  const handlePagination = async (newPage) => {
+    try {
+      const id2 = router.query.porto_id;
+      const response = await fetch(
+        `https://api.quantech.id/api/gallery?porto_id=${id2}&page=${newPage}&limit=12`
+      );
+      const { data: newGallery } = await response.json();
 
-        const id2 = router.query.porto_id;
-        const response = await fetch(
-          `https://api.quantech.id/api/gallery?porto_id=${id2}&page=${newPage}&limit=12`
-        );
-        const { data: newGallery } = await response.json();
+      // Update the gallery state using setGallery
+      setGallery(newGallery);
+      setCurrentPage(newPage);
 
-        // Update the gallery state using setGallery
-        setGallery(newGallery);
-        setCurrentPage(newPage);
+      // Update the URL if needed
+      await router.push(`/portfolio/filter/${id2}?page=${newPage}`, undefined, {
+        shallow: true,
+      });
 
-        // Update the URL if needed
-        await router.push(`/portfolio/filter/${id2}?page=${newPage}`, undefined, {
-          shallow: true,
-        });
-
-        // You can also dispatch an action to update Redux store if needed
-        // Example: dispatch({ type: 'UPDATE_GALLERY', payload: { newGallery, pagination } });
-      } catch (error) {
-        console.error("Error fetching paginated data:", error);
-      }
-    };
+      // You can also dispatch an action to update Redux store if needed
+      // Example: dispatch({ type: 'UPDATE_GALLERY', payload: { newGallery, pagination } });
+    } catch (error) {
+      console.error("Error fetching paginated data:", error);
+    }
+  };
 
   const handleRoutes = async (newPage, newPortoId, newCategoryId) => {
     try {
@@ -100,9 +99,9 @@ const Filter = ({ category, gallery, page, limit }) => {
       const resetPage = categoryChanged || portoChanged;
 
       const response = await fetch(
-          `https://api.quantech.id/api/gallery?category_id=${newCategoryId}&porto_id=${newPortoId}&page=${
-              resetPage ? 1 : newPage
-          }&limit=${limit}`
+        `https://api.quantech.id/api/gallery?category_id=${newCategoryId}&porto_id=${newPortoId}&page=${
+          resetPage ? 1 : newPage
+        }&limit=${limit}`
       );
       const { data: newGallery } = await response.json();
 
@@ -113,13 +112,13 @@ const Filter = ({ category, gallery, page, limit }) => {
 
       // Update the URL if needed
       await router.push(
-          `/portfolio/${newPortoId}/${newCategoryId}${
-              resetPage ? "" : `?page=${newPage}`
-          }`,
-          undefined,
-          {
-            shallow: true,
-          }
+        `/portfolio/${newPortoId}/${newCategoryId}${
+          resetPage ? "" : `?page=${newPage}`
+        }`,
+        undefined,
+        {
+          shallow: true,
+        }
       );
 
       // You can also dispatch an action to update Redux store if needed
@@ -141,7 +140,6 @@ const Filter = ({ category, gallery, page, limit }) => {
     return <div>Loading...</div>;
   }
 
-
   // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     let isMounted = true;
@@ -154,7 +152,7 @@ const Filter = ({ category, gallery, page, limit }) => {
         try {
           const id2 = router.query.porto_id;
           const response = await fetch(
-              `https://api.quantech.id/api/gallery?porto_id=${id2}&limit=12`
+            `https://api.quantech.id/api/gallery?porto_id=${id2}&limit=12`
           );
 
           if (!isMounted) {
@@ -181,7 +179,6 @@ const Filter = ({ category, gallery, page, limit }) => {
       };
     }
   }, [router.query.page, router.query.porto_id]);
-
 
   return (
     <>
@@ -254,7 +251,7 @@ const Filter = ({ category, gallery, page, limit }) => {
                       <p>Design</p>
                     </div>
                     <div className="text__block_two">
-                      <h5>2019</h5>
+                      <h5>2023</h5>
                     </div>
                   </div>
                   <div className="protfolio__button ">

@@ -47,7 +47,7 @@ export default function project() {
                       <p>Design</p>
                     </div>
                     <div className="text__block_two">
-                      <h5>2019</h5>
+                      <h5>2023</h5>
                     </div>
                   </div>
                   <div className="protfolio__button d-none d-sm-block">
@@ -79,7 +79,7 @@ export default function project() {
                       <p>Design</p>
                     </div>
                     <div className="text__block_two">
-                      <h5>2019</h5>
+                      <h5>2023</h5>
                     </div>
                   </div>
                   <div className="protfolio__button d-none d-sm-block">
@@ -111,7 +111,7 @@ export default function project() {
                       <p>Design</p>
                     </div>
                     <div className="text__block_two">
-                      <h5>2019</h5>
+                      <h5>2023</h5>
                     </div>
                   </div>
                   <div className="protfolio__button d-none d-sm-block">
@@ -143,7 +143,7 @@ export default function project() {
                       <p>Design</p>
                     </div>
                     <div className="text__block_two">
-                      <h5>2019</h5>
+                      <h5>2023</h5>
                     </div>
                   </div>
                   <div className="protfolio__button d-none d-sm-block">
@@ -175,7 +175,7 @@ export default function project() {
                       <p>Design</p>
                     </div>
                     <div className="text__block_two">
-                      <h5>2019</h5>
+                      <h5>2023</h5>
                     </div>
                   </div>
                   <div className="protfolio__button d-none d-sm-block">
@@ -207,7 +207,7 @@ export default function project() {
                       <p>Design</p>
                     </div>
                     <div className="text__block_two">
-                      <h5>2019</h5>
+                      <h5>2023</h5>
                     </div>
                   </div>
                   <div className="protfolio__button d-none d-sm-block">
