@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { data } from "autoprefixer";
 import Image from "next/image";
 import axios from "axios";
+import ImagePorto from "../../../components/organisms/ImagePorto";
 
 export async function getStaticProps({ params }) {
   try {
@@ -64,7 +65,16 @@ const Filter = ({ category, gallery, page, limit }) => {
   const [currentGallery, setGallery] = useState(gallery);
   const [currentCategory, setCategory] = useState(category[0]);
 
-  const totalPages = Math.ceil(currentGallery.total / limit);
+  let totalPages = 0;
+
+  if (currentGallery && currentGallery.total) {
+    totalPages = Math.ceil(currentGallery.total / limit);
+    // Lakukan sesuatu dengan totalPages di sini
+  } else {
+    // Handle kasus ketika currentGallery null atau tidak memiliki properti total
+    console.error('Warning: currentGallery is null or does not have the "total" property. Setting totalPages to 0.');
+  }
+
   const handlePagination = async (newPage) => {
     try {
       const id2 = router.query.porto_id;
@@ -227,51 +237,13 @@ const Filter = ({ category, gallery, page, limit }) => {
         ))}
       </div>
       {/* project-page */}
-      <div className="project__page p_relative see__pad">
-        <div className="row">
-          {currentGallery.data.map((item) => (
-            // eslint-disable-next-line react/jsx-key
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="portfolio__block p_relative">
-                <div className="portfolio__image">
-                  <figure>
-                    <Image
-                      alt="turtles"
-                      src={item.url}
-                      width={300}
-                      height={300}
-                      // loading="lazy"
-                    />
-                  </figure>
-                </div>
-                <div className="lower__content p_absolute">
-                  <div className="protfolio__text ">
-                    <div className="text__block">
-                      <h4>{item.category.name}</h4>
-                      <p>Design</p>
-                    </div>
-                    <div className="text__block_two">
-                      <h5>2023</h5>
-                    </div>
-                  </div>
-                  <div className="protfolio__button ">
-                    <Link
-                      href={`/portfolio/[id]/[category_id]`}
-                      as={`/portfolio/${item.category.porto_id}/${item.category_id}`}
-                      className="theme-btn theme-btn-one"
-                    >
-                      Read More
-                      <i className="icon-02" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* pricing-page end*/}
+      {currentGallery && currentGallery.data && currentGallery.data.length > 0 && (
+          currentGallery.data.slice(0, 1).map((item) => (
+              // eslint-disable-next-line react/jsx-key
+              <ImagePorto id={item.category.porto_id} />
+          ))
+      )}
+        {/* pricing-page end*/}
       <div className="row justify-content-center">
         <div className="swiper__button">
           <div className="button_next">

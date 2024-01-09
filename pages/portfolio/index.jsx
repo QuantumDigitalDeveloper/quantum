@@ -85,7 +85,7 @@ export default function portfolio({ gallery, porto }) {
       {/* page-title end*/}
       <FilterList />
       {/* project-page */}
-      <ImagePorto />
+      <ImagePorto id={0} />
       {/* pricing-page end*/}
       <div className="row justify-content-center">
         <div className="swiper__button">
